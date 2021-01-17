@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="4" total="5" passed="1">
+<testng-results skipped="0" failed="0" ignored="7" total="8" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6526" started-at="2021-01-13T16:50:29 EST" finished-at="2021-01-13T16:50:35 EST">
+  <suite name="Default suite" duration-ms="22306" started-at="2021-01-17T11:04:04 EST" finished-at="2021-01-17T11:04:26 EST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6526" started-at="2021-01-13T16:50:29 EST" finished-at="2021-01-13T16:50:35 EST">
-      <class name="tests.Test_Expl">
-        <test-method status="PASS" signature="setupMethod()[pri:0, instance:tests.Test_Expl@1f7030a6]" name="setupMethod" is-config="true" duration-ms="5867" started-at="2021-01-13T16:50:29 EST" finished-at="2021-01-13T16:50:34 EST">
+    <test name="Default test" duration-ms="22306" started-at="2021-01-17T11:04:04 EST" finished-at="2021-01-17T11:04:26 EST">
+      <class name="tests.Sana">
+        <test-method status="PASS" signature="setupMethod()[pri:0, instance:tests.Sana@6ee52dcd]" name="setupMethod" is-config="true" duration-ms="8521" started-at="2021-01-17T11:04:04 EST" finished-at="2021-01-17T11:04:13 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:tests.Test_Expl@1f7030a6]" name="test1" duration-ms="5" started-at="2021-01-13T16:50:34 EST" finished-at="2021-01-13T16:50:35 EST">
+        <test-method status="PASS" signature="positiveLogin()[pri:0, instance:tests.Sana@6ee52dcd]" name="positiveLogin" duration-ms="12993" started-at="2021-01-17T11:04:13 EST" finished-at="2021-01-17T11:04:25 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="teardownMethod()[pri:0, instance:tests.Test_Expl@1f7030a6]" name="teardownMethod" is-config="true" duration-ms="616" started-at="2021-01-13T16:50:35 EST" finished-at="2021-01-13T16:50:35 EST">
+        </test-method> <!-- positiveLogin -->
+        <test-method status="PASS" signature="teardownMethod()[pri:0, instance:tests.Sana@6ee52dcd]" name="teardownMethod" is-config="true" duration-ms="751" started-at="2021-01-17T11:04:26 EST" finished-at="2021-01-17T11:04:26 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownMethod -->
-      </class> <!-- tests.Test_Expl -->
+      </class> <!-- tests.Sana -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
