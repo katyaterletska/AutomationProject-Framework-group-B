@@ -172,7 +172,7 @@ public class BrowserUtils {
 	}
 	  }
 	  
-	  public static void scroll(String horizontalAxis, String verticalAxis ) {
+	  public static void scroll(int horizontalAxis, int verticalAxis ) {
 		  
 		  JavascriptExecutor js = (JavascriptExecutor)Driver.getDriver();
 		  js.executeScript("window.scrollBy("+horizontalAxis+","+verticalAxis+")");
