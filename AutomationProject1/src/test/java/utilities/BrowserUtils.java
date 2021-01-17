@@ -29,6 +29,8 @@ import ru.yandex.qatools.ashot.AShot;
 import ru.yandex.qatools.ashot.Screenshot;
 import ru.yandex.qatools.ashot.shooting.ShootingStrategies;
 public class BrowserUtils {
+	
+	
 	public static void switchToWindow(String targetTitle) {
         String origin = Driver.getDriver().getWindowHandle();
         for (String handle : Driver.getDriver().getWindowHandles()) {
