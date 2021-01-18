@@ -3,23 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-<<<<<<< HEAD
       <class name="tests.DilmuRodAndKaterina">
         <methods>
-          <include name="extraInfoOption"/>
           <include name="setupMethod"/>
+          <include name="nonStopOption"/>
           <include name="teardownMethod"/>
         </methods>
       </class> <!-- tests.DilmuRodAndKaterina -->
-=======
-      <class name="tests.Sana">
-        <methods>
-          <include name="setupMethod"/>
-          <include name="positiveLogin"/>
-          <include name="teardownMethod"/>
-        </methods>
-      </class> <!-- tests.Sana -->
->>>>>>> f00d381875b6e08e4d5869fa9f299eb918ffd021
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -3,11 +3,14 @@ package tests;
 import static org.junit.Assert.assertTrue;
 import static org.testng.Assert.assertEquals;
 
-import java.util.concurrent.TimeUnit;
-
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
+
 
 import pageClasses.KaterinaBookingPage;
 import pageClasses.KaterinaResultPage;
@@ -42,7 +45,7 @@ public class DilmuRodAndKaterina extends TestBase{
 		assertEquals(actualDeparture, testedDeparture, "Departure date matched");
 		assertEquals(actualReturn, testedReturn, "Return date matched");
 		
-		BrowserUtils.takeScreenshot("Calendar");
+//		BrowserUtils.takeScreenshot("Calendar");
 
 	}
 	
@@ -69,7 +72,7 @@ public class DilmuRodAndKaterina extends TestBase{
 //			driver.getPageSource().contains("best fares for");
 			assertEquals(actualText1, testedText1);		
 			
-			BrowserUtils.takeScreenshot("AdvancedSearch");
+//			BrowserUtils.takeScreenshot("AdvancedSearch");
 	}
 		//DELTA-003-TC-03
 	
@@ -104,7 +107,7 @@ public class DilmuRodAndKaterina extends TestBase{
 			
 			assertEquals(actualFare, testedFare);
 			
-			BrowserUtils.takeScreenshot("Fares");
+//			BrowserUtils.takeScreenshot("Fares");
 			
 	}
 		
@@ -139,7 +142,7 @@ public class DilmuRodAndKaterina extends TestBase{
 
 				assertTrue(!(rp.stop1).isSelected());
 				
-				BrowserUtils.takeScreenshot("NonStop");
+//				BrowserUtils.takeScreenshot("NonStop");
 		}
 		
 		//DELTA-003-TC-05
@@ -166,7 +169,7 @@ public class DilmuRodAndKaterina extends TestBase{
 				
 				assertEquals(actualTitle,testedTitle);
 				
-				BrowserUtils.takeScreenshot("ExtraInfo");
+//				BrowserUtils.takeScreenshot("ExtraInfo");
 		}	
 	
 		// DELTA-003-TC-06 - Rod's
@@ -185,7 +188,7 @@ public class DilmuRodAndKaterina extends TestBase{
 			
 				assertTrue(bp.departureError.isDisplayed());
 			
-				BrowserUtils.takeScreenshot("ErrorDepart");
+//				BrowserUtils.takeScreenshot("ErrorDepart");
 		}
 		
 		// DELTA-003-TC-07 - Rod's
@@ -210,7 +213,7 @@ public class DilmuRodAndKaterina extends TestBase{
 //				System.out.println(driver.getTitle());
 				assertTrue(driver.getTitle().contentEquals("Flight Results : Find & Book Airline Tickets : Delta Air Lines"));
 				
-				BrowserUtils.takeScreenshot("SearchResults");
+//				BrowserUtils.takeScreenshot("SearchResults");
 		}
 		
 		
@@ -247,7 +250,7 @@ public class DilmuRodAndKaterina extends TestBase{
 					
 				assertTrue(driver.getTitle().contentEquals("Flexible Airport Flight Result : Find & Book Airline Tickets : Delta Air Lines"));
 				
-				BrowserUtils.takeScreenshot("CheckFunctions");
+//				BrowserUtils.takeScreenshot("CheckFunctions");
 			}
 	
 		//DELTA-003-TC-09 - Rod's
@@ -270,14 +273,14 @@ public class DilmuRodAndKaterina extends TestBase{
 
 				assertTrue((bp.airportError).isDisplayed());
 				
-				BrowserUtils.takeScreenshot("ErrorAirport");
+//				BrowserUtils.takeScreenshot("ErrorAirport");
 												
 		}
 	
 		// DELTA-003-TC-10 - Rod's
 	
 	@Test 
-	public void VacationLink() {
+	public void vacationLink() {
 			KaterinaBookingPage bp = new KaterinaBookingPage();
 	
 //			System.out.println(BrowserUtils.getElementsText(By.xpath("//a[@href='https://www.delta.com/us/en/delta-vacations']")));
@@ -290,8 +293,48 @@ public class DilmuRodAndKaterina extends TestBase{
 		
 			assertTrue(driver.getTitle().contentEquals("Delta Vacations"));
 			
-			BrowserUtils.takeScreenshot("VacationLink");
+//			BrowserUtils.takeScreenshot("VacationLink");
 	}
 	
+		// DELTA-003-TC-11
+	
+	@Test
+	public void verifyShoppingLinks() {
+				
+		List<WebElement> links = new KaterinaBookingPage().shoppingLinks;
+//		for (int i = 0; i <links.size(); i++) {
+//			System.out.println(links.get(i).getText());
+//		}
+		
+		List<String> expectedLinkNames = Arrays.asList( "VACATION DEALS",
+														"DELTA AMEX CARDS",
+														"SHOP HOTELS",
+														"RENT A CAR",
+														"GIFT CARDS"
+														);
+		
+		List<String> actualLinkNames = BrowserUtils.getElementsText(links);
+		
+		Collections.sort(actualLinkNames);
+		Collections.sort(expectedLinkNames);
+				
+		assertEquals(actualLinkNames,expectedLinkNames);	
+	}
+	
+		// DELTA-003-TC-12
+	
+	@Test 
+	public void BaggageLink() {
+			KaterinaBookingPage bp = new KaterinaBookingPage();
+			
+			BrowserUtils.scroll(0, 500);
+			
+			bp.baggageOption.click();
+			
+//			System.out.println(driver.getTitle());
+			
+			assertTrue(driver.getTitle().contentEquals("Baggage Policy and Fees | Delta Air Lines"));
+				
+		}
 	
 }

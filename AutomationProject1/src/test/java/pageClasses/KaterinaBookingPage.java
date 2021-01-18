@@ -1,5 +1,7 @@
 package pageClasses;
 
+import java.util.List;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -62,5 +64,11 @@ public class KaterinaBookingPage {
 	
 	@FindBy (xpath = "//a[@href='https://www.delta.com/us/en/delta-vacations']")
 	public WebElement vacationOption;
+	
+	@FindBy (xpath = "//div[@class = 'col-lg-12 left-band']/ul/li/a")
+	public List<WebElement> shoppingLinks;
+	
+	@FindBy (xpath = "//a[@href='/en_US/traveling-with-us/baggage/before-your-trip/checked']")
+	public WebElement baggageOption;
 		
 }
