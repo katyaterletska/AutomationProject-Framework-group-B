@@ -61,7 +61,6 @@ public class DilmuRodAndKaterina extends TestBase{
 			bp.toAirport.sendKeys("IAD");
 			bp.searchWindow.click();
 			bp.searchWindow.sendKeys(Keys.ENTER);
-//			driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 			bp.calendarWindow.click();
 			bp.departureDate.click();
 			bp.returnDate.click();
@@ -90,8 +89,9 @@ public class DilmuRodAndKaterina extends TestBase{
 			bp.departureDate.click();
 			bp.returnDate.click();
 			bp.doneButton.click();
-			bp.advanceSearch.click();
+			bp.advanceSearch.click();		
 			BrowserUtils.hover(bp.fares);
+			BrowserUtils.waitFor(10);
 			actions.click().build().perform();
 			bp.firstClass.click();
 			
@@ -132,7 +132,8 @@ public class DilmuRodAndKaterina extends TestBase{
 				actions.click().build().perform();
 				bp.firstClass.click();
 				bp.submitButton.submit();
-			
+				
+				BrowserUtils.waitForPageToLoad(10);
 			KaterinaResultPage rp = new KaterinaResultPage();
 			
 				rp.sortFilter.click();

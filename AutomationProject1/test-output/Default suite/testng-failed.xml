@@ -5,8 +5,8 @@
     <classes>
       <class name="tests.DilmuRodAndKaterina">
         <methods>
+          <include name="verifyShoppingLinks"/>
           <include name="setupMethod"/>
-          <include name="nonStopOption"/>
           <include name="teardownMethod"/>
         </methods>
       </class> <!-- tests.DilmuRodAndKaterina -->
