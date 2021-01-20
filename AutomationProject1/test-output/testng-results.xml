@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results skipped="23" failed="3" ignored="0" total="26" passed="0">
   <reporter-output>
   </reporter-output>
@@ -2545,4 +2546,49 @@ at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:
       </class> <!-- tests.DilmuRodAndKaterina -->
     </test> <!-- Running multiple classes -->
   </suite> <!-- Running multiple classes -->
+=======
+<testng-results skipped="0" failed="0" ignored="11" total="12" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="25180" started-at="2021-01-19T23:15:48 EST" finished-at="2021-01-19T23:16:13 EST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="25180" started-at="2021-01-19T23:15:48 EST" finished-at="2021-01-19T23:16:13 EST">
+      <class name="tests.DilmuRodAndKaterina">
+        <test-method status="PASS" signature="setUpReport()[pri:0, instance:tests.DilmuRodAndKaterina@5e25a92e]" name="setUpReport" is-config="true" duration-ms="273" started-at="2021-01-19T23:15:47 EST" finished-at="2021-01-19T23:15:48 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpReport -->
+        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.DilmuRodAndKaterina@5e25a92e]" name="setupMethod" is-config="true" duration-ms="11453" started-at="2021-01-19T23:15:48 EST" finished-at="2021-01-19T23:15:59 EST">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="nonStopOption()[pri:0, instance:tests.DilmuRodAndKaterina@5e25a92e]" name="nonStopOption" duration-ms="12796" started-at="2021-01-19T23:15:59 EST" finished-at="2021-01-19T23:16:12 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nonStopOption -->
+        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.DilmuRodAndKaterina@5e25a92e]" name="teardownMethod" is-config="true" duration-ms="899" started-at="2021-01-19T23:16:12 EST" finished-at="2021-01-19T23:16:13 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=nonStopOption status=SUCCESS method=DilmuRodAndKaterina.nonStopOption()[pri:0, instance:tests.DilmuRodAndKaterina@5e25a92e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownMethod -->
+        <test-method status="PASS" signature="tearDownReport()[pri:0, instance:tests.DilmuRodAndKaterina@5e25a92e]" name="tearDownReport" is-config="true" duration-ms="335" started-at="2021-01-19T23:16:13 EST" finished-at="2021-01-19T23:16:13 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownReport -->
+      </class> <!-- tests.DilmuRodAndKaterina -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+>>>>>>> 21dd2dea68ee3b75e1c244225d5f9f9af6c9d4df
 </testng-results>

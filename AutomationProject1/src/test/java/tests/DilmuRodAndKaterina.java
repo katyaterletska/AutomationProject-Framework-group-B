@@ -89,7 +89,8 @@ public class DilmuRodAndKaterina extends TestBase{
 			bp.departureDate.click();
 			bp.returnDate.click();
 			bp.doneButton.click();
-			bp.advanceSearch.click();		
+			bp.advanceSearch.click();
+			BrowserUtils.waitForPageToLoad(10);
 			BrowserUtils.hover(bp.fares);
 			BrowserUtils.waitFor(10);
 			actions.click().build().perform();
@@ -132,8 +133,9 @@ public class DilmuRodAndKaterina extends TestBase{
 				actions.click().build().perform();
 				bp.firstClass.click();
 				bp.submitButton.submit();
-				
+		
 				BrowserUtils.waitForPageToLoad(10);
+
 			KaterinaResultPage rp = new KaterinaResultPage();
 			
 				rp.sortFilter.click();
