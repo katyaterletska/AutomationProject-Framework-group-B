@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Running multiple packages]">
+  <test thread-count="5" name=" Running multiple packages(failed)">
+    <classes>
+      <class name="tests.DilmuRodAndKaterina">
+        <methods>
+          <include name="faresOption"/>
+          <include name="setupMethod"/>
+          <include name="nonStopOption"/>
+          <include name="teardownMethod"/>
+        </methods>
+      </class> <!-- tests.DilmuRodAndKaterina -->
+    </classes>
+  </test> <!--  Running multiple packages(failed) -->
+</suite> <!-- Failed suite [Running multiple packages] -->
