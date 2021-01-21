@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="118293" started-at="2021-01-20T21:59:18 EST" finished-at="2021-01-20T22:01:17 EST">
+  <suite name="Default suite" duration-ms="363591" started-at="2021-01-21T13:43:15 EST" finished-at="2021-01-21T13:49:19 EST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="118293" started-at="2021-01-20T21:59:18 EST" finished-at="2021-01-20T22:01:17 EST">
-      <class name="tests.KatyaSprint2">
-        <test-method status="PASS" signature="setUpReport()[pri:0, instance:tests.KatyaSprint2@5e25a92e]" name="setUpReport" is-config="true" duration-ms="177" started-at="2021-01-20T21:59:18 EST" finished-at="2021-01-20T21:59:18 EST">
+    <test name="Default test" duration-ms="363591" started-at="2021-01-21T13:43:15 EST" finished-at="2021-01-21T13:49:19 EST">
+      <class name="tests.SanaSprint2">
+        <test-method status="PASS" signature="setUpReport()[pri:0, instance:tests.SanaSprint2@6a79c292]" name="setUpReport" is-config="true" duration-ms="192" started-at="2021-01-21T13:43:15 EST" finished-at="2021-01-21T13:43:15 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpReport -->
-        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.KatyaSprint2@5e25a92e]" name="setupMethod" is-config="true" duration-ms="8133" started-at="2021-01-20T21:59:18 EST" finished-at="2021-01-20T21:59:27 EST">
+        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.SanaSprint2@6a79c292]" name="setupMethod" is-config="true" duration-ms="8716" started-at="2021-01-21T13:43:15 EST" finished-at="2021-01-21T13:43:24 EST">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -20,22 +20,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="test1WebsiteFooter()[pri:0, instance:tests.KatyaSprint2@5e25a92e]" name="test1WebsiteFooter" duration-ms="2531" started-at="2021-01-20T21:59:27 EST" finished-at="2021-01-20T21:59:29 EST">
+        <test-method status="PASS" signature="maxGiftCardAmount()[pri:0, instance:tests.SanaSprint2@6a79c292]" name="maxGiftCardAmount" duration-ms="27088" started-at="2021-01-21T13:43:24 EST" finished-at="2021-01-21T13:43:51 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1WebsiteFooter -->
-        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.KatyaSprint2@5e25a92e]" name="teardownMethod" is-config="true" duration-ms="652" started-at="2021-01-20T21:59:29 EST" finished-at="2021-01-20T21:59:30 EST">
+        </test-method> <!-- maxGiftCardAmount -->
+        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.SanaSprint2@6a79c292]" name="teardownMethod" is-config="true" duration-ms="779" started-at="2021-01-21T13:43:51 EST" finished-at="2021-01-21T13:43:52 EST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test1WebsiteFooter status=SUCCESS method=KatyaSprint2.test1WebsiteFooter()[pri:0, instance:tests.KatyaSprint2@5e25a92e] output={null}]]]>
+                <![CDATA[[TestResult name=maxGiftCardAmount status=SUCCESS method=SanaSprint2.maxGiftCardAmount()[pri:0, instance:tests.SanaSprint2@6a79c292] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownMethod -->
-        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.KatyaSprint2@5e25a92e]" name="setupMethod" is-config="true" duration-ms="7451" started-at="2021-01-20T21:59:30 EST" finished-at="2021-01-20T21:59:37 EST">
+        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.SanaSprint2@6a79c292]" name="setupMethod" is-config="true" duration-ms="8366" started-at="2021-01-21T13:43:52 EST" finished-at="2021-01-21T13:44:00 EST">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -44,22 +44,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="test2WebsiteFooter()[pri:0, instance:tests.KatyaSprint2@5e25a92e]" name="test2WebsiteFooter" duration-ms="3779" started-at="2021-01-20T21:59:37 EST" finished-at="2021-01-20T21:59:41 EST">
+        <test-method status="PASS" signature="minGiftCardAmount()[pri:0, instance:tests.SanaSprint2@6a79c292]" name="minGiftCardAmount" duration-ms="27346" started-at="2021-01-21T13:44:00 EST" finished-at="2021-01-21T13:44:27 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2WebsiteFooter -->
-        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.KatyaSprint2@5e25a92e]" name="teardownMethod" is-config="true" duration-ms="738" started-at="2021-01-20T21:59:41 EST" finished-at="2021-01-20T21:59:42 EST">
+        </test-method> <!-- minGiftCardAmount -->
+        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.SanaSprint2@6a79c292]" name="teardownMethod" is-config="true" duration-ms="799" started-at="2021-01-21T13:44:27 EST" finished-at="2021-01-21T13:44:28 EST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test2WebsiteFooter status=SUCCESS method=KatyaSprint2.test2WebsiteFooter()[pri:0, instance:tests.KatyaSprint2@5e25a92e] output={null}]]]>
+                <![CDATA[[TestResult name=minGiftCardAmount status=SUCCESS method=SanaSprint2.minGiftCardAmount()[pri:0, instance:tests.SanaSprint2@6a79c292] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownMethod -->
-        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.KatyaSprint2@5e25a92e]" name="setupMethod" is-config="true" duration-ms="7257" started-at="2021-01-20T21:59:42 EST" finished-at="2021-01-20T21:59:49 EST">
+        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.SanaSprint2@6a79c292]" name="setupMethod" is-config="true" duration-ms="8433" started-at="2021-01-21T13:44:28 EST" finished-at="2021-01-21T13:44:37 EST">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -68,22 +68,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="test3WebsiteFooter()[pri:0, instance:tests.KatyaSprint2@5e25a92e]" name="test3WebsiteFooter" duration-ms="1937" started-at="2021-01-20T21:59:49 EST" finished-at="2021-01-20T21:59:51 EST">
+        <test-method status="PASS" signature="mismatchEmails()[pri:0, instance:tests.SanaSprint2@6a79c292]" name="mismatchEmails" duration-ms="28324" started-at="2021-01-21T13:44:37 EST" finished-at="2021-01-21T13:45:05 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test3WebsiteFooter -->
-        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.KatyaSprint2@5e25a92e]" name="teardownMethod" is-config="true" duration-ms="630" started-at="2021-01-20T21:59:51 EST" finished-at="2021-01-20T21:59:52 EST">
+        </test-method> <!-- mismatchEmails -->
+        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.SanaSprint2@6a79c292]" name="teardownMethod" is-config="true" duration-ms="776" started-at="2021-01-21T13:45:05 EST" finished-at="2021-01-21T13:45:06 EST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test3WebsiteFooter status=SUCCESS method=KatyaSprint2.test3WebsiteFooter()[pri:0, instance:tests.KatyaSprint2@5e25a92e] output={null}]]]>
+                <![CDATA[[TestResult name=mismatchEmails status=SUCCESS method=SanaSprint2.mismatchEmails()[pri:0, instance:tests.SanaSprint2@6a79c292] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownMethod -->
-        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.KatyaSprint2@5e25a92e]" name="setupMethod" is-config="true" duration-ms="7441" started-at="2021-01-20T21:59:52 EST" finished-at="2021-01-20T21:59:59 EST">
+        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.SanaSprint2@6a79c292]" name="setupMethod" is-config="true" duration-ms="8264" started-at="2021-01-21T13:45:06 EST" finished-at="2021-01-21T13:45:14 EST">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -92,22 +92,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="test4WebsiteFooter()[pri:0, instance:tests.KatyaSprint2@5e25a92e]" name="test4WebsiteFooter" duration-ms="8452" started-at="2021-01-20T21:59:59 EST" finished-at="2021-01-20T22:00:07 EST">
+        <test-method status="PASS" signature="negativeCreditCard()[pri:0, instance:tests.SanaSprint2@6a79c292]" name="negativeCreditCard" duration-ms="53767" started-at="2021-01-21T13:45:14 EST" finished-at="2021-01-21T13:46:08 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test4WebsiteFooter -->
-        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.KatyaSprint2@5e25a92e]" name="teardownMethod" is-config="true" duration-ms="679" started-at="2021-01-20T22:00:07 EST" finished-at="2021-01-20T22:00:08 EST">
+        </test-method> <!-- negativeCreditCard -->
+        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.SanaSprint2@6a79c292]" name="teardownMethod" is-config="true" duration-ms="725" started-at="2021-01-21T13:46:08 EST" finished-at="2021-01-21T13:46:08 EST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test4WebsiteFooter status=SUCCESS method=KatyaSprint2.test4WebsiteFooter()[pri:0, instance:tests.KatyaSprint2@5e25a92e] output={null}]]]>
+                <![CDATA[[TestResult name=negativeCreditCard status=SUCCESS method=SanaSprint2.negativeCreditCard()[pri:0, instance:tests.SanaSprint2@6a79c292] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownMethod -->
-        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.KatyaSprint2@5e25a92e]" name="setupMethod" is-config="true" duration-ms="7382" started-at="2021-01-20T22:00:08 EST" finished-at="2021-01-20T22:00:15 EST">
+        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.SanaSprint2@6a79c292]" name="setupMethod" is-config="true" duration-ms="7930" started-at="2021-01-21T13:46:08 EST" finished-at="2021-01-21T13:46:16 EST">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -116,22 +116,34 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="test5WebsiteFooter()[pri:0, instance:tests.KatyaSprint2@5e25a92e]" name="test5WebsiteFooter" duration-ms="9728" started-at="2021-01-20T22:00:15 EST" finished-at="2021-01-20T22:00:25 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test5WebsiteFooter -->
-        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.KatyaSprint2@5e25a92e]" name="teardownMethod" is-config="true" duration-ms="662" started-at="2021-01-20T22:00:25 EST" finished-at="2021-01-20T22:00:26 EST">
+        <test-method status="PASS" signature="nonEngSenderName(java.lang.String, java.lang.String)[pri:0, instance:tests.SanaSprint2@6a79c292]" name="nonEngSenderName" duration-ms="27036" started-at="2021-01-21T13:46:16 EST" data-provider="negSN" finished-at="2021-01-21T13:46:43 EST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test5WebsiteFooter status=SUCCESS method=KatyaSprint2.test5WebsiteFooter()[pri:0, instance:tests.KatyaSprint2@5e25a92e] output={null}]]]>
+                <![CDATA[Testee]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test cihazÄ±]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nonEngSenderName -->
+        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.SanaSprint2@6a79c292]" name="teardownMethod" is-config="true" duration-ms="741" started-at="2021-01-21T13:46:43 EST" finished-at="2021-01-21T13:46:44 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=nonEngSenderName status=SUCCESS method=SanaSprint2.nonEngSenderName(java.lang.String, java.lang.String)[pri:0, instance:tests.SanaSprint2@6a79c292] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownMethod -->
-        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.KatyaSprint2@5e25a92e]" name="setupMethod" is-config="true" duration-ms="7547" started-at="2021-01-20T22:00:26 EST" finished-at="2021-01-20T22:00:33 EST">
+        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.SanaSprint2@6a79c292]" name="setupMethod" is-config="true" duration-ms="7915" started-at="2021-01-21T13:46:44 EST" finished-at="2021-01-21T13:46:52 EST">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -140,22 +152,34 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="test6WebsiteFooter()[pri:0, instance:tests.KatyaSprint2@5e25a92e]" name="test6WebsiteFooter" duration-ms="7114" started-at="2021-01-20T22:00:33 EST" finished-at="2021-01-20T22:00:41 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test6WebsiteFooter -->
-        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.KatyaSprint2@5e25a92e]" name="teardownMethod" is-config="true" duration-ms="745" started-at="2021-01-20T22:00:41 EST" finished-at="2021-01-20T22:00:41 EST">
+        <test-method status="PASS" signature="nonEngSenderName(java.lang.String, java.lang.String)[pri:0, instance:tests.SanaSprint2@6a79c292]" name="nonEngSenderName" duration-ms="27090" started-at="2021-01-21T13:46:52 EST" data-provider="negSN" finished-at="2021-01-21T13:47:19 EST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test6WebsiteFooter status=SUCCESS method=KatyaSprint2.test6WebsiteFooter()[pri:0, instance:tests.KatyaSprint2@5e25a92e] output={null}]]]>
+                <![CDATA[Testee]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tester007]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nonEngSenderName -->
+        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.SanaSprint2@6a79c292]" name="teardownMethod" is-config="true" duration-ms="733" started-at="2021-01-21T13:47:19 EST" finished-at="2021-01-21T13:47:20 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=nonEngSenderName status=SUCCESS method=SanaSprint2.nonEngSenderName(java.lang.String, java.lang.String)[pri:0, instance:tests.SanaSprint2@6a79c292] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownMethod -->
-        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.KatyaSprint2@5e25a92e]" name="setupMethod" is-config="true" duration-ms="7315" started-at="2021-01-20T22:00:41 EST" finished-at="2021-01-20T22:00:49 EST">
+        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.SanaSprint2@6a79c292]" name="setupMethod" is-config="true" duration-ms="7686" started-at="2021-01-21T13:47:20 EST" finished-at="2021-01-21T13:47:28 EST">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -164,22 +188,34 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="test7WebsiteFooter()[pri:0, instance:tests.KatyaSprint2@5e25a92e]" name="test7WebsiteFooter" duration-ms="9682" started-at="2021-01-20T22:00:49 EST" finished-at="2021-01-20T22:00:58 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test7WebsiteFooter -->
-        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.KatyaSprint2@5e25a92e]" name="teardownMethod" is-config="true" duration-ms="658" started-at="2021-01-20T22:00:58 EST" finished-at="2021-01-20T22:00:59 EST">
+        <test-method status="PASS" signature="nonEngSenderName(java.lang.String, java.lang.String)[pri:0, instance:tests.SanaSprint2@6a79c292]" name="nonEngSenderName" duration-ms="27168" started-at="2021-01-21T13:47:28 EST" data-provider="negSN" finished-at="2021-01-21T13:47:55 EST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test7WebsiteFooter status=SUCCESS method=KatyaSprint2.test7WebsiteFooter()[pri:0, instance:tests.KatyaSprint2@5e25a92e] output={null}]]]>
+                <![CDATA[Testee]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[æµ‹è¯•äººå‘˜]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nonEngSenderName -->
+        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.SanaSprint2@6a79c292]" name="teardownMethod" is-config="true" duration-ms="722" started-at="2021-01-21T13:47:55 EST" finished-at="2021-01-21T13:47:55 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=nonEngSenderName status=SUCCESS method=SanaSprint2.nonEngSenderName(java.lang.String, java.lang.String)[pri:0, instance:tests.SanaSprint2@6a79c292] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownMethod -->
-        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.KatyaSprint2@5e25a92e]" name="setupMethod" is-config="true" duration-ms="7372" started-at="2021-01-20T22:00:59 EST" finished-at="2021-01-20T22:01:06 EST">
+        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.SanaSprint2@6a79c292]" name="setupMethod" is-config="true" duration-ms="7680" started-at="2021-01-21T13:47:55 EST" finished-at="2021-01-21T13:48:03 EST">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -188,26 +224,98 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="test8WebsiteFooter()[pri:0, instance:tests.KatyaSprint2@5e25a92e]" name="test8WebsiteFooter" duration-ms="9707" started-at="2021-01-20T22:01:06 EST" finished-at="2021-01-20T22:01:16 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test8WebsiteFooter -->
-        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.KatyaSprint2@5e25a92e]" name="teardownMethod" is-config="true" duration-ms="672" started-at="2021-01-20T22:01:16 EST" finished-at="2021-01-20T22:01:17 EST">
+        <test-method status="PASS" signature="nonEngSenderName(java.lang.String, java.lang.String)[pri:0, instance:tests.SanaSprint2@6a79c292]" name="nonEngSenderName" duration-ms="27494" started-at="2021-01-21T13:48:03 EST" data-provider="negSN" finished-at="2021-01-21T13:48:31 EST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test8WebsiteFooter status=SUCCESS method=KatyaSprint2.test8WebsiteFooter()[pri:0, instance:tests.KatyaSprint2@5e25a92e] output={null}]]]>
+                <![CDATA[Testee]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ø§Ø®ØªØ¨Ø§Ø±]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nonEngSenderName -->
+        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.SanaSprint2@6a79c292]" name="teardownMethod" is-config="true" duration-ms="734" started-at="2021-01-21T13:48:31 EST" finished-at="2021-01-21T13:48:31 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=nonEngSenderName status=SUCCESS method=SanaSprint2.nonEngSenderName(java.lang.String, java.lang.String)[pri:0, instance:tests.SanaSprint2@6a79c292] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownMethod -->
-        <test-method status="PASS" signature="tearDownReport()[pri:0, instance:tests.KatyaSprint2@5e25a92e]" name="tearDownReport" is-config="true" duration-ms="250" started-at="2021-01-20T22:01:17 EST" finished-at="2021-01-20T22:01:17 EST">
+        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.SanaSprint2@6a79c292]" name="setupMethod" is-config="true" duration-ms="7890" started-at="2021-01-21T13:48:31 EST" finished-at="2021-01-21T13:48:39 EST">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="nonEngSenderName(java.lang.String, java.lang.String)[pri:0, instance:tests.SanaSprint2@6a79c292]" name="nonEngSenderName" duration-ms="27232" started-at="2021-01-21T13:48:39 EST" data-provider="negSN" finished-at="2021-01-21T13:49:06 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Testee]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[000000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nonEngSenderName -->
+        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.SanaSprint2@6a79c292]" name="teardownMethod" is-config="true" duration-ms="732" started-at="2021-01-21T13:49:06 EST" finished-at="2021-01-21T13:49:07 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=nonEngSenderName status=SUCCESS method=SanaSprint2.nonEngSenderName(java.lang.String, java.lang.String)[pri:0, instance:tests.SanaSprint2@6a79c292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.SanaSprint2@6a79c292]" name="setupMethod" is-config="true" duration-ms="7819" started-at="2021-01-21T13:49:07 EST" finished-at="2021-01-21T13:49:15 EST">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="verifyGiftCardLink()[pri:0, instance:tests.SanaSprint2@6a79c292]" name="verifyGiftCardLink" duration-ms="2817" started-at="2021-01-21T13:49:15 EST" finished-at="2021-01-21T13:49:18 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGiftCardLink -->
+        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.SanaSprint2@6a79c292]" name="teardownMethod" is-config="true" duration-ms="739" started-at="2021-01-21T13:49:18 EST" finished-at="2021-01-21T13:49:19 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyGiftCardLink status=SUCCESS method=SanaSprint2.verifyGiftCardLink()[pri:0, instance:tests.SanaSprint2@6a79c292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownMethod -->
+        <test-method status="PASS" signature="tearDownReport()[pri:0, instance:tests.SanaSprint2@6a79c292]" name="tearDownReport" is-config="true" duration-ms="266" started-at="2021-01-21T13:49:19 EST" finished-at="2021-01-21T13:49:19 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownReport -->
-      </class> <!-- tests.KatyaSprint2 -->
+      </class> <!-- tests.SanaSprint2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
