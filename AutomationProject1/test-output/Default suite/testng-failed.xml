@@ -3,19 +3,31 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="tests.KaterinaSprint2">
         <methods>
           <include name="productExpResultsPage"/>
           <include name="modifyResultPage"/>
           <include name="setUpReport"/>
           <include name="datesBookingPage"/>
+=======
+      <class name="tests.KatyaSprint2">
+        <methods>
+          <include name="setUpReport"/>
+>>>>>>> 13f86f8403df630c0a92355fbe71b4f7270fd906
           <include name="tearDownReport"/>
           <include name="setupMethod"/>
           <include name="priceSliderResultsPage"/>
           <include name="teardownMethod"/>
+<<<<<<< HEAD
           <include name="feedbackBookingPage"/>
         </methods>
       </class> <!-- tests.KaterinaSprint2 -->
+=======
+          <include name="test8WebsiteFooter"/>
+        </methods>
+      </class> <!-- tests.KatyaSprint2 -->
+>>>>>>> 13f86f8403df630c0a92355fbe71b4f7270fd906
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

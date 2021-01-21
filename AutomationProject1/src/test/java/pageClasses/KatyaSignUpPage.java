@@ -6,11 +6,14 @@ import org.openqa.selenium.support.PageFactory;
 
 import utilities.Driver;
 
-public class Katya_POM2 {
+public class KatyaSignUpPage {
 	
-	public Katya_POM2() {
+	public KatyaSignUpPage() {
 		PageFactory.initElements(Driver.getDriver(), this);
 	}
+	
+	@FindBy(xpath = "//a[.='Sign Up']")
+	public WebElement signUpButton;
 
 	@FindBy(id = "basicInfoFirstName")
 	public WebElement firstNameField;

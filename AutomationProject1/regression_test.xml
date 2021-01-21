@@ -7,12 +7,12 @@
     
    <classes>
    
-   	<class name="tests.Katya" />           <!-- packageName.className(without .java extension) -->
+   	<class name="tests.KatyaSprint2" />           <!-- packageName.className(without .java extension) -->
    
    	
-   	<class name="tests.Sana" />
+   	<class name="tests.SanaSprint2" />
    	
-   	<class name="tests.DilmuRodAndKaterina" />
+   	<class name="tests.KaterinaSprint2" />
    
    </classes>
     

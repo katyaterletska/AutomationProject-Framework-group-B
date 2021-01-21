@@ -41,7 +41,7 @@ public abstract class TestBase {
 	protected static ExtentReports reporter;
 	protected static ExtentSparkReporter htmlReporter;
 	protected static ExtentTest logger;  // needs to be initialized in each test
-	private static int count;
+	private static int count = 1;
 	
 	@BeforeSuite
 	public void setUpReport() {
@@ -53,7 +53,7 @@ public abstract class TestBase {
 		reporter.attachReporter(htmlReporter);
 		
 		//set report configurations
-		reporter.setSystemInfo("QA Automation Tester", "Barack Obama");
+		reporter.setSystemInfo("QA Automation Tester", "Group B");
 		reporter.setSystemInfo("Environment", "TEST/QA");
 		reporter.setSystemInfo("OS", System.getProperty("os.name"));
 		reporter.setSystemInfo("browser", ConfigReader.getProperty("browser"));

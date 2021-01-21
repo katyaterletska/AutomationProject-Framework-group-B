@@ -15,6 +15,9 @@ public class SanaHomePage {
 	
 	@FindBy(xpath="//div[@class='login-form-container ng-star-inserted']")
 	public WebElement homePage;
-	
 
+	
+	@FindBy(xpath="//a[@href='https://www.delta.com/us/en/gift-cards/overview']")
+	public WebElement giftCardsLink;
+	
 }
