@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Running multiple classes">
-  
-  
-  <test thread-count="5" name=" Running multiple classes">
-    
-   <classes>
-   
-   	<class name="tests.Katya" />           <!-- packageName.className(without .java extension) -->
-   
-   	
-   	<class name="tests.Sana" />
-   	
-   	<class name="tests.DilmuRodAndKaterina" />
-   
-   </classes>
-    
-   
-    
-  </test> <!-- Test -->
-  
 
-  
+
+	<test thread-count="5" name=" Running multiple classes">
+
+		<classes>
+
+			<class name="tests.Katya" />           <!-- packageName.className(without .java extension) -->
+
+
+			<class name="tests.Sana" />
+
+			<class name="tests.DilmuRodAndKaterina" />
+
+		</classes>
+
+
+
+	</test> <!-- Test -->
+
+
+
 </suite> <!-- Suite -->

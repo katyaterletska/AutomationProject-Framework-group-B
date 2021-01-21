@@ -1,40 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Running multiple classes]" parallel="classes">
-  <test thread-count="5" name="Running multiple classes(failed)" parallel="classes">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.Sana">
+      <class name="tests.KatyaSprint2">
         <methods>
-          <include name="joinSkyMiles"/>
-          <include name="negativeLoginLN"/>
-          <include name="passwordResetLinks"/>
-          <include name="negativeLoginDigits"/>
-          <include name="verifyCheckbox"/>
-          <include name="negativeLoginNonEng" invocation-numbers="0"/>
+          <include name="setUpReport"/>
+          <include name="tearDownReport"/>
           <include name="setupMethod"/>
-          <include name="negativeLoginWP"/>
-          <include name="positiveLogin"/>
           <include name="teardownMethod"/>
+          <include name="test8WebsiteFooter"/>
         </methods>
-      </class> <!-- tests.Sana -->
-      <class name="tests.DilmuRodAndKaterina">
-        <methods>
-          <include name="calendarBookingPage"/>
-          <include name="setupMethod"/>
-          <include name="nonStopOption"/>
-          <include name="sameCityOption"/>
-          <include name="checkFunctions"/>
-          <include name="teardownMethod"/>
-          <include name="faresOption"/>
-          <include name="BaggageLink"/>
-          <include name="vacationLink"/>
-          <include name="advancedSearchOption"/>
-          <include name="verifyShoppingLinks"/>
-          <include name="errorMsgBookingPage"/>
-          <include name="extraInfoOption"/>
-          <include name="searchResultsBookingPage"/>
-        </methods>
-      </class> <!-- tests.DilmuRodAndKaterina -->
+      </class> <!-- tests.KatyaSprint2 -->
     </classes>
-  </test> <!-- Running multiple classes(failed) -->
-</suite> <!-- Failed suite [Running multiple classes] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
