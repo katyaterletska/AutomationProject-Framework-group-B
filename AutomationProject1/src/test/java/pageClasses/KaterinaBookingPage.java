@@ -23,10 +23,13 @@ public class KaterinaBookingPage {
 	@FindBy(id = "toAirportName")
 	public WebElement toAirport;
 	
+	@FindBy(xpath = "//div[@class='search-results d-none pl-1 d-block']/ul/li")
+	public List<WebElement> cityFullNameOptions;
+	
 	@FindBy(className = "travelDateSelectionView")
 	public WebElement calendarWindow;
 	
-	@FindBy(xpath = "//a[@aria-label = '1 February 2021, Monday']")
+	@FindBy(xpath = "//a[starts-with(@aria-label,'1 February')]")
 	public WebElement departureDate;
 	
 	@FindBy(xpath = "//a[@aria-label = '15 February 2021, Monday']")
@@ -70,5 +73,41 @@ public class KaterinaBookingPage {
 	
 	@FindBy (xpath = "//a[@href='/en_US/traveling-with-us/baggage/before-your-trip/checked']")
 	public WebElement baggageOption;
+	
+	@FindBy (xpath = "//a[@class='dl-datepicker-1']")
+	public WebElement nextMonthButton;
+	
+	@FindBy (xpath = "//span[@class='dl-datepicker-month-0']")
+	public WebElement firstMonthOption;
+	
+	@FindBy (xpath = "//span[@class='dl-datepicker-month-1']")
+	public WebElement secondMonthOption;
+	
+	public void pickMonth(String month) {
+		while(!firstMonthOption.getText().equals(month) && !secondMonthOption.getText().equals(month)) {
+			nextMonthButton.click();
+		}
+	}
+	
+	@FindBy(xpath="//span[@class='feedbackLink mx-auto']/a")
+	public WebElement feedbackButton;
+	
+	@FindBy(xpath = "//button[@class='cookie-close-icon float-right circle-outline']")
+	public WebElement cookieClose;
+	
+	@FindBy(xpath = "//label[@alt='5 stars']")
+	public WebElement fiveStarRaiting;
+	
+	@FindBy(xpath = "//label[@for='_POP0248607A002']")
+	public WebElement bookTripFeedback;
+	
+	@FindBy(id="acs_objPOP0248627")
+	public WebElement comments;
+	
+	@FindBy(xpath = "//button[@class='acs-feedback__button acs-feedback__button--expand acs-submit-feedback__button']")
+	public WebElement submitFeedbackButton;
+	
+	@FindBy(xpath = "//*[@id=\"acsModalContent\"]/div[2]/div/button")
+	public WebElement okButton;
 		
 }

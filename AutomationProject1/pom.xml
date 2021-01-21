@@ -61,13 +61,7 @@
 			<version>2.38.0</version>
 		</dependency>
 		
-		<dependency>
-    		<groupId>ru.yandex.qatools.ashot</groupId>
-    		<artifactId>ashot</artifactId>
-    		<version>1.5.4</version>
-		</dependency>
-
-
+		
 	</dependencies>
 
 
@@ -85,7 +79,7 @@
 						
 						<!-- <suiteXmlFile>run_tests.xml</suiteXmlFile>   -->
 						<suiteXmlFile>${runner1}</suiteXmlFile>
-						<suiteXmlFile>${runner2}</suiteXmlFile>
+					<!-- 	<suiteXmlFile>${runner2}</suiteXmlFile> -->
 
 						</suiteXmlFiles>
 
