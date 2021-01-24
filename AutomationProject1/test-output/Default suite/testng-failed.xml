@@ -3,15 +3,23 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="tests.KaterinaSprint2">
+=======
+      <class name="tests.DilmuRodSprint2">
+>>>>>>> 2a1f6ddff1aca041accc10a5f90a019c63be5700
         <methods>
           <include name="setUpReport"/>
           <include name="tearDownReport"/>
           <include name="setupMethod"/>
-          <include name="priceSliderResultsPage"/>
+          <include name="verifyThreeDifferentSearchResul" invocation-numbers="0"/>
           <include name="teardownMethod"/>
         </methods>
+<<<<<<< HEAD
       </class> <!-- tests.KaterinaSprint2 -->
+=======
+      </class> <!-- tests.DilmuRodSprint2 -->
+>>>>>>> 2a1f6ddff1aca041accc10a5f90a019c63be5700
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

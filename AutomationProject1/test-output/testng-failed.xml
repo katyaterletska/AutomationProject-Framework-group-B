@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<<<<<<< HEAD
 <suite thread-count="15" guice-stage="DEVELOPMENT" name="Failed suite [Crossbrowser Tests]" parallel="tests">
   <test thread-count="15" name="Firefox Test(failed)" parallel="tests">
     <parameter name="browser" value="firefox"/>
     <classes>
       <class name="tests.KaterinaSprint2">
+=======
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="tests.DilmuRodSprint2">
+>>>>>>> 2a1f6ddff1aca041accc10a5f90a019c63be5700
         <methods>
           <include name="setUpReport"/>
           <include name="tearDownReport"/>
           <include name="setupMethod"/>
+<<<<<<< HEAD
           <include name="teardownMethod"/>
           <include name="feedbackBookingPage" invocation-numbers="0"/>
         </methods>
@@ -16,3 +24,12 @@
     </classes>
   </test> <!-- Firefox Test(failed) -->
 </suite> <!-- Failed suite [Crossbrowser Tests] -->
+=======
+          <include name="verifyThreeDifferentSearchResul" invocation-numbers="0"/>
+          <include name="teardownMethod"/>
+        </methods>
+      </class> <!-- tests.DilmuRodSprint2 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
+>>>>>>> 2a1f6ddff1aca041accc10a5f90a019c63be5700

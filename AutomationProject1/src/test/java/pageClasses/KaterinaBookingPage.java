@@ -115,5 +115,21 @@ public class KaterinaBookingPage {
 	
 	@FindBy(xpath = "//*[@id=\"acsModalContent\"]/div[2]/div/button")
 	public WebElement okButton;
+	
+	@FindBy(id = "selectTripType-val") //Rod
+	public WebElement tripType;
+	
+	@FindBy(xpath = "//*[@id='ui-list-selectTripType2']") //Rod
+	public WebElement multiCity;
+	
+	@FindBy(xpath = "//*[@id=\"booking\"]/form/div[1]/div/div[1]/div[1]/div[4]/span/span[1]") //Rod
+	public WebElement passengers;
 		
+	@FindBy (xpath = "//div[@class = 'col-lg-3 col-md-3 col-sm-12 footer-content ng-star-inserted']/ul/li") //Rod
+	public List<WebElement> aboutDeltaLinks;
+	
+	@FindBy (xpath = "//div[@class = 'container ng-tns-c0-0 ng-star-inserted']") //Rod
+	public List<WebElement> bookingPageTopLinks;
+	
+	
 }

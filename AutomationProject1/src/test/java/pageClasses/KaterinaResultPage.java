@@ -70,5 +70,14 @@ public class KaterinaResultPage {
 	@FindBy(id = "btnSubmit")
 	public WebElement modifySubmitButton;
 	
+	@FindBy(xpath="//a[@class='amenityIconContainer ng-star-inserted']//span[@class='amenityIcons active-icon-color icon-wif ng-star-inserted'])")
+	public WebElement wifiAmenity; //Rod 
+
+	
+	
+	
+
+	
+	
 
 }

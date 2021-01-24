@@ -319,8 +319,12 @@ public class DilmuRodAndKaterina extends TestBase{
 		List<String> actualLinkNames = BrowserUtils.getElementsText(links);
 		
 		Collections.sort(actualLinkNames);
+	//	System.out.print(actualLinkNames);
 		Collections.sort(expectedLinkNames);
-				
+	//	System.out.println(expectedLinkNames);
+		
+		BrowserUtils.waitFor(10);
+		
 		assertEquals(actualLinkNames,expectedLinkNames);	
 	}
 	
