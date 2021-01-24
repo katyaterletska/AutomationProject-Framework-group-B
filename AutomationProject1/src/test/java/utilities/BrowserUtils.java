@@ -63,7 +63,8 @@ public class BrowserUtils {
 		List<String> elemTexts = new ArrayList<>();
 		for (WebElement el : elems) {
 			if (!el.getText().isEmpty()) {
-				elemTexts.add(el.getText());
+				elemTexts.add(el.getText()); 
+				
 			}
 		}
 		return elemTexts;

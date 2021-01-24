@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="4" ignored="4" total="28" passed="20">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Running multiple classes" duration-ms="599123" started-at="2021-01-21T15:37:13 EST" finished-at="2021-01-21T15:47:12 EST">
+  <suite name="Running multiple classes" duration-ms="86120" started-at="2021-01-24T18:06:51 EST" finished-at="2021-01-24T18:08:17 EST">
     <groups>
     </groups>
-    <test name=" Running multiple classes" duration-ms="599123" started-at="2021-01-21T15:37:13 EST" finished-at="2021-01-21T15:47:12 EST">
-      <class name="tests.KatyaSprint2">
-        <test-method status="PASS" signature="setUpReport()[pri:0, instance:tests.KatyaSprint2@10b48321]" name="setUpReport" is-config="true" duration-ms="361" started-at="2021-01-21T15:37:13 EST" finished-at="2021-01-21T15:37:13 EST">
+    <test name=" Running multiple classes" duration-ms="86120" started-at="2021-01-24T18:06:51 EST" finished-at="2021-01-24T18:08:17 EST">
+      <class name="tests.DilmuRodSprint2">
+        <test-method status="PASS" signature="setUpReport()[pri:0, instance:tests.DilmuRodSprint2@11e21d0e]" name="setUpReport" is-config="true" duration-ms="299" started-at="2021-01-24T18:06:51 EST" finished-at="2021-01-24T18:06:51 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpReport -->
-        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.KatyaSprint2@10b48321]" name="setupMethod" is-config="true" duration-ms="12355" started-at="2021-01-21T15:37:13 EST" finished-at="2021-01-21T15:37:26 EST">
+        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.DilmuRodSprint2@11e21d0e]" name="setupMethod" is-config="true" duration-ms="7625" started-at="2021-01-24T18:06:51 EST" finished-at="2021-01-24T18:06:59 EST">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -20,22 +20,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="test1WebsiteFooter()[pri:0, instance:tests.KatyaSprint2@10b48321]" name="test1WebsiteFooter" duration-ms="6239" started-at="2021-01-21T15:37:26 EST" finished-at="2021-01-21T15:37:32 EST">
+        <test-method status="PASS" signature="multipleCity()[pri:0, instance:tests.DilmuRodSprint2@11e21d0e]" name="multipleCity" duration-ms="3542" started-at="2021-01-24T18:06:59 EST" finished-at="2021-01-24T18:07:02 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1WebsiteFooter -->
-        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.KatyaSprint2@10b48321]" name="teardownMethod" is-config="true" duration-ms="843" started-at="2021-01-21T15:37:32 EST" finished-at="2021-01-21T15:37:33 EST">
+        </test-method> <!-- multipleCity -->
+        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.DilmuRodSprint2@11e21d0e]" name="teardownMethod" is-config="true" duration-ms="859" started-at="2021-01-24T18:07:02 EST" finished-at="2021-01-24T18:07:03 EST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test1WebsiteFooter status=SUCCESS method=KatyaSprint2.test1WebsiteFooter()[pri:0, instance:tests.KatyaSprint2@10b48321] output={null}]]]>
+                <![CDATA[[TestResult name=multipleCity status=SUCCESS method=DilmuRodSprint2.multipleCity()[pri:0, instance:tests.DilmuRodSprint2@11e21d0e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownMethod -->
-        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.KatyaSprint2@10b48321]" name="setupMethod" is-config="true" duration-ms="12156" started-at="2021-01-21T15:37:33 EST" finished-at="2021-01-21T15:37:45 EST">
+        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.DilmuRodSprint2@11e21d0e]" name="setupMethod" is-config="true" duration-ms="5984" started-at="2021-01-24T18:07:03 EST" finished-at="2021-01-24T18:07:09 EST">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -44,22 +44,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="test2WebsiteFooter()[pri:0, instance:tests.KatyaSprint2@10b48321]" name="test2WebsiteFooter" duration-ms="9767" started-at="2021-01-21T15:37:45 EST" finished-at="2021-01-21T15:37:55 EST">
+        <test-method status="PASS" signature="randomNumberOfPassengers()[pri:0, instance:tests.DilmuRodSprint2@11e21d0e]" name="randomNumberOfPassengers" duration-ms="10633" started-at="2021-01-24T18:07:09 EST" finished-at="2021-01-24T18:07:20 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2WebsiteFooter -->
-        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.KatyaSprint2@10b48321]" name="teardownMethod" is-config="true" duration-ms="817" started-at="2021-01-21T15:37:55 EST" finished-at="2021-01-21T15:37:55 EST">
+        </test-method> <!-- randomNumberOfPassengers -->
+        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.DilmuRodSprint2@11e21d0e]" name="teardownMethod" is-config="true" duration-ms="888" started-at="2021-01-24T18:07:20 EST" finished-at="2021-01-24T18:07:21 EST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test2WebsiteFooter status=SUCCESS method=KatyaSprint2.test2WebsiteFooter()[pri:0, instance:tests.KatyaSprint2@10b48321] output={null}]]]>
+                <![CDATA[[TestResult name=randomNumberOfPassengers status=SUCCESS method=DilmuRodSprint2.randomNumberOfPassengers()[pri:0, instance:tests.DilmuRodSprint2@11e21d0e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownMethod -->
-        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.KatyaSprint2@10b48321]" name="setupMethod" is-config="true" duration-ms="10560" started-at="2021-01-21T15:37:55 EST" finished-at="2021-01-21T15:38:06 EST">
+        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.DilmuRodSprint2@11e21d0e]" name="setupMethod" is-config="true" duration-ms="6468" started-at="2021-01-24T18:07:21 EST" finished-at="2021-01-24T18:07:27 EST">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -68,22 +68,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="test3WebsiteFooter()[pri:0, instance:tests.KatyaSprint2@10b48321]" name="test3WebsiteFooter" duration-ms="3989" started-at="2021-01-21T15:38:06 EST" finished-at="2021-01-21T15:38:10 EST">
+        <test-method status="PASS" signature="verifyAllLinksOnBookingPage()[pri:0, instance:tests.DilmuRodSprint2@11e21d0e]" name="verifyAllLinksOnBookingPage" duration-ms="6463" started-at="2021-01-24T18:07:27 EST" finished-at="2021-01-24T18:07:34 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test3WebsiteFooter -->
-        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.KatyaSprint2@10b48321]" name="teardownMethod" is-config="true" duration-ms="760" started-at="2021-01-21T15:38:10 EST" finished-at="2021-01-21T15:38:11 EST">
+        </test-method> <!-- verifyAllLinksOnBookingPage -->
+        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.DilmuRodSprint2@11e21d0e]" name="teardownMethod" is-config="true" duration-ms="746" started-at="2021-01-24T18:07:34 EST" finished-at="2021-01-24T18:07:34 EST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test3WebsiteFooter status=SUCCESS method=KatyaSprint2.test3WebsiteFooter()[pri:0, instance:tests.KatyaSprint2@10b48321] output={null}]]]>
+                <![CDATA[[TestResult name=verifyAllLinksOnBookingPage status=SUCCESS method=DilmuRodSprint2.verifyAllLinksOnBookingPage()[pri:0, instance:tests.DilmuRodSprint2@11e21d0e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownMethod -->
-        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.KatyaSprint2@10b48321]" name="setupMethod" is-config="true" duration-ms="10644" started-at="2021-01-21T15:38:11 EST" finished-at="2021-01-21T15:38:21 EST">
+        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.DilmuRodSprint2@11e21d0e]" name="setupMethod" is-config="true" duration-ms="6588" started-at="2021-01-24T18:07:34 EST" finished-at="2021-01-24T18:07:41 EST">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -92,763 +92,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupMethod -->
-        <test-method status="FAIL" signature="test4WebsiteFooter()[pri:0, instance:tests.KatyaSprint2@10b48321]" name="test4WebsiteFooter" duration-ms="1172" started-at="2021-01-21T15:38:21 EST" finished-at="2021-01-21T15:38:22 EST">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <a class="footernav-about-us" href="/us/en/about-delta/overview" target="">...</a> is not clickable at point (316, 647). Other element would receive the click: <div class="cookie-footer cookie-footer-container text-left ng-star-inserted">...</div>
-  (Session info: chrome=87.0.4280.141)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-MC2FHNDC', ip: '192.168.1.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\eesha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61438}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 27559cede73fd4066816458597c0d49f]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="footernav-about-us" href="/us/en/about-delta/overview" target="">...</a> is not clickable at point (316, 647). Other element would receive the click: <div class="cookie-footer cookie-footer-container text-left ng-star-inserted">...</div>
-  (Session info: chrome=87.0.4280.141)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-MC2FHNDC', ip: '192.168.1.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\eesha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61438}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 27559cede73fd4066816458597c0d49f
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at com.sun.proxy.$Proxy16.click(Unknown Source)
-at tests.KatyaSprint2.test4WebsiteFooter(KatyaSprint2.java:93)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test4WebsiteFooter -->
-        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.KatyaSprint2@10b48321]" name="teardownMethod" is-config="true" duration-ms="1361" started-at="2021-01-21T15:38:22 EST" finished-at="2021-01-21T15:38:24 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=test4WebsiteFooter status=FAILURE method=KatyaSprint2.test4WebsiteFooter()[pri:0, instance:tests.KatyaSprint2@10b48321] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardownMethod -->
-        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.KatyaSprint2@10b48321]" name="setupMethod" is-config="true" duration-ms="11015" started-at="2021-01-21T15:38:24 EST" finished-at="2021-01-21T15:38:35 EST">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method status="FAIL" signature="test5WebsiteFooter()[pri:0, instance:tests.KatyaSprint2@10b48321]" name="test5WebsiteFooter" duration-ms="1200" started-at="2021-01-21T15:38:35 EST" finished-at="2021-01-21T15:38:36 EST">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <a class="footernav-careers" href="/us/en/careers/overview" target="">...</a> is not clickable at point (311, 676). Other element would receive the click: <p class="mb-0 cookie-banner-content">...</p>
-  (Session info: chrome=87.0.4280.141)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-MC2FHNDC', ip: '192.168.1.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\eesha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61507}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 95bc4b1edfe1b0a802827763cf00b031]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="footernav-careers" href="/us/en/careers/overview" target="">...</a> is not clickable at point (311, 676). Other element would receive the click: <p class="mb-0 cookie-banner-content">...</p>
-  (Session info: chrome=87.0.4280.141)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-MC2FHNDC', ip: '192.168.1.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\eesha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61507}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 95bc4b1edfe1b0a802827763cf00b031
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at com.sun.proxy.$Proxy16.click(Unknown Source)
-at tests.KatyaSprint2.test5WebsiteFooter(KatyaSprint2.java:113)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test5WebsiteFooter -->
-        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.KatyaSprint2@10b48321]" name="teardownMethod" is-config="true" duration-ms="1297" started-at="2021-01-21T15:38:36 EST" finished-at="2021-01-21T15:38:37 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=test5WebsiteFooter status=FAILURE method=KatyaSprint2.test5WebsiteFooter()[pri:0, instance:tests.KatyaSprint2@10b48321] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardownMethod -->
-        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.KatyaSprint2@10b48321]" name="setupMethod" is-config="true" duration-ms="11634" started-at="2021-01-21T15:38:37 EST" finished-at="2021-01-21T15:38:49 EST">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="test6WebsiteFooter()[pri:0, instance:tests.KatyaSprint2@10b48321]" name="test6WebsiteFooter" duration-ms="7332" started-at="2021-01-21T15:38:49 EST" finished-at="2021-01-21T15:38:56 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test6WebsiteFooter -->
-        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.KatyaSprint2@10b48321]" name="teardownMethod" is-config="true" duration-ms="1141" started-at="2021-01-21T15:38:56 EST" finished-at="2021-01-21T15:38:57 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=test6WebsiteFooter status=SUCCESS method=KatyaSprint2.test6WebsiteFooter()[pri:0, instance:tests.KatyaSprint2@10b48321] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardownMethod -->
-        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.KatyaSprint2@10b48321]" name="setupMethod" is-config="true" duration-ms="16460" started-at="2021-01-21T15:38:57 EST" finished-at="2021-01-21T15:39:14 EST">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="test7WebsiteFooter()[pri:0, instance:tests.KatyaSprint2@10b48321]" name="test7WebsiteFooter" duration-ms="15746" started-at="2021-01-21T15:39:14 EST" finished-at="2021-01-21T15:39:30 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test7WebsiteFooter -->
-        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.KatyaSprint2@10b48321]" name="teardownMethod" is-config="true" duration-ms="789" started-at="2021-01-21T15:39:30 EST" finished-at="2021-01-21T15:39:30 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=test7WebsiteFooter status=SUCCESS method=KatyaSprint2.test7WebsiteFooter()[pri:0, instance:tests.KatyaSprint2@10b48321] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardownMethod -->
-        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.KatyaSprint2@10b48321]" name="setupMethod" is-config="true" duration-ms="11162" started-at="2021-01-21T15:39:30 EST" finished-at="2021-01-21T15:39:42 EST">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method status="FAIL" signature="test8WebsiteFooter()[pri:0, instance:tests.KatyaSprint2@10b48321]" name="test8WebsiteFooter" duration-ms="3190" started-at="2021-01-21T15:39:42 EST" finished-at="2021-01-21T15:39:45 EST">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <a aria-haspopup="true" class="facebook circle-outline picturefill-background ng-star-inserted" href="javascript:void(0);" id="footer-facebook" tabindex="0" style="background-image: url(&quot;//content.delta.com/content/www/us/en.damAssetRender.20180411T2106219950400.html/content/dam/delta_homepage_redesign/hpr_optimized_images/social_icons/Facebook-icon-LG.svg&quot;); background-size: cover; background-repeat: no-repeat; background-position: 50% 50%;">...</a> is not clickable at point (553, 687). Other element would receive the click: <div class="cookie-footer cookie-footer-container text-left ng-star-inserted">...</div>
-  (Session info: chrome=87.0.4280.141)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-MC2FHNDC', ip: '192.168.1.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\eesha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61747}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: dd5018cf0b9eff156e4cc1cc80eb8257]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a aria-haspopup="true" class="facebook circle-outline picturefill-background ng-star-inserted" href="javascript:void(0);" id="footer-facebook" tabindex="0" style="background-image: url(&quot;//content.delta.com/content/www/us/en.damAssetRender.20180411T2106219950400.html/content/dam/delta_homepage_redesign/hpr_optimized_images/social_icons/Facebook-icon-LG.svg&quot;); background-size: cover; background-repeat: no-repeat; background-position: 50% 50%;">...</a> is not clickable at point (553, 687). Other element would receive the click: <div class="cookie-footer cookie-footer-container text-left ng-star-inserted">...</div>
-  (Session info: chrome=87.0.4280.141)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-MC2FHNDC', ip: '192.168.1.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\eesha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61747}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: dd5018cf0b9eff156e4cc1cc80eb8257
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at com.sun.proxy.$Proxy16.click(Unknown Source)
-at tests.KatyaSprint2.test8WebsiteFooter(KatyaSprint2.java:183)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test8WebsiteFooter -->
-        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.KatyaSprint2@10b48321]" name="teardownMethod" is-config="true" duration-ms="1180" started-at="2021-01-21T15:39:45 EST" finished-at="2021-01-21T15:39:46 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=test8WebsiteFooter status=FAILURE method=KatyaSprint2.test8WebsiteFooter()[pri:0, instance:tests.KatyaSprint2@10b48321] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardownMethod -->
-        <test-method status="PASS" signature="tearDownReport()[pri:0, instance:tests.KatyaSprint2@10b48321]" name="tearDownReport" is-config="true" duration-ms="599" started-at="2021-01-21T15:47:12 EST" finished-at="2021-01-21T15:47:13 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownReport -->
-      </class> <!-- tests.KatyaSprint2 -->
-      <class name="tests.SanaSprint2">
-        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.SanaSprint2@6b67034]" name="setupMethod" is-config="true" duration-ms="10521" started-at="2021-01-21T15:39:46 EST" finished-at="2021-01-21T15:39:57 EST">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="maxGiftCardAmount()[pri:0, instance:tests.SanaSprint2@6b67034]" name="maxGiftCardAmount" duration-ms="14563" started-at="2021-01-21T15:39:57 EST" finished-at="2021-01-21T15:40:11 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- maxGiftCardAmount -->
-        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.SanaSprint2@6b67034]" name="teardownMethod" is-config="true" duration-ms="845" started-at="2021-01-21T15:40:11 EST" finished-at="2021-01-21T15:40:12 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=maxGiftCardAmount status=SUCCESS method=SanaSprint2.maxGiftCardAmount()[pri:0, instance:tests.SanaSprint2@6b67034] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardownMethod -->
-        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.SanaSprint2@6b67034]" name="setupMethod" is-config="true" duration-ms="10099" started-at="2021-01-21T15:40:12 EST" finished-at="2021-01-21T15:40:22 EST">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method status="FAIL" signature="minGiftCardAmount()[pri:0, instance:tests.SanaSprint2@6b67034]" name="minGiftCardAmount" duration-ms="2089" started-at="2021-01-21T15:40:22 EST" finished-at="2021-01-21T15:40:24 EST">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <a data-analytics-id="home-shop-4" href="https://www.delta.com/us/en/gift-cards/overview" target="_self">...</a> is not clickable at point (1023, 8). Other element would receive the click: <div class="alert-advisory-details">...</div>
-  (Session info: chrome=87.0.4280.141)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-MC2FHNDC', ip: '192.168.1.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\eesha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61884}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 6f4eeca6cff1fd9b5997c863b0069f6f]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a data-analytics-id="home-shop-4" href="https://www.delta.com/us/en/gift-cards/overview" target="_self">...</a> is not clickable at point (1023, 8). Other element would receive the click: <div class="alert-advisory-details">...</div>
-  (Session info: chrome=87.0.4280.141)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-MC2FHNDC', ip: '192.168.1.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\eesha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61884}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 6f4eeca6cff1fd9b5997c863b0069f6f
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at com.sun.proxy.$Proxy16.click(Unknown Source)
-at tests.SanaSprint2.minGiftCardAmount(SanaSprint2.java:196)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- minGiftCardAmount -->
-        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.SanaSprint2@6b67034]" name="teardownMethod" is-config="true" duration-ms="1325" started-at="2021-01-21T15:40:24 EST" finished-at="2021-01-21T15:40:25 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=minGiftCardAmount status=FAILURE method=SanaSprint2.minGiftCardAmount()[pri:0, instance:tests.SanaSprint2@6b67034] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardownMethod -->
-        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.SanaSprint2@6b67034]" name="setupMethod" is-config="true" duration-ms="11411" started-at="2021-01-21T15:40:25 EST" finished-at="2021-01-21T15:40:37 EST">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="mismatchEmails()[pri:0, instance:tests.SanaSprint2@6b67034]" name="mismatchEmails" duration-ms="17897" started-at="2021-01-21T15:40:37 EST" finished-at="2021-01-21T15:40:55 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mismatchEmails -->
-        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.SanaSprint2@6b67034]" name="teardownMethod" is-config="true" duration-ms="794" started-at="2021-01-21T15:40:55 EST" finished-at="2021-01-21T15:40:56 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=mismatchEmails status=SUCCESS method=SanaSprint2.mismatchEmails()[pri:0, instance:tests.SanaSprint2@6b67034] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardownMethod -->
-        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.SanaSprint2@6b67034]" name="setupMethod" is-config="true" duration-ms="10474" started-at="2021-01-21T15:40:56 EST" finished-at="2021-01-21T15:41:06 EST">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="negativeCreditCard()[pri:0, instance:tests.SanaSprint2@6b67034]" name="negativeCreditCard" duration-ms="24478" started-at="2021-01-21T15:41:06 EST" finished-at="2021-01-21T15:41:31 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- negativeCreditCard -->
-        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.SanaSprint2@6b67034]" name="teardownMethod" is-config="true" duration-ms="905" started-at="2021-01-21T15:41:31 EST" finished-at="2021-01-21T15:41:31 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=negativeCreditCard status=SUCCESS method=SanaSprint2.negativeCreditCard()[pri:0, instance:tests.SanaSprint2@6b67034] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardownMethod -->
-        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.SanaSprint2@6b67034]" name="setupMethod" is-config="true" duration-ms="10803" started-at="2021-01-21T15:41:31 EST" finished-at="2021-01-21T15:41:42 EST">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="nonEngSenderName(java.lang.String, java.lang.String)[pri:0, instance:tests.SanaSprint2@6b67034]" name="nonEngSenderName" duration-ms="15620" started-at="2021-01-21T15:41:42 EST" data-provider="negSN" finished-at="2021-01-21T15:41:58 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Testee]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[test cihazÄ±]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- nonEngSenderName -->
-        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.SanaSprint2@6b67034]" name="teardownMethod" is-config="true" duration-ms="772" started-at="2021-01-21T15:41:58 EST" finished-at="2021-01-21T15:41:59 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=nonEngSenderName status=SUCCESS method=SanaSprint2.nonEngSenderName(java.lang.String, java.lang.String)[pri:0, instance:tests.SanaSprint2@6b67034] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardownMethod -->
-        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.SanaSprint2@6b67034]" name="setupMethod" is-config="true" duration-ms="10938" started-at="2021-01-21T15:41:59 EST" finished-at="2021-01-21T15:42:10 EST">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="nonEngSenderName(java.lang.String, java.lang.String)[pri:0, instance:tests.SanaSprint2@6b67034]" name="nonEngSenderName" duration-ms="18256" started-at="2021-01-21T15:42:10 EST" data-provider="negSN" finished-at="2021-01-21T15:42:28 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Testee]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[tester007]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- nonEngSenderName -->
-        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.SanaSprint2@6b67034]" name="teardownMethod" is-config="true" duration-ms="812" started-at="2021-01-21T15:42:28 EST" finished-at="2021-01-21T15:42:29 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=nonEngSenderName status=SUCCESS method=SanaSprint2.nonEngSenderName(java.lang.String, java.lang.String)[pri:0, instance:tests.SanaSprint2@6b67034] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardownMethod -->
-        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.SanaSprint2@6b67034]" name="setupMethod" is-config="true" duration-ms="13440" started-at="2021-01-21T15:42:29 EST" finished-at="2021-01-21T15:42:42 EST">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="nonEngSenderName(java.lang.String, java.lang.String)[pri:0, instance:tests.SanaSprint2@6b67034]" name="nonEngSenderName" duration-ms="15309" started-at="2021-01-21T15:42:42 EST" data-provider="negSN" finished-at="2021-01-21T15:42:57 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Testee]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[æµ‹è¯•äººå‘˜]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- nonEngSenderName -->
-        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.SanaSprint2@6b67034]" name="teardownMethod" is-config="true" duration-ms="1131" started-at="2021-01-21T15:42:57 EST" finished-at="2021-01-21T15:42:58 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=nonEngSenderName status=SUCCESS method=SanaSprint2.nonEngSenderName(java.lang.String, java.lang.String)[pri:0, instance:tests.SanaSprint2@6b67034] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardownMethod -->
-        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.SanaSprint2@6b67034]" name="setupMethod" is-config="true" duration-ms="11539" started-at="2021-01-21T15:42:59 EST" finished-at="2021-01-21T15:43:10 EST">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="nonEngSenderName(java.lang.String, java.lang.String)[pri:0, instance:tests.SanaSprint2@6b67034]" name="nonEngSenderName" duration-ms="17301" started-at="2021-01-21T15:43:10 EST" data-provider="negSN" finished-at="2021-01-21T15:43:27 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Testee]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Ø§Ø®ØªØ¨Ø§Ø±]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- nonEngSenderName -->
-        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.SanaSprint2@6b67034]" name="teardownMethod" is-config="true" duration-ms="788" started-at="2021-01-21T15:43:27 EST" finished-at="2021-01-21T15:43:28 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=nonEngSenderName status=SUCCESS method=SanaSprint2.nonEngSenderName(java.lang.String, java.lang.String)[pri:0, instance:tests.SanaSprint2@6b67034] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardownMethod -->
-        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.SanaSprint2@6b67034]" name="setupMethod" is-config="true" duration-ms="11560" started-at="2021-01-21T15:43:28 EST" finished-at="2021-01-21T15:43:40 EST">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="nonEngSenderName(java.lang.String, java.lang.String)[pri:0, instance:tests.SanaSprint2@6b67034]" name="nonEngSenderName" duration-ms="17166" started-at="2021-01-21T15:43:40 EST" data-provider="negSN" finished-at="2021-01-21T15:43:57 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Testee]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[000000]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- nonEngSenderName -->
-        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.SanaSprint2@6b67034]" name="teardownMethod" is-config="true" duration-ms="810" started-at="2021-01-21T15:43:57 EST" finished-at="2021-01-21T15:43:58 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=nonEngSenderName status=SUCCESS method=SanaSprint2.nonEngSenderName(java.lang.String, java.lang.String)[pri:0, instance:tests.SanaSprint2@6b67034] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardownMethod -->
-        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.SanaSprint2@6b67034]" name="setupMethod" is-config="true" duration-ms="12296" started-at="2021-01-21T15:43:58 EST" finished-at="2021-01-21T15:44:10 EST">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="verifyGiftCardLink()[pri:0, instance:tests.SanaSprint2@6b67034]" name="verifyGiftCardLink" duration-ms="4776" started-at="2021-01-21T15:44:10 EST" finished-at="2021-01-21T15:44:15 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyGiftCardLink -->
-        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.SanaSprint2@6b67034]" name="teardownMethod" is-config="true" duration-ms="770" started-at="2021-01-21T15:44:15 EST" finished-at="2021-01-21T15:44:16 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyGiftCardLink status=SUCCESS method=SanaSprint2.verifyGiftCardLink()[pri:0, instance:tests.SanaSprint2@6b67034] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardownMethod -->
-      </class> <!-- tests.SanaSprint2 -->
-      <class name="tests.KaterinaSprint2">
-        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.KaterinaSprint2@16267862]" name="setupMethod" is-config="true" duration-ms="10215" started-at="2021-01-21T15:44:16 EST" finished-at="2021-01-21T15:44:26 EST">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="cityFullNameBookingPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.KaterinaSprint2@16267862]" name="cityFullNameBookingPage" duration-ms="3175" started-at="2021-01-21T15:44:26 EST" data-provider="getCity" finished-at="2021-01-21T15:44:29 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Atlanta]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Atlanta]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Washington]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Washington]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Atlanta]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Washington]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cityFullNameBookingPage -->
-        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.KaterinaSprint2@16267862]" name="teardownMethod" is-config="true" duration-ms="766" started-at="2021-01-21T15:44:29 EST" finished-at="2021-01-21T15:44:30 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=cityFullNameBookingPage status=SUCCESS method=KaterinaSprint2.cityFullNameBookingPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.KaterinaSprint2@16267862] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardownMethod -->
-        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.KaterinaSprint2@16267862]" name="setupMethod" is-config="true" duration-ms="10276" started-at="2021-01-21T15:44:30 EST" finished-at="2021-01-21T15:44:40 EST">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="datesBookingPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.KaterinaSprint2@16267862]" name="datesBookingPage" duration-ms="11690" started-at="2021-01-21T15:44:40 EST" data-provider="getDates" finished-at="2021-01-21T15:44:52 EST">
+        <test-method status="PASS" signature="verifyThreeDifferentSearchResul(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.DilmuRodSprint2@11e21d0e]" name="verifyThreeDifferentSearchResul" duration-ms="15529" started-at="2021-01-24T18:07:41 EST" data-provider="getMultipleData_1" finished-at="2021-01-24T18:07:57 EST">
           <params>
             <param index="0">
               <value>
@@ -857,151 +101,125 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="1">
               <value>
-                <![CDATA[IAD]]>
+                <![CDATA[MIA]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[February]]>
+                <![CDATA[March]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[February]]>
+                <![CDATA[1 ]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[1 ]]>
+                <![CDATA[March]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[March]]>
+                <![CDATA[May]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[March]]>
+                <![CDATA[15 ]]>
               </value>
             </param>
             <param index="7">
               <value>
+                <![CDATA[May]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThreeDifferentSearchResul -->
+        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.DilmuRodSprint2@11e21d0e]" name="teardownMethod" is-config="true" duration-ms="813" started-at="2021-01-24T18:07:57 EST" finished-at="2021-01-24T18:07:57 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyThreeDifferentSearchResul status=SUCCESS method=DilmuRodSprint2.verifyThreeDifferentSearchResul(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.DilmuRodSprint2@11e21d0e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.DilmuRodSprint2@11e21d0e]" name="setupMethod" is-config="true" duration-ms="6712" started-at="2021-01-24T18:07:57 EST" finished-at="2021-01-24T18:08:04 EST">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="verifyThreeDifferentSearchResults(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.DilmuRodSprint2@11e21d0e]" name="verifyThreeDifferentSearchResults" duration-ms="12396" started-at="2021-01-24T18:08:04 EST" data-provider="getMultipleData" finished-at="2021-01-24T18:08:16 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ATL]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NYC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[March]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
                 <![CDATA[1 ]]>
               </value>
             </param>
+            <param index="4">
+              <value>
+                <![CDATA[March]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[May]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[15 ]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[May]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- datesBookingPage -->
-        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.KaterinaSprint2@16267862]" name="teardownMethod" is-config="true" duration-ms="778" started-at="2021-01-21T15:44:52 EST" finished-at="2021-01-21T15:44:52 EST">
+        </test-method> <!-- verifyThreeDifferentSearchResults -->
+        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.DilmuRodSprint2@11e21d0e]" name="teardownMethod" is-config="true" duration-ms="792" started-at="2021-01-24T18:08:16 EST" finished-at="2021-01-24T18:08:17 EST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=datesBookingPage status=SUCCESS method=KaterinaSprint2.datesBookingPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.KaterinaSprint2@16267862] output={null}]]]>
+                <![CDATA[[TestResult name=verifyThreeDifferentSearchResults status=SUCCESS method=DilmuRodSprint2.verifyThreeDifferentSearchResults(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.DilmuRodSprint2@11e21d0e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownMethod -->
-        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.KaterinaSprint2@16267862]" name="setupMethod" is-config="true" duration-ms="9849" started-at="2021-01-21T15:44:52 EST" finished-at="2021-01-21T15:45:02 EST">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-          </params>
+        <test-method status="PASS" signature="tearDownReport()[pri:0, instance:tests.DilmuRodSprint2@11e21d0e]" name="tearDownReport" is-config="true" duration-ms="365" started-at="2021-01-24T18:08:17 EST" finished-at="2021-01-24T18:08:18 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="feedbackBookingPage()[pri:0, instance:tests.KaterinaSprint2@16267862]" name="feedbackBookingPage" duration-ms="5095" started-at="2021-01-21T15:45:02 EST" finished-at="2021-01-21T15:45:07 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- feedbackBookingPage -->
-        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.KaterinaSprint2@16267862]" name="teardownMethod" is-config="true" duration-ms="7087" started-at="2021-01-21T15:45:07 EST" finished-at="2021-01-21T15:45:14 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=feedbackBookingPage status=SUCCESS method=KaterinaSprint2.feedbackBookingPage()[pri:0, instance:tests.KaterinaSprint2@16267862] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardownMethod -->
-        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.KaterinaSprint2@16267862]" name="setupMethod" is-config="true" duration-ms="11717" started-at="2021-01-21T15:45:14 EST" finished-at="2021-01-21T15:45:26 EST">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="modifyResultPage()[pri:0, instance:tests.KaterinaSprint2@16267862]" name="modifyResultPage" duration-ms="29603" started-at="2021-01-21T15:45:26 EST" finished-at="2021-01-21T15:45:56 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- modifyResultPage -->
-        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.KaterinaSprint2@16267862]" name="teardownMethod" is-config="true" duration-ms="792" started-at="2021-01-21T15:45:56 EST" finished-at="2021-01-21T15:45:57 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=modifyResultPage status=SUCCESS method=KaterinaSprint2.modifyResultPage()[pri:0, instance:tests.KaterinaSprint2@16267862] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardownMethod -->
-        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.KaterinaSprint2@16267862]" name="setupMethod" is-config="true" duration-ms="10983" started-at="2021-01-21T15:45:57 EST" finished-at="2021-01-21T15:46:08 EST">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="priceSliderResultsPage()[pri:0, instance:tests.KaterinaSprint2@16267862]" name="priceSliderResultsPage" duration-ms="27074" started-at="2021-01-21T15:46:08 EST" finished-at="2021-01-21T15:46:35 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- priceSliderResultsPage -->
-        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.KaterinaSprint2@16267862]" name="teardownMethod" is-config="true" duration-ms="770" started-at="2021-01-21T15:46:35 EST" finished-at="2021-01-21T15:46:35 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=priceSliderResultsPage status=SUCCESS method=KaterinaSprint2.priceSliderResultsPage()[pri:0, instance:tests.KaterinaSprint2@16267862] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardownMethod -->
-        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.KaterinaSprint2@16267862]" name="setupMethod" is-config="true" duration-ms="10914" started-at="2021-01-21T15:46:35 EST" finished-at="2021-01-21T15:46:46 EST">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="productExpResultsPage()[pri:0, instance:tests.KaterinaSprint2@16267862]" name="productExpResultsPage" duration-ms="25150" started-at="2021-01-21T15:46:46 EST" finished-at="2021-01-21T15:47:11 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productExpResultsPage -->
-        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.KaterinaSprint2@16267862]" name="teardownMethod" is-config="true" duration-ms="777" started-at="2021-01-21T15:47:11 EST" finished-at="2021-01-21T15:47:12 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=productExpResultsPage status=SUCCESS method=KaterinaSprint2.productExpResultsPage()[pri:0, instance:tests.KaterinaSprint2@16267862] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardownMethod -->
-      </class> <!-- tests.KaterinaSprint2 -->
+        </test-method> <!-- tearDownReport -->
+      </class> <!-- tests.DilmuRodSprint2 -->
     </test> <!--  Running multiple classes -->
   </suite> <!-- Running multiple classes -->
 </testng-results>
