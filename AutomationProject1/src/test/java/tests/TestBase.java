@@ -8,9 +8,6 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
-import org.testng.ITest;
-import org.testng.ITestContext;
-import org.testng.ITestListener;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
@@ -23,7 +20,6 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
-import io.github.bonigarcia.wdm.config.Config;
 import utilities.BrowserUtils;
 import utilities.ConfigReader;
 import utilities.Driver;
@@ -43,7 +39,7 @@ public abstract class TestBase {
 	protected static ExtentTest logger;  // needs to be initialized in each test
 	private static int count = 1;
 	
-	@BeforeSuite
+	@BeforeSuite (groups = {"smoke"})
 	public void setUpReport() {
 		reporter = new ExtentReports();
 		String path = System.getProperty("user.dir") + "/test-output/extentReports/index.html";
@@ -60,7 +56,7 @@ public abstract class TestBase {
 		
 	}
 	
-	@BeforeMethod ( alwaysRun = true)
+	@BeforeMethod ( alwaysRun = true, groups = {"smoke"})
 	@Parameters ("browser")
 	public void setupMethod(@Optional String browser) {
 		
@@ -104,7 +100,7 @@ public abstract class TestBase {
 	}
 	
 	
-	@AfterSuite
+	@AfterSuite 
 	public void tearDownReport() {
 		reporter.flush();
 	}

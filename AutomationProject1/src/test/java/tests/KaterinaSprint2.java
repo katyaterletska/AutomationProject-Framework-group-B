@@ -7,6 +7,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import pageClasses.KaterinaBookingPage;
@@ -17,7 +19,7 @@ public class KaterinaSprint2 extends TestBase{
 
 	 //Sprint 2 TC-01
 	
-		@Test  
+		@Test  (groups = {"smoke"})
 		public void priceSliderResultsPage() {
 			
 			KaterinaBookingPage bp = new KaterinaBookingPage();
@@ -31,14 +33,11 @@ public class KaterinaSprint2 extends TestBase{
 			bp.searchWindow.sendKeys(Keys.ENTER);		
 			bp.calendarWindow.click();
 			bp.pickMonth("February");
-			String departureDate = "1 ";
-			String departureMonth = "February";
-			driver.findElement(By.xpath ("//a[starts-with(@aria-label,'" + departureDate + departureMonth + "')]")).click();
+			bp.getDateMonth("1 ", "February").click();
 		
 			bp.pickMonth("April");
-			String arrivalDate = "1 ";
-			String arrivalMonth = "April";
-			driver.findElement(By.xpath ("//a[starts-with(@aria-label,'" + arrivalDate + arrivalMonth + "')]")).click();
+			
+			bp.getDateMonth("1 ", "April").click();
 			bp.doneButton.click();
 			bp.submitButton.submit();
 			BrowserUtils.waitForPageToLoad(15);
@@ -61,8 +60,8 @@ public class KaterinaSprint2 extends TestBase{
 	//Sprint 2 TC-02
 	
 		@Test  (dataProvider = "getDates")
-		public void datesBookingPage(String fromAirport, String toAirport, String pickFromMonth, String departureMonth,
-												String departureDate, String pickToMonth, String arrivalMonth, String arrivalDate) {
+		public void datesBookingPage(String fromAirport, String toAirport, String pickFromMonth, String departureDate,
+							String departureMonth, String pickToMonth, String arrivalDate, String arrivalMonth) {
 			
 			KaterinaBookingPage bp = new KaterinaBookingPage();
 					
@@ -74,12 +73,12 @@ public class KaterinaSprint2 extends TestBase{
 			BrowserUtils.waitFor(3);
 			bp.searchWindow.sendKeys(Keys.ENTER);			
 			bp.calendarWindow.click();
-			
+						
 			bp.pickMonth(pickFromMonth);
-			driver.findElement(By.xpath ("//a[starts-with(@aria-label,'" + departureDate + departureMonth + "')]")).click();
+			bp.getDateMonth(departureDate, departureMonth).click();
 		
 			bp.pickMonth(pickToMonth);
-			driver.findElement(By.xpath ("//a[starts-with(@aria-label,'" + arrivalDate + arrivalMonth + "')]")).click();
+			bp.getDateMonth(arrivalDate, arrivalMonth).click();
 			bp.doneButton.click();
 			bp.submitButton.submit();
 
@@ -91,7 +90,7 @@ public class KaterinaSprint2 extends TestBase{
 		public Object [][] getDates(){
 			
 			return new Object[][] {
-				{"ATL", "IAD", "February", "February", "1 ", "March", "March", "1 "},
+				{"ATL", "IAD", "February", "1 ", "February", "March", "1 ", "March"},
 				
 			};
 		}
@@ -158,15 +157,13 @@ public class KaterinaSprint2 extends TestBase{
 				BrowserUtils.waitFor(3);
 				bp.searchWindow.sendKeys(Keys.ENTER);		
 				bp.calendarWindow.click();
+				
 				bp.pickMonth("February");
-				String departureDate = "1 ";
-				String departureMonth = "February";
-				driver.findElement(By.xpath ("//a[starts-with(@aria-label,'" + departureDate + departureMonth + "')]")).click();
+				bp.getDateMonth("1 ", "February").click();
 			
 				bp.pickMonth("April");
-				String arrivalDate = "1 ";
-				String arrivalMonth = "April";
-				driver.findElement(By.xpath ("//a[starts-with(@aria-label,'" + arrivalDate + arrivalMonth + "')]")).click();
+				bp.getDateMonth("1 ", "April").click();
+				
 				bp.doneButton.click();
 				bp.submitButton.submit();
 				BrowserUtils.waitForPageToLoad(15);
@@ -212,18 +209,16 @@ public class KaterinaSprint2 extends TestBase{
 				BrowserUtils.waitFor(3);
 				bp.searchWindow.sendKeys(Keys.ENTER);		
 				bp.calendarWindow.click();
+				
 				bp.pickMonth("February");
-				String departureDate = "1 ";
-				String departureMonth = "February";
-				driver.findElement(By.xpath ("//a[starts-with(@aria-label,'" + departureDate + departureMonth + "')]")).click();
+				bp.getDateMonth("1 ", "February").click();
 			
 				bp.pickMonth("April");
-				String arrivalDate = "1 ";
-				String arrivalMonth = "April";
-				driver.findElement(By.xpath ("//a[starts-with(@aria-label,'" + arrivalDate + arrivalMonth + "')]")).click();
+				bp.getDateMonth("1 ", "April").click();
+				
 				bp.doneButton.click();
 				bp.submitButton.submit();
-				BrowserUtils.waitForPageToLoad(10);
+				BrowserUtils.waitForPageToLoad(15);
 				
 				KaterinaResultPage rp = new KaterinaResultPage();
 				
@@ -246,7 +241,8 @@ public class KaterinaSprint2 extends TestBase{
 		//Sprint 2 TC-06
 		
 	@Test  
-	public void feedbackBookingPage() {
+	@Parameters ( {"comment"} )
+	public void feedbackBookingPage(@Optional String comment) {
 						
 		KaterinaBookingPage bp = new KaterinaBookingPage();
 				
@@ -254,7 +250,7 @@ public class KaterinaSprint2 extends TestBase{
 				bp.feedbackButton.click();
 				bp.fiveStarRaiting.click();
 				bp.bookTripFeedback.click();
-				bp.comments.sendKeys("Awesome!");
+				bp.comments.sendKeys(comment);
 				bp.submitFeedbackButton.click();
 				String feedback = driver.findElement(By.id("acsFeedbackDialogTitle")).getText();
 				assertTrue(driver.getPageSource().contains(feedback));

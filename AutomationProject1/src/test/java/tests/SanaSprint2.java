@@ -16,7 +16,7 @@ public class SanaSprint2 extends TestBase {
 	
 	
 	
-	@Test
+	@Test (groups = {"smoke"})
 	public void verifyGiftCardLink() {
 		
 		SanaHomePage hp = new SanaHomePage();

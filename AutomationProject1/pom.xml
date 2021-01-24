@@ -78,7 +78,7 @@
 
 						<!-- <suiteXmlFile>run_tests.xml</suiteXmlFile>   -->
 						<suiteXmlFile>${runner1}</suiteXmlFile>
-						<!--  <suiteXmlFile>${runner2}</suiteXmlFile>      just uncomment when need to run  -->
+						 <suiteXmlFile>${runner2}</suiteXmlFile>      just uncomment when need to run 
 
 
 						</suiteXmlFiles>

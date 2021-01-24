@@ -8,209 +8,41 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Crossbrowser Tests</th></tr>
-<tr><td><a href="#t0">Headless Chrome Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">6</td><td class="num">191,269</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Firefox Test</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">195,037</td><td></td><td></td></tr>
-<tr><td><a href="#t2">Edge Test</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">198,628</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t3">Chrome Test</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">207,371</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">18</th><th class="num">0</th><th class="num">0</th><th class="num attn">6</th><th class="num">792,305</th><th colspan="2"></th></tr>
+<tr><th colspan="8">Running multiple methods</th></tr>
+<tr><td><a href="#t0"> Running multiple methods</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">62,412</td><td>smoke</td><td></td></tr>
+<tr><th colspan="8">Failed suite [Crossbrowser Tests]</th></tr>
+<tr class="stripe"><td><a href="#t1">Chrome Test(failed)</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">71,854</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Edge Test(failed)</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">36,455</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">5</th><th class="num">0</th><th class="num">0</th><th class="num attn">1</th><th class="num">170,721</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Crossbrowser Tests</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Headless Chrome Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="6">tests.KaterinaSprint2</td><td><a href="#m0">cityFullNameBookingPage</a></td><td rowspan="1">1611259022804</td><td rowspan="1">18031</td></tr><tr class="failedeven"><td><a href="#m1">datesBookingPage</a></td><td rowspan="1">1611259050420</td><td rowspan="1">17667</td></tr><tr class="failedeven"><td><a href="#m2">feedbackBookingPage</a></td><td rowspan="1">1611259090618</td><td rowspan="1">15026</td></tr><tr class="failedeven"><td><a href="#m3">modifyResultPage</a></td><td rowspan="1">1611259114752</td><td rowspan="1">18093</td></tr><tr class="failedeven"><td><a href="#m4">priceSliderResultsPage</a></td><td rowspan="1">1611259141736</td><td rowspan="1">15092</td></tr><tr class="failedeven"><td><a href="#m5">productExpResultsPage</a></td><td rowspan="1">1611259173517</td><td rowspan="1">15014</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Firefox Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">tests.KaterinaSprint2</td><td><a href="#m6">cityFullNameBookingPage</a></td><td rowspan="1">1611259013883</td><td rowspan="1">4748</td></tr><tr class="passedeven"><td><a href="#m7">datesBookingPage</a></td><td rowspan="1">1611259032913</td><td rowspan="1">12648</td></tr><tr class="passedeven"><td><a href="#m8">feedbackBookingPage</a></td><td rowspan="1">1611259059758</td><td rowspan="1">5475</td></tr><tr class="passedeven"><td><a href="#m9">modifyResultPage</a></td><td rowspan="1">1611259080073</td><td rowspan="1">27863</td></tr><tr class="passedeven"><td><a href="#m10">priceSliderResultsPage</a></td><td rowspan="1">1611259124187</td><td rowspan="1">26250</td></tr><tr class="passedeven"><td><a href="#m11">productExpResultsPage</a></td><td rowspan="1">1611259164113</td><td rowspan="1">26492</td></tr></tbody>
-<tbody id="t2"><tr><th colspan="4">Edge Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">tests.KaterinaSprint2</td><td><a href="#m12">cityFullNameBookingPage</a></td><td rowspan="1">1611259010804</td><td rowspan="1">8036</td></tr><tr class="passedeven"><td><a href="#m13">datesBookingPage</a></td><td rowspan="1">1611259037966</td><td rowspan="1">12470</td></tr><tr class="passedeven"><td><a href="#m14">feedbackBookingPage</a></td><td rowspan="1">1611259066990</td><td rowspan="1">5446</td></tr><tr class="passedeven"><td><a href="#m15">modifyResultPage</a></td><td rowspan="1">1611259089145</td><td rowspan="1">29023</td></tr><tr class="passedeven"><td><a href="#m16">priceSliderResultsPage</a></td><td rowspan="1">1611259130924</td><td rowspan="1">25308</td></tr><tr class="passedeven"><td><a href="#m17">productExpResultsPage</a></td><td rowspan="1">1611259172465</td><td rowspan="1">23203</td></tr></tbody>
-<tbody id="t3"><tr><th colspan="4">Chrome Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">tests.KaterinaSprint2</td><td><a href="#m18">cityFullNameBookingPage</a></td><td rowspan="1">1611259024420</td><td rowspan="1">4652</td></tr><tr class="passedeven"><td><a href="#m19">datesBookingPage</a></td><td rowspan="1">1611259044449</td><td rowspan="1">14883</td></tr><tr class="passedeven"><td><a href="#m20">feedbackBookingPage</a></td><td rowspan="1">1611259072766</td><td rowspan="1">5668</td></tr><tr class="passedeven"><td><a href="#m21">modifyResultPage</a></td><td rowspan="1">1611259093597</td><td rowspan="1">33606</td></tr><tr class="passedeven"><td><a href="#m22">priceSliderResultsPage</a></td><td rowspan="1">1611259138836</td><td rowspan="1">29806</td></tr><tr class="passedeven"><td><a href="#m23">productExpResultsPage</a></td><td rowspan="1">1611259180061</td><td rowspan="1">24527</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Running multiple methods</th></tr></tbody><tbody id="t0"><tr><th colspan="4"> Running multiple methods &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">tests.KaterinaSprint2</td><td><a href="#m0">priceSliderResultsPage</a></td><td rowspan="1">1611518833112</td><td rowspan="1">22249</td></tr><tr class="passedodd"><td rowspan="1">tests.KatyaSprint2</td><td><a href="#m1">test3WebsiteFooter</a></td><td rowspan="1">1611518866842</td><td rowspan="1">2803</td></tr><tr class="passedeven"><td rowspan="1">tests.SanaSprint2</td><td><a href="#m2">verifyGiftCardLink</a></td><td rowspan="1">1611518879711</td><td rowspan="1">3568</td></tr></tbody>
+<tbody><tr><th colspan="4">Failed suite [Crossbrowser Tests]</th></tr></tbody><tbody id="t1"><tr><th colspan="4">Chrome Test(failed) &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">tests.KaterinaSprint2</td><td><a href="#m3">modifyResultPage</a></td><td rowspan="1">1611518894085</td><td rowspan="1">36160</td></tr><tr><th colspan="4">Chrome Test(failed) &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">tests.KaterinaSprint2</td><td><a href="#m4">datesBookingPage</a></td><td rowspan="1">1611518944837</td><td rowspan="1">10352</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Edge Test(failed) &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">tests.KaterinaSprint2</td><td><a href="#m5">priceSliderResultsPage</a></td><td rowspan="1">1611518968956</td><td rowspan="1">22633</td></tr></tbody>
 </table>
-<h2>Headless Chrome Test</h2><h3 id="m0">tests.KaterinaSprint2#cityFullNameBookingPage</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>Atlanta</td><td>Atlanta</td><td>Washington</td><td>Washington</td><td>Atlanta</td><td>Washington</td></tr><tr><th colspan="6">Exception</th></tr><tr><td colspan="6"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#fromAirportName&quot;}
-  (Session info: headless chrome=87.0.4280.141)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+<h2> Running multiple methods</h2><h3 id="m0">tests.KaterinaSprint2#priceSliderResultsPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">tests.KatyaSprint2#test3WebsiteFooter</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">tests.SanaSprint2#verifyGiftCardLink</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Chrome Test(failed)</h2><h3 id="m3">tests.KaterinaSprint2#modifyResultPage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=87.0.4280.141)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;LAPTOP-MC2FHNDC&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\eesha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59229}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: ac594c75c99f616810ead60c6471df92
-*** Element info: {Using=id, value=fromAirportName}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\eesha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60348}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4bbd193e88c5a92cdb5dddfde0ca5f46
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-	at org.openqa.selenium.By$ById.findElement(By.java:188)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy14.sendKeys(Unknown Source)
-	at tests.KaterinaSprint2.cityFullNameBookingPage(KaterinaSprint2.java:107)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">tests.KaterinaSprint2#datesBookingPage</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr><tr class="param stripe"><td>ATL</td><td>IAD</td><td>February</td><td>February</td><td>1 </td><td>March</td><td>March</td><td>1 </td></tr><tr><th colspan="8">Exception</th></tr><tr><td colspan="8"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#fromAirportName&quot;}
-  (Session info: headless chrome=87.0.4280.141)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;LAPTOP-MC2FHNDC&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\eesha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59564}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 93895c3f532fc0646861a41e583d3bd5
-*** Element info: {Using=id, value=fromAirportName}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-	at org.openqa.selenium.By$ById.findElement(By.java:188)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy14.sendKeys(Unknown Source)
-	at tests.KaterinaSprint2.datesBookingPage(KaterinaSprint2.java:69)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">tests.KaterinaSprint2#feedbackBookingPage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@class=&apos;cookie-close-icon float-right circle-outline&apos;]&quot;}
-  (Session info: headless chrome=87.0.4280.141)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;LAPTOP-MC2FHNDC&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\eesha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60060}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: c12a78456f884358877ba88b39b9129e
-*** Element info: {Using=xpath, value=//button[@class=&apos;cookie-close-icon float-right circle-outline&apos;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at com.sun.proxy.$Proxy14.click(Unknown Source)
-	at tests.KaterinaSprint2.feedbackBookingPage(KaterinaSprint2.java:253)
+	at tests.KaterinaSprint2.modifyResultPage(KaterinaSprint2.java:229)
 	at java.util.ArrayList.forEach(ArrayList.java:1259)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">tests.KaterinaSprint2#modifyResultPage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#fromAirportName&quot;}
-  (Session info: headless chrome=87.0.4280.141)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;LAPTOP-MC2FHNDC&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\eesha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60260}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: a2e1e14e67ee3885478568f638b4ffcf
-*** Element info: {Using=id, value=fromAirportName}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-	at org.openqa.selenium.By$ById.findElement(By.java:188)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy14.sendKeys(Unknown Source)
-	at tests.KaterinaSprint2.modifyResultPage(KaterinaSprint2.java:206)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">tests.KaterinaSprint2#priceSliderResultsPage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#fromAirportName&quot;}
-  (Session info: headless chrome=87.0.4280.141)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;LAPTOP-MC2FHNDC&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\eesha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60537}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 33fcf2a257f0a7eef1413088434624ad
-*** Element info: {Using=id, value=fromAirportName}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-	at org.openqa.selenium.By$ById.findElement(By.java:188)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy14.sendKeys(Unknown Source)
-	at tests.KaterinaSprint2.priceSliderResultsPage(KaterinaSprint2.java:25)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">tests.KaterinaSprint2#productExpResultsPage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#fromAirportName&quot;}
-  (Session info: headless chrome=87.0.4280.141)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;LAPTOP-MC2FHNDC&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\eesha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60786}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 1b4241560befef8464120e87a4585f11
-*** Element info: {Using=id, value=fromAirportName}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-	at org.openqa.selenium.By$ById.findElement(By.java:188)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy14.sendKeys(Unknown Source)
-	at tests.KaterinaSprint2.productExpResultsPage(KaterinaSprint2.java:152)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Firefox Test</h2><h3 id="m6">tests.KaterinaSprint2#cityFullNameBookingPage</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>Atlanta</td><td>Atlanta</td><td>Washington</td><td>Washington</td><td>Atlanta</td><td>Washington</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">tests.KaterinaSprint2#datesBookingPage</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr><tr class="param stripe"><td>ATL</td><td>IAD</td><td>February</td><td>February</td><td>1 </td><td>March</td><td>March</td><td>1 </td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">tests.KaterinaSprint2#feedbackBookingPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m9">tests.KaterinaSprint2#modifyResultPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m10">tests.KaterinaSprint2#priceSliderResultsPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m11">tests.KaterinaSprint2#productExpResultsPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Edge Test</h2><h3 id="m12">tests.KaterinaSprint2#cityFullNameBookingPage</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>Atlanta</td><td>Atlanta</td><td>Washington</td><td>Washington</td><td>Atlanta</td><td>Washington</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m13">tests.KaterinaSprint2#datesBookingPage</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr><tr class="param stripe"><td>ATL</td><td>IAD</td><td>February</td><td>February</td><td>1 </td><td>March</td><td>March</td><td>1 </td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m14">tests.KaterinaSprint2#feedbackBookingPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m15">tests.KaterinaSprint2#modifyResultPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m16">tests.KaterinaSprint2#priceSliderResultsPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m17">tests.KaterinaSprint2#productExpResultsPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Chrome Test</h2><h3 id="m18">tests.KaterinaSprint2#cityFullNameBookingPage</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>Atlanta</td><td>Atlanta</td><td>Washington</td><td>Washington</td><td>Atlanta</td><td>Washington</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m19">tests.KaterinaSprint2#datesBookingPage</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr><tr class="param stripe"><td>ATL</td><td>IAD</td><td>February</td><td>February</td><td>1 </td><td>March</td><td>March</td><td>1 </td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m20">tests.KaterinaSprint2#feedbackBookingPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m21">tests.KaterinaSprint2#modifyResultPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m22">tests.KaterinaSprint2#priceSliderResultsPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m23">tests.KaterinaSprint2#productExpResultsPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+... Removed 38 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">tests.KaterinaSprint2#datesBookingPage</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr><tr class="param stripe"><td>ATL</td><td>IAD</td><td>February</td><td>1 </td><td>February</td><td>March</td><td>1 </td><td>March</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Edge Test(failed)</h2><h3 id="m5">tests.KaterinaSprint2#priceSliderResultsPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

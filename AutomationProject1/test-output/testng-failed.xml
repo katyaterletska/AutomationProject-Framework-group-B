@@ -1,28 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Running multiple classes]">
-  <test thread-count="5" name=" Running multiple classes(failed)">
+<suite thread-count="15" guice-stage="DEVELOPMENT" name="Failed suite [Crossbrowser Tests]" parallel="tests">
+  <test thread-count="15" name="Firefox Test(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="tests.KatyaSprint2">
-        <methods>
-          <include name="test5WebsiteFooter"/>
-          <include name="setUpReport"/>
-          <include name="tearDownReport"/>
-          <include name="setupMethod"/>
-          <include name="test4WebsiteFooter"/>
-          <include name="teardownMethod"/>
-          <include name="test8WebsiteFooter"/>
-        </methods>
-      </class> <!-- tests.KatyaSprint2 -->
-      <class name="tests.SanaSprint2">
+      <class name="tests.KaterinaSprint2">
         <methods>
           <include name="setUpReport"/>
           <include name="tearDownReport"/>
           <include name="setupMethod"/>
-          <include name="minGiftCardAmount"/>
           <include name="teardownMethod"/>
+          <include name="feedbackBookingPage" invocation-numbers="0"/>
         </methods>
-      </class> <!-- tests.SanaSprint2 -->
+      </class> <!-- tests.KaterinaSprint2 -->
     </classes>
-  </test> <!--  Running multiple classes(failed) -->
-</suite> <!-- Failed suite [Running multiple classes] -->
+  </test> <!-- Firefox Test(failed) -->
+</suite> <!-- Failed suite [Crossbrowser Tests] -->

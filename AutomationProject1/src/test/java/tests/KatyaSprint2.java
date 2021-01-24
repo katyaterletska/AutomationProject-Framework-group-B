@@ -55,7 +55,7 @@ public class KatyaSprint2 extends TestBase {
 
 	}
 
-	@Test
+	@Test (groups = {"smoke"})
 	public void test3WebsiteFooter() {
 		Faker faker = new Faker();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);

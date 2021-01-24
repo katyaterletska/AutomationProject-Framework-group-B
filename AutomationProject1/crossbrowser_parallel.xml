@@ -1,35 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Crossbrowser Tests" parallel = "tests" thread-count="4">
+<suite name="Crossbrowser Tests" parallel = "tests" thread-count="15">
   
     
   <test thread-count="6" name="Chrome Test">
     <parameter name="browser" value="chrome"/>
+    <parameter name="comment" value="Awesome!"/>
       <classes>
+      
         <class name="tests.KaterinaSprint2"/>
      </classes>
   </test> <!-- Test -->
   
   <test thread-count="6" name="Firefox Test">
     <parameter name="browser" value="firefox"/>
+    <parameter name="comment" value="Awesome!"/>
       <classes>
         <class name="tests.KaterinaSprint2"/>
      </classes>
   </test> <!-- Test -->
   
-  <test thread-count="6" name="Edge Test">
+  <!-- <test thread-count="6" name="Edge Test">
     <parameter name="browser" value="edge"/>
+     <parameter name="comment" value="Awesome!"/>
       <classes>
         <class name="tests.KaterinaSprint2"/>
      </classes>
-  </test> <!-- Test -->
+  </test>  --> <!-- Test -->
   
-  <test thread-count="6" name="Headless Chrome Test">
+  <!-- <test thread-count="6" name="Headless Chrome Test">
     <parameter name="browser" value="headlesschrome"/>
+    <parameter name="comment" value="Awesome!"/>
       <classes>
         <class name="tests.KaterinaSprint2"/>
      </classes>
-  </test> <!-- Test -->
+  </test> Test -->
   
 
   

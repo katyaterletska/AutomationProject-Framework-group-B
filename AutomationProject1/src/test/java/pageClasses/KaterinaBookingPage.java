@@ -2,6 +2,7 @@ package pageClasses;
 
 import java.util.List;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -87,6 +88,11 @@ public class KaterinaBookingPage {
 		while(!firstMonthOption.getText().equals(month) && !secondMonthOption.getText().equals(month)) {
 			nextMonthButton.click();
 		}
+	}
+	
+	public WebElement getDateMonth(String date, String month) {
+		String xpath = "//a[starts-with(@aria-label,'" + date + month + "')]";
+		return Driver.getDriver().findElement(By.xpath(xpath));		
 	}
 	
 	@FindBy(xpath="//span[@class='feedbackLink mx-auto']/a")

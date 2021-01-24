@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>20/4/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jan 21 15:37:13 EST 2021</td>
+<td>Started on:</td><td>Sun Jan 24 17:59:50 EST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>599 seconds (599123 ms)</td>
+<tr><td>Total time:</td><td>412 seconds (412663 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,34 +75,43 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='tests.SanaSprint2.minGiftCardAmount()'><b>minGiftCardAmount</b><br>Test class: tests.SanaSprint2</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a data-analytics-id=&quot;home-shop-4&quot; href=&quot;https://www.delta.com/us/en/gift-cards/overview&quot; target=&quot;_self&quot;&gt;...&lt;/a&gt; is not clickable at point (1023, 8). Other element would receive the click: &lt;div class=&quot;alert-advisory-details&quot;&gt;...&lt;/div&gt;
+<td title='tests.KaterinaSprint2.modifyResultPage()'><b>modifyResultPage</b><br>Test class: tests.KaterinaSprint2</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;modify-link modify-btn-border&apos;]&quot;}
   (Session info: chrome=87.0.4280.141)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;LAPTOP-MC2FHNDC&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\eesha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61884}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 6f4eeca6cff1fd9b5997c863b0069f6f
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\eesha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50845}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9e6294c5c79b1a259ff612cadb7a5e7f
+*** Element info: {Using=xpath, value=//a[@class=&apos;modify-link modify-btn-border&apos;]}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at com.sun.proxy.$Proxy16.click(Unknown Source)
-	at tests.SanaSprint2.minGiftCardAmount(SanaSprint2.java:196)
-	at java.util.ArrayList.forEach(Unknown Source)
-... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1783047526", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1783047526'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a data-analytics-id=&quot;home-shop-4&quot; href=&quot;https://www.delta.com/us/en/gift-cards/overview&quot; target=&quot;_self&quot;&gt;...&lt;/a&gt; is not clickable at point (1023, 8). Other element would receive the click: &lt;div class=&quot;alert-advisory-details&quot;&gt;...&lt;/div&gt;
+	at tests.KaterinaSprint2.modifyResultPage(KaterinaSprint2.java:225)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace210712816", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace210712816'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;modify-link modify-btn-border&apos;]&quot;}
   (Session info: chrome=87.0.4280.141)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;LAPTOP-MC2FHNDC&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\eesha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61884}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 6f4eeca6cff1fd9b5997c863b0069f6f
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\eesha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50845}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9e6294c5c79b1a259ff612cadb7a5e7f
+*** Element info: {Using=xpath, value=//a[@class=&apos;modify-link modify-btn-border&apos;]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -113,15 +122,14 @@ Session ID: 6f4eeca6cff1fd9b5997c863b0069f6f
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at com.sun.proxy.$Proxy16.click(Unknown Source)
-	at tests.SanaSprint2.minGiftCardAmount(SanaSprint2.java:196)
+	at tests.KaterinaSprint2.modifyResultPage(KaterinaSprint2.java:225)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -134,34 +142,21 @@ Session ID: 6f4eeca6cff1fd9b5997c863b0069f6f
 	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(Unknown Source)
-	at org.testng.TestRunner.privateRun(TestRunner.java:764)
-	at org.testng.TestRunner.run(TestRunner.java:585)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.runSuites(TestNG.java:1069)
-	at org.testng.TestNG.run(TestNG.java:1037)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
 </pre></div></td>
-<td>2</td>
-<td>tests.SanaSprint2@6b67034</td></tr>
+<td>39</td>
+<td>tests.KaterinaSprint2@71248c21</td></tr>
 <tr>
 <td title='tests.KatyaSprint2.test4WebsiteFooter()'><b>test4WebsiteFooter</b><br>Test class: tests.KatyaSprint2</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a class=&quot;footernav-about-us&quot; href=&quot;/us/en/about-delta/overview&quot; target=&quot;&quot;&gt;...&lt;/a&gt; is not clickable at point (316, 647). Other element would receive the click: &lt;div class=&quot;cookie-footer cookie-footer-container text-left ng-star-inserted&quot;&gt;...&lt;/div&gt;
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a class=&quot;footernav-about-us&quot; href=&quot;/us/en/about-delta/overview&quot; target=&quot;&quot;&gt;...&lt;/a&gt; is not clickable at point (316, 650). Other element would receive the click: &lt;div class=&quot;cookie-footer cookie-footer-container text-left ng-star-inserted&quot;&gt;...&lt;/div&gt;
   (Session info: chrome=87.0.4280.141)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;LAPTOP-MC2FHNDC&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\eesha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61438}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 27559cede73fd4066816458597c0d49f
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\eesha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50611}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1a4510d084f514849aecb5b43ed3c7bd
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -173,15 +168,17 @@ Session ID: 27559cede73fd4066816458597c0d49f
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at com.sun.proxy.$Proxy16.click(Unknown Source)
 	at tests.KatyaSprint2.test4WebsiteFooter(KatyaSprint2.java:93)
-	at java.util.ArrayList.forEach(Unknown Source)
-... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1288815068", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1288815068'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a class=&quot;footernav-about-us&quot; href=&quot;/us/en/about-delta/overview&quot; target=&quot;&quot;&gt;...&lt;/a&gt; is not clickable at point (316, 647). Other element would receive the click: &lt;div class=&quot;cookie-footer cookie-footer-container text-left ng-star-inserted&quot;&gt;...&lt;/div&gt;
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1585825149", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1585825149'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a class=&quot;footernav-about-us&quot; href=&quot;/us/en/about-delta/overview&quot; target=&quot;&quot;&gt;...&lt;/a&gt; is not clickable at point (316, 650). Other element would receive the click: &lt;div class=&quot;cookie-footer cookie-footer-container text-left ng-star-inserted&quot;&gt;...&lt;/div&gt;
   (Session info: chrome=87.0.4280.141)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;LAPTOP-MC2FHNDC&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\eesha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61438}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 27559cede73fd4066816458597c0d49f
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\eesha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50611}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1a4510d084f514849aecb5b43ed3c7bd
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -194,8 +191,7 @@ Session ID: 27559cede73fd4066816458597c0d49f
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
@@ -213,25 +209,12 @@ Session ID: 27559cede73fd4066816458597c0d49f
 	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(Unknown Source)
-	at org.testng.TestRunner.privateRun(TestRunner.java:764)
-	at org.testng.TestRunner.run(TestRunner.java:585)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.runSuites(TestNG.java:1069)
-	at org.testng.TestNG.run(TestNG.java:1037)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
 </pre></div></td>
 <td>1</td>
-<td>tests.KatyaSprint2@10b48321</td></tr>
+<td>tests.KatyaSprint2@16267862</td></tr>
 <tr>
 <td title='tests.KatyaSprint2.test5WebsiteFooter()'><b>test5WebsiteFooter</b><br>Test class: tests.KatyaSprint2</td>
 <td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a class=&quot;footernav-careers&quot; href=&quot;/us/en/careers/overview&quot; target=&quot;&quot;&gt;...&lt;/a&gt; is not clickable at point (311, 676). Other element would receive the click: &lt;p class=&quot;mb-0 cookie-banner-content&quot;&gt;...&lt;/p&gt;
@@ -239,8 +222,8 @@ Session ID: 27559cede73fd4066816458597c0d49f
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;LAPTOP-MC2FHNDC&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\eesha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61507}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 95bc4b1edfe1b0a802827763cf00b031
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\eesha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50795}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: acb082cc2ce5153b4d3dd4d5d2272c30
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -252,15 +235,17 @@ Session ID: 95bc4b1edfe1b0a802827763cf00b031
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at com.sun.proxy.$Proxy16.click(Unknown Source)
 	at tests.KatyaSprint2.test5WebsiteFooter(KatyaSprint2.java:113)
-	at java.util.ArrayList.forEach(Unknown Source)
-... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1027006452", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1027006452'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a class=&quot;footernav-careers&quot; href=&quot;/us/en/careers/overview&quot; target=&quot;&quot;&gt;...&lt;/a&gt; is not clickable at point (311, 676). Other element would receive the click: &lt;p class=&quot;mb-0 cookie-banner-content&quot;&gt;...&lt;/p&gt;
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2145706296", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2145706296'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a class=&quot;footernav-careers&quot; href=&quot;/us/en/careers/overview&quot; target=&quot;&quot;&gt;...&lt;/a&gt; is not clickable at point (311, 676). Other element would receive the click: &lt;p class=&quot;mb-0 cookie-banner-content&quot;&gt;...&lt;/p&gt;
   (Session info: chrome=87.0.4280.141)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;LAPTOP-MC2FHNDC&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\eesha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61507}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 95bc4b1edfe1b0a802827763cf00b031
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\eesha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50795}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: acb082cc2ce5153b4d3dd4d5d2272c30
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -273,8 +258,7 @@ Session ID: 95bc4b1edfe1b0a802827763cf00b031
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
@@ -292,25 +276,12 @@ Session ID: 95bc4b1edfe1b0a802827763cf00b031
 	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(Unknown Source)
-	at org.testng.TestRunner.privateRun(TestRunner.java:764)
-	at org.testng.TestRunner.run(TestRunner.java:585)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.runSuites(TestNG.java:1069)
-	at org.testng.TestNG.run(TestNG.java:1037)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
 </pre></div></td>
-<td>1</td>
-<td>tests.KatyaSprint2@10b48321</td></tr>
+<td>2</td>
+<td>tests.KatyaSprint2@16267862</td></tr>
 <tr>
 <td title='tests.KatyaSprint2.test8WebsiteFooter()'><b>test8WebsiteFooter</b><br>Test class: tests.KatyaSprint2</td>
 <td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a aria-haspopup=&quot;true&quot; class=&quot;facebook circle-outline picturefill-background ng-star-inserted&quot; href=&quot;javascript:void(0);&quot; id=&quot;footer-facebook&quot; tabindex=&quot;0&quot; style=&quot;background-image: url(&amp;quot;//content.delta.com/content/www/us/en.damAssetRender.20180411T2106219950400.html/content/dam/delta_homepage_redesign/hpr_optimized_images/social_icons/Facebook-icon-LG.svg&amp;quot;); background-size: cover; background-repeat: no-repeat; background-position: 50% 50%;&quot;&gt;...&lt;/a&gt; is not clickable at point (553, 687). Other element would receive the click: &lt;div class=&quot;cookie-footer cookie-footer-container text-left ng-star-inserted&quot;&gt;...&lt;/div&gt;
@@ -318,8 +289,8 @@ Session ID: 95bc4b1edfe1b0a802827763cf00b031
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;LAPTOP-MC2FHNDC&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\eesha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61747}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: dd5018cf0b9eff156e4cc1cc80eb8257
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\eesha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51563}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 034f39cf84a1917f7517f0221c0a7f5e
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -331,15 +302,17 @@ Session ID: dd5018cf0b9eff156e4cc1cc80eb8257
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at com.sun.proxy.$Proxy16.click(Unknown Source)
 	at tests.KatyaSprint2.test8WebsiteFooter(KatyaSprint2.java:183)
-	at java.util.ArrayList.forEach(Unknown Source)
-... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace967643830", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace967643830'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a aria-haspopup=&quot;true&quot; class=&quot;facebook circle-outline picturefill-background ng-star-inserted&quot; href=&quot;javascript:void(0);&quot; id=&quot;footer-facebook&quot; tabindex=&quot;0&quot; style=&quot;background-image: url(&amp;quot;//content.delta.com/content/www/us/en.damAssetRender.20180411T2106219950400.html/content/dam/delta_homepage_redesign/hpr_optimized_images/social_icons/Facebook-icon-LG.svg&amp;quot;); background-size: cover; background-repeat: no-repeat; background-position: 50% 50%;&quot;&gt;...&lt;/a&gt; is not clickable at point (553, 687). Other element would receive the click: &lt;div class=&quot;cookie-footer cookie-footer-container text-left ng-star-inserted&quot;&gt;...&lt;/div&gt;
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace697386139", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace697386139'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a aria-haspopup=&quot;true&quot; class=&quot;facebook circle-outline picturefill-background ng-star-inserted&quot; href=&quot;javascript:void(0);&quot; id=&quot;footer-facebook&quot; tabindex=&quot;0&quot; style=&quot;background-image: url(&amp;quot;//content.delta.com/content/www/us/en.damAssetRender.20180411T2106219950400.html/content/dam/delta_homepage_redesign/hpr_optimized_images/social_icons/Facebook-icon-LG.svg&amp;quot;); background-size: cover; background-repeat: no-repeat; background-position: 50% 50%;&quot;&gt;...&lt;/a&gt; is not clickable at point (553, 687). Other element would receive the click: &lt;div class=&quot;cookie-footer cookie-footer-container text-left ng-star-inserted&quot;&gt;...&lt;/div&gt;
   (Session info: chrome=87.0.4280.141)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;LAPTOP-MC2FHNDC&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\eesha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61747}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: dd5018cf0b9eff156e4cc1cc80eb8257
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\eesha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51563}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 034f39cf84a1917f7517f0221c0a7f5e
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -352,8 +325,7 @@ Session ID: dd5018cf0b9eff156e4cc1cc80eb8257
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
@@ -371,25 +343,12 @@ Session ID: dd5018cf0b9eff156e4cc1cc80eb8257
 	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(Unknown Source)
-	at org.testng.TestRunner.privateRun(TestRunner.java:764)
-	at org.testng.TestRunner.run(TestRunner.java:585)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.runSuites(TestNG.java:1069)
-	at org.testng.TestNG.run(TestNG.java:1037)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
 </pre></div></td>
 <td>3</td>
-<td>tests.KatyaSprint2@10b48321</td></tr>
+<td>tests.KatyaSprint2@16267862</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -401,103 +360,103 @@ Session ID: dd5018cf0b9eff156e4cc1cc80eb8257
 <tr>
 <td title='tests.KaterinaSprint2.cityFullNameBookingPage()'><b>cityFullNameBookingPage</b><br>Test class: tests.KaterinaSprint2<br>Parameters: Atlanta, Atlanta, Washington, Washington, Atlanta, Washington</td>
 <td></td>
-<td>3</td>
-<td>tests.KaterinaSprint2@16267862</td></tr>
-<tr>
-<td title='tests.KaterinaSprint2.datesBookingPage()'><b>datesBookingPage</b><br>Test class: tests.KaterinaSprint2<br>Parameters: ATL, IAD, February, February, 1 , March, March, 1 </td>
-<td></td>
-<td>11</td>
-<td>tests.KaterinaSprint2@16267862</td></tr>
-<tr>
-<td title='tests.KaterinaSprint2.feedbackBookingPage()'><b>feedbackBookingPage</b><br>Test class: tests.KaterinaSprint2</td>
-<td></td>
 <td>5</td>
-<td>tests.KaterinaSprint2@16267862</td></tr>
+<td>tests.KaterinaSprint2@71248c21</td></tr>
+<tr>
+<td title='tests.KaterinaSprint2.datesBookingPage()'><b>datesBookingPage</b><br>Test class: tests.KaterinaSprint2<br>Parameters: ATL, IAD, February, 1 , February, March, 1 , March</td>
+<td></td>
+<td>16</td>
+<td>tests.KaterinaSprint2@71248c21</td></tr>
+<tr>
+<td title='tests.KaterinaSprint2.feedbackBookingPage()'><b>feedbackBookingPage</b><br>Test class: tests.KaterinaSprint2<br>Parameters: Awesome!</td>
+<td></td>
+<td>7</td>
+<td>tests.KaterinaSprint2@71248c21</td></tr>
 <tr>
 <td title='tests.SanaSprint2.maxGiftCardAmount()'><b>maxGiftCardAmount</b><br>Test class: tests.SanaSprint2</td>
 <td></td>
-<td>14</td>
-<td>tests.SanaSprint2@6b67034</td></tr>
+<td>32</td>
+<td>tests.SanaSprint2@453da22c</td></tr>
+<tr>
+<td title='tests.SanaSprint2.minGiftCardAmount()'><b>minGiftCardAmount</b><br>Test class: tests.SanaSprint2</td>
+<td></td>
+<td>18</td>
+<td>tests.SanaSprint2@453da22c</td></tr>
 <tr>
 <td title='tests.SanaSprint2.mismatchEmails()'><b>mismatchEmails</b><br>Test class: tests.SanaSprint2</td>
 <td></td>
-<td>17</td>
-<td>tests.SanaSprint2@6b67034</td></tr>
-<tr>
-<td title='tests.KaterinaSprint2.modifyResultPage()'><b>modifyResultPage</b><br>Test class: tests.KaterinaSprint2</td>
-<td></td>
-<td>29</td>
-<td>tests.KaterinaSprint2@16267862</td></tr>
+<td>25</td>
+<td>tests.SanaSprint2@453da22c</td></tr>
 <tr>
 <td title='tests.SanaSprint2.negativeCreditCard()'><b>negativeCreditCard</b><br>Test class: tests.SanaSprint2</td>
 <td></td>
-<td>24</td>
-<td>tests.SanaSprint2@6b67034</td></tr>
+<td>38</td>
+<td>tests.SanaSprint2@453da22c</td></tr>
 <tr>
 <td title='tests.SanaSprint2.nonEngSenderName()'><b>nonEngSenderName</b><br>Test class: tests.SanaSprint2<br>Parameters: Testee, test cihazı</td>
 <td></td>
-<td>15</td>
-<td>tests.SanaSprint2@6b67034</td></tr>
+<td>24</td>
+<td>tests.SanaSprint2@453da22c</td></tr>
 <tr>
 <td title='tests.SanaSprint2.nonEngSenderName()'><b>nonEngSenderName</b><br>Test class: tests.SanaSprint2<br>Parameters: Testee, tester007</td>
 <td></td>
-<td>18</td>
-<td>tests.SanaSprint2@6b67034</td></tr>
+<td>21</td>
+<td>tests.SanaSprint2@453da22c</td></tr>
 <tr>
 <td title='tests.SanaSprint2.nonEngSenderName()'><b>nonEngSenderName</b><br>Test class: tests.SanaSprint2<br>Parameters: Testee, 测试人员</td>
 <td></td>
-<td>15</td>
-<td>tests.SanaSprint2@6b67034</td></tr>
+<td>20</td>
+<td>tests.SanaSprint2@453da22c</td></tr>
 <tr>
 <td title='tests.SanaSprint2.nonEngSenderName()'><b>nonEngSenderName</b><br>Test class: tests.SanaSprint2<br>Parameters: Testee, اختبار</td>
 <td></td>
-<td>17</td>
-<td>tests.SanaSprint2@6b67034</td></tr>
+<td>18</td>
+<td>tests.SanaSprint2@453da22c</td></tr>
 <tr>
 <td title='tests.SanaSprint2.nonEngSenderName()'><b>nonEngSenderName</b><br>Test class: tests.SanaSprint2<br>Parameters: Testee, 000000</td>
 <td></td>
-<td>17</td>
-<td>tests.SanaSprint2@6b67034</td></tr>
+<td>22</td>
+<td>tests.SanaSprint2@453da22c</td></tr>
 <tr>
 <td title='tests.KaterinaSprint2.priceSliderResultsPage()'><b>priceSliderResultsPage</b><br>Test class: tests.KaterinaSprint2</td>
 <td></td>
-<td>27</td>
-<td>tests.KaterinaSprint2@16267862</td></tr>
+<td>44</td>
+<td>tests.KaterinaSprint2@71248c21</td></tr>
 <tr>
 <td title='tests.KaterinaSprint2.productExpResultsPage()'><b>productExpResultsPage</b><br>Test class: tests.KaterinaSprint2</td>
 <td></td>
-<td>25</td>
-<td>tests.KaterinaSprint2@16267862</td></tr>
+<td>33</td>
+<td>tests.KaterinaSprint2@71248c21</td></tr>
 <tr>
 <td title='tests.KatyaSprint2.test1WebsiteFooter()'><b>test1WebsiteFooter</b><br>Test class: tests.KatyaSprint2</td>
 <td></td>
-<td>6</td>
-<td>tests.KatyaSprint2@10b48321</td></tr>
+<td>7</td>
+<td>tests.KatyaSprint2@16267862</td></tr>
 <tr>
 <td title='tests.KatyaSprint2.test2WebsiteFooter()'><b>test2WebsiteFooter</b><br>Test class: tests.KatyaSprint2</td>
 <td></td>
-<td>9</td>
-<td>tests.KatyaSprint2@10b48321</td></tr>
+<td>15</td>
+<td>tests.KatyaSprint2@16267862</td></tr>
 <tr>
 <td title='tests.KatyaSprint2.test3WebsiteFooter()'><b>test3WebsiteFooter</b><br>Test class: tests.KatyaSprint2</td>
 <td></td>
-<td>3</td>
-<td>tests.KatyaSprint2@10b48321</td></tr>
+<td>6</td>
+<td>tests.KatyaSprint2@16267862</td></tr>
 <tr>
 <td title='tests.KatyaSprint2.test6WebsiteFooter()'><b>test6WebsiteFooter</b><br>Test class: tests.KatyaSprint2</td>
 <td></td>
-<td>7</td>
-<td>tests.KatyaSprint2@10b48321</td></tr>
+<td>9</td>
+<td>tests.KatyaSprint2@16267862</td></tr>
 <tr>
 <td title='tests.KatyaSprint2.test7WebsiteFooter()'><b>test7WebsiteFooter</b><br>Test class: tests.KatyaSprint2</td>
 <td></td>
-<td>15</td>
-<td>tests.KatyaSprint2@10b48321</td></tr>
+<td>23</td>
+<td>tests.KatyaSprint2@16267862</td></tr>
 <tr>
 <td title='tests.SanaSprint2.verifyGiftCardLink()'><b>verifyGiftCardLink</b><br>Test class: tests.SanaSprint2</td>
 <td></td>
-<td>4</td>
-<td>tests.SanaSprint2@6b67034</td></tr>
+<td>5</td>
+<td>tests.SanaSprint2@453da22c</td></tr>
 </table><p>
 </body>
 </html>

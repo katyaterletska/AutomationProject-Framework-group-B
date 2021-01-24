@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Running multiple classes">
+<suite name="Running multiple classes" parallel = "classes" thread-count="5">
   
   
   <test thread-count="5" name=" Running multiple classes">
-    
+     <parameter name="comment" value="Awesome!"/>
    <classes>
    
+   	<!-- <class name="tests.DilmuRodSprint2" /> -->
+   	
    	<class name="tests.KatyaSprint2" />           <!-- packageName.className(without .java extension) -->
    
    	

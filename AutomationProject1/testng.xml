@@ -4,7 +4,6 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="tests.DilmuRodAndKaterina"/>
-      <class name="tests.Test_Expl"/>
       <class name="tests.Sana"/>
       <class name="tests.KatyaSprint2"/>
       <class name="tests.KatyaSprint1"/>

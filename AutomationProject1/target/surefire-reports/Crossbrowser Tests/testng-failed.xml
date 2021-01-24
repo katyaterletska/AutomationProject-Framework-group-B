@@ -1,23 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="4" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Crossbrowser Tests]" parallel="tests">
-  <test thread-count="4" verbose="0" name="Headless Chrome Test(failed)" parallel="tests">
-    <parameter name="browser" value="headlesschrome"/>
+<suite thread-count="15" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Crossbrowser Tests]" parallel="classes">
+  <test thread-count="15" verbose="0" name="Chrome Test(failed)" parallel="classes">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="comment" value="Awesome!"/>
     <classes>
       <class name="tests.KaterinaSprint2">
         <methods>
-          <include name="productExpResultsPage"/>
           <include name="modifyResultPage"/>
-          <include name="cityFullNameBookingPage" invocation-numbers="0"/>
           <include name="setUpReport"/>
-          <include name="datesBookingPage" invocation-numbers="0"/>
           <include name="tearDownReport"/>
           <include name="setupMethod"/>
           <include name="priceSliderResultsPage"/>
           <include name="teardownMethod"/>
-          <include name="feedbackBookingPage"/>
         </methods>
       </class> <!-- tests.KaterinaSprint2 -->
     </classes>
-  </test> <!-- Headless Chrome Test(failed) -->
+  </test> <!-- Chrome Test(failed) -->
+  <test thread-count="15" verbose="0" name="Edge Test(failed)" parallel="classes">
+    <parameter name="browser" value="edge"/>
+    <parameter name="comment" value="Awesome!"/>
+    <classes>
+      <class name="tests.KaterinaSprint2">
+        <methods>
+          <include name="productExpResultsPage"/>
+          <include name="setUpReport"/>
+          <include name="tearDownReport"/>
+          <include name="setupMethod"/>
+          <include name="teardownMethod"/>
+        </methods>
+      </class> <!-- tests.KaterinaSprint2 -->
+    </classes>
+  </test> <!-- Edge Test(failed) -->
 </suite> <!-- Failed suite [Crossbrowser Tests] -->
