@@ -1,15 +1,92 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 172.426 s <<< FAILURE! - in TestSuite
-tests.KaterinaSprint2.modifyResultPage  Time elapsed: 36.141 s  <<< FAILURE!
-org.openqa.selenium.ElementNotInteractableException: 
-element not interactable
+Tests run: 30, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 419.88 s <<< FAILURE! - in TestSuite
+tests.DilmuRodSprint2.randomNumberOfPassengers  Time elapsed: 5.965 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="booking"]/form/div[1]/div/div[1]/div[1]/div[4]/span/span[1]"}
+  (Session info: chrome=87.0.4280.141)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-MC2FHNDC', ip: '192.168.1.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\eesha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57683}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 191b7e6de370ad552d8c9393d951e18a
+*** Element info: {Using=xpath, value=//*[@id="booking"]/form/div[1]/div/div[1]/div[1]/div[4]/span/span[1]}
+	at tests.DilmuRodSprint2.randomNumberOfPassengers(DilmuRodSprint2.java:91)
+
+tests.KatyaSprint2.test4WebsiteFooter  Time elapsed: 1.675 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a class="footernav-about-us" href="/us/en/about-delta/overview" target="">...</a> is not clickable at point (316, 647). Other element would receive the click: <div class="cookie-footer cookie-footer-container text-left ng-star-inserted">...</div>
   (Session info: chrome=87.0.4280.141)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-MC2FHNDC', ip: '192.168.1.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\eesha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60348}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 4bbd193e88c5a92cdb5dddfde0ca5f46
-	at tests.KaterinaSprint2.modifyResultPage(KaterinaSprint2.java:229)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\eesha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58291}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 077bca0a83f76699cd25b07f756f4364
+	at tests.KatyaSprint2.test4WebsiteFooter(KatyaSprint2.java:93)
+
+tests.KatyaSprint2.test5WebsiteFooter  Time elapsed: 4.56 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a class="footernav-careers" href="/us/en/careers/overview" target="">...</a> is not clickable at point (311, 680). Other element would receive the click: <p class="mb-0 cookie-banner-content">...</p>
+  (Session info: chrome=87.0.4280.141)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-MC2FHNDC', ip: '192.168.1.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\eesha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58547}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5b68bd4f77e6366aa903a622ffb248bf
+	at tests.KatyaSprint2.test5WebsiteFooter(KatyaSprint2.java:113)
+
+tests.KaterinaSprint2.modifyResultPage  Time elapsed: 6.898 s  <<< FAILURE!
+org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=87.0.4280.141)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-MC2FHNDC', ip: '192.168.1.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\eesha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58344}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0b022f18c2a5ffaa73fb05f9956feaa7
+	at tests.KaterinaSprint2.modifyResultPage(KaterinaSprint2.java:225)
+
+tests.DilmuRodSprint2.verifyThreeDifferentSearchResul[ATL, MIA, March, 1 , March, May, 15 , May](1)  Time elapsed: 12.586 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at tests.DilmuRodSprint2.verifyThreeDifferentSearchResul(DilmuRodSprint2.java:203)
+
+tests.KaterinaSprint2.priceSliderResultsPage  Time elapsed: 21.166 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="maincontent"]/div[1]/div/div[1]/div[3]/button"}
+  (Session info: chrome=87.0.4280.141)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-MC2FHNDC', ip: '192.168.1.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\eesha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58896}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: cd4f19ea69d9e4f1cf35a05b91013d9b
+*** Element info: {Using=xpath, value=//*[@id="maincontent"]/div[1]/div/div[1]/div[3]/button}
+	at tests.KaterinaSprint2.priceSliderResultsPage(KaterinaSprint2.java:47)
+
+tests.KatyaSprint2.test8WebsiteFooter  Time elapsed: 3.388 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a aria-haspopup="true" class="facebook circle-outline picturefill-background ng-star-inserted" href="javascript:void(0);" id="footer-facebook" tabindex="0" style="background-image: url(&quot;//content.delta.com/content/www/us/en.damAssetRender.20180411T2106219950400.html/content/dam/delta_homepage_redesign/hpr_optimized_images/social_icons/Facebook-icon-LG.svg&quot;); background-size: cover; background-repeat: no-repeat; background-position: 50% 50%;">...</a> is not clickable at point (553, 687). Other element would receive the click: <div class="cookie-footer cookie-footer-container text-left ng-star-inserted">...</div>
+  (Session info: chrome=87.0.4280.141)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-MC2FHNDC', ip: '192.168.1.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\eesha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59365}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 6b09e8195214b4e6a2aa789e994163a2
+	at tests.KatyaSprint2.test8WebsiteFooter(KatyaSprint2.java:183)
+
+tests.KaterinaSprint2.productExpResultsPage  Time elapsed: 10.491 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#button0"}
+  (Session info: chrome=87.0.4280.141)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-MC2FHNDC', ip: '192.168.1.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\eesha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59478}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 536aef13c0bf0e779bf16cdbb8d69f38
+*** Element info: {Using=id, value=button0}
+	at tests.KaterinaSprint2.productExpResultsPage(KaterinaSprint2.java:179)
 

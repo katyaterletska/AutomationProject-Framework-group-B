@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Running multiple classes">
-<<<<<<< HEAD
-  
+
   
   <test thread-count="5" name=" Running multiple classes">
     
@@ -22,10 +21,6 @@
   </test> <!-- Test -->
   
 
-  
-=======
-
-
 	<test thread-count="5" name=" Running multiple classes">
 
 		<classes>
@@ -43,7 +38,4 @@
 
 	</test> <!-- Test -->
 
-
-
->>>>>>> 2a1f6ddff1aca041accc10a5f90a019c63be5700
 </suite> <!-- Suite -->

@@ -7,7 +7,7 @@
      <parameter name="comment" value="Awesome!"/>
    <classes>
    
-   	<!-- <class name="tests.DilmuRodSprint2" /> -->
+   	<class name="tests.DilmuRodSprint2" />
    	
    	<class name="tests.KatyaSprint2" />           <!-- packageName.className(without .java extension) -->
    

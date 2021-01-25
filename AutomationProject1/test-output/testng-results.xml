@@ -1,37 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<testng-results skipped="0" failed="1" ignored="0" total="12" passed="11">
+<testng-results skipped="0" failed="0" ignored="59" total="63" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Crossbrowser Tests" duration-ms="243688" started-at="2021-01-24T18:13:50 EST" finished-at="2021-01-24T18:17:54 EST">
-=======
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
-  <reporter-output>
-  </reporter-output>
-  <suite name="Running multiple classes" duration-ms="86120" started-at="2021-01-24T18:06:51 EST" finished-at="2021-01-24T18:08:17 EST">
->>>>>>> 2a1f6ddff1aca041accc10a5f90a019c63be5700
+  <suite name="Running multiple methods" duration-ms="98857" started-at="2021-01-24T19:14:57 EST" finished-at="2021-01-24T19:16:36 EST">
     <groups>
       <group name="smoke">
-        <method signature="KaterinaSprint2.priceSliderResultsPage()[pri:0, instance:tests.KaterinaSprint2@6a79c292]" name="priceSliderResultsPage" class="tests.KaterinaSprint2"/>
-        <method signature="KaterinaSprint2.priceSliderResultsPage()[pri:0, instance:tests.KaterinaSprint2@58fdd99]" name="priceSliderResultsPage" class="tests.KaterinaSprint2"/>
+        <method signature="DilmuRodSprint2.multipleCity()[pri:0, instance:tests.DilmuRodSprint2@1dd92fe2]" name="multipleCity" class="tests.DilmuRodSprint2"/>
+        <method signature="KaterinaSprint2.priceSliderResultsPage()[pri:0, instance:tests.KaterinaSprint2@6b53e23f]" name="priceSliderResultsPage" class="tests.KaterinaSprint2"/>
+        <method signature="KatyaSprint2.test3WebsiteFooter()[pri:0, instance:tests.KatyaSprint2@64d2d351]" name="test3WebsiteFooter" class="tests.KatyaSprint2"/>
+        <method signature="SanaSprint2.verifyGiftCardLink()[pri:0, instance:tests.SanaSprint2@1b68b9a4]" name="verifyGiftCardLink" class="tests.SanaSprint2"/>
       </group> <!-- smoke -->
     </groups>
-<<<<<<< HEAD
-    <test name="Chrome Test" duration-ms="235111" started-at="2021-01-24T18:13:50 EST" finished-at="2021-01-24T18:17:45 EST">
-      <class name="tests.KaterinaSprint2">
-        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.KaterinaSprint2@6a79c292]" name="setupMethod" is-config="true" duration-ms="18037" started-at="2021-01-24T18:13:50 EST" finished-at="2021-01-24T18:14:08 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-=======
-    <test name=" Running multiple classes" duration-ms="86120" started-at="2021-01-24T18:06:51 EST" finished-at="2021-01-24T18:08:17 EST">
-      <class name="tests.DilmuRodSprint2">
-        <test-method status="PASS" signature="setUpReport()[pri:0, instance:tests.DilmuRodSprint2@11e21d0e]" name="setUpReport" is-config="true" duration-ms="299" started-at="2021-01-24T18:06:51 EST" finished-at="2021-01-24T18:06:51 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpReport -->
-        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.DilmuRodSprint2@11e21d0e]" name="setupMethod" is-config="true" duration-ms="7625" started-at="2021-01-24T18:06:51 EST" finished-at="2021-01-24T18:06:59 EST">
+    <test name=" Running multiple methods" duration-ms="98857" started-at="2021-01-24T19:14:57 EST" finished-at="2021-01-24T19:16:36 EST">
+      <class name="tests.KatyaSprint2">
+        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.KatyaSprint2@64d2d351]" name="setupMethod" is-config="true" duration-ms="13921" started-at="2021-01-24T19:16:01 EST" finished-at="2021-01-24T19:16:15 EST">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -40,655 +22,106 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="multipleCity()[pri:0, instance:tests.DilmuRodSprint2@11e21d0e]" name="multipleCity" duration-ms="3542" started-at="2021-01-24T18:06:59 EST" finished-at="2021-01-24T18:07:02 EST">
+        <test-method status="PASS" signature="test3WebsiteFooter()[pri:0, instance:tests.KatyaSprint2@64d2d351]" name="test3WebsiteFooter" duration-ms="5086" started-at="2021-01-24T19:16:15 EST" finished-at="2021-01-24T19:16:20 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3WebsiteFooter -->
+        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.KatyaSprint2@64d2d351]" name="teardownMethod" is-config="true" duration-ms="874" started-at="2021-01-24T19:16:20 EST" finished-at="2021-01-24T19:16:21 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test3WebsiteFooter status=SUCCESS method=KatyaSprint2.test3WebsiteFooter()[pri:0, instance:tests.KatyaSprint2@64d2d351] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownMethod -->
+      </class> <!-- tests.KatyaSprint2 -->
+      <class name="tests.SanaSprint2">
+        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.SanaSprint2@1b68b9a4]" name="setupMethod" is-config="true" duration-ms="11583" started-at="2021-01-24T19:16:21 EST" finished-at="2021-01-24T19:16:33 EST">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="verifyGiftCardLink()[pri:0, instance:tests.SanaSprint2@1b68b9a4]" name="verifyGiftCardLink" duration-ms="1952" started-at="2021-01-24T19:16:33 EST" finished-at="2021-01-24T19:16:35 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGiftCardLink -->
+        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.SanaSprint2@1b68b9a4]" name="teardownMethod" is-config="true" duration-ms="890" started-at="2021-01-24T19:16:35 EST" finished-at="2021-01-24T19:16:36 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyGiftCardLink status=SUCCESS method=SanaSprint2.verifyGiftCardLink()[pri:0, instance:tests.SanaSprint2@1b68b9a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownMethod -->
+      </class> <!-- tests.SanaSprint2 -->
+      <class name="tests.DilmuRodSprint2">
+        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.DilmuRodSprint2@1dd92fe2]" name="setupMethod" is-config="true" duration-ms="14001" started-at="2021-01-24T19:14:57 EST" finished-at="2021-01-24T19:15:11 EST">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="multipleCity()[pri:0, instance:tests.DilmuRodSprint2@1dd92fe2]" name="multipleCity" duration-ms="5028" started-at="2021-01-24T19:15:11 EST" finished-at="2021-01-24T19:15:16 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- multipleCity -->
-        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.DilmuRodSprint2@11e21d0e]" name="teardownMethod" is-config="true" duration-ms="859" started-at="2021-01-24T18:07:02 EST" finished-at="2021-01-24T18:07:03 EST">
+        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.DilmuRodSprint2@1dd92fe2]" name="teardownMethod" is-config="true" duration-ms="923" started-at="2021-01-24T19:15:16 EST" finished-at="2021-01-24T19:15:17 EST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=multipleCity status=SUCCESS method=DilmuRodSprint2.multipleCity()[pri:0, instance:tests.DilmuRodSprint2@11e21d0e] output={null}]]]>
->>>>>>> 2a1f6ddff1aca041accc10a5f90a019c63be5700
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-<<<<<<< HEAD
-        </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="cityFullNameBookingPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.KaterinaSprint2@6a79c292]" name="cityFullNameBookingPage" duration-ms="5687" started-at="2021-01-24T18:14:08 EST" data-provider="getCity" finished-at="2021-01-24T18:14:14 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Atlanta]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Atlanta]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Washington]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Washington]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Atlanta]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Washington]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cityFullNameBookingPage -->
-        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.KaterinaSprint2@6a79c292]" name="teardownMethod" is-config="true" duration-ms="929" started-at="2021-01-24T18:14:14 EST" finished-at="2021-01-24T18:14:15 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=cityFullNameBookingPage status=SUCCESS method=KaterinaSprint2.cityFullNameBookingPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.KaterinaSprint2@6a79c292] output={null}]]]>
-              </value>
-            </param>
-=======
-        </test-method> <!-- teardownMethod -->
-        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.DilmuRodSprint2@11e21d0e]" name="setupMethod" is-config="true" duration-ms="5984" started-at="2021-01-24T18:07:03 EST" finished-at="2021-01-24T18:07:09 EST">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="randomNumberOfPassengers()[pri:0, instance:tests.DilmuRodSprint2@11e21d0e]" name="randomNumberOfPassengers" duration-ms="10633" started-at="2021-01-24T18:07:09 EST" finished-at="2021-01-24T18:07:20 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- randomNumberOfPassengers -->
-        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.DilmuRodSprint2@11e21d0e]" name="teardownMethod" is-config="true" duration-ms="888" started-at="2021-01-24T18:07:20 EST" finished-at="2021-01-24T18:07:21 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=randomNumberOfPassengers status=SUCCESS method=DilmuRodSprint2.randomNumberOfPassengers()[pri:0, instance:tests.DilmuRodSprint2@11e21d0e] output={null}]]]>
+                <![CDATA[[TestResult name=multipleCity status=SUCCESS method=DilmuRodSprint2.multipleCity()[pri:0, instance:tests.DilmuRodSprint2@1dd92fe2] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownMethod -->
-        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.DilmuRodSprint2@11e21d0e]" name="setupMethod" is-config="true" duration-ms="6468" started-at="2021-01-24T18:07:21 EST" finished-at="2021-01-24T18:07:27 EST">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="verifyAllLinksOnBookingPage()[pri:0, instance:tests.DilmuRodSprint2@11e21d0e]" name="verifyAllLinksOnBookingPage" duration-ms="6463" started-at="2021-01-24T18:07:27 EST" finished-at="2021-01-24T18:07:34 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAllLinksOnBookingPage -->
-        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.DilmuRodSprint2@11e21d0e]" name="teardownMethod" is-config="true" duration-ms="746" started-at="2021-01-24T18:07:34 EST" finished-at="2021-01-24T18:07:34 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyAllLinksOnBookingPage status=SUCCESS method=DilmuRodSprint2.verifyAllLinksOnBookingPage()[pri:0, instance:tests.DilmuRodSprint2@11e21d0e] output={null}]]]>
-              </value>
-            </param>
->>>>>>> 2a1f6ddff1aca041accc10a5f90a019c63be5700
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardownMethod -->
-<<<<<<< HEAD
-        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.KaterinaSprint2@6a79c292]" name="setupMethod" is-config="true" duration-ms="13713" started-at="2021-01-24T18:14:15 EST" finished-at="2021-01-24T18:14:29 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-=======
-        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.DilmuRodSprint2@11e21d0e]" name="setupMethod" is-config="true" duration-ms="6588" started-at="2021-01-24T18:07:34 EST" finished-at="2021-01-24T18:07:41 EST">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
->>>>>>> 2a1f6ddff1aca041accc10a5f90a019c63be5700
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMethod -->
-<<<<<<< HEAD
-        <test-method status="PASS" signature="datesBookingPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.KaterinaSprint2@6a79c292]" name="datesBookingPage" duration-ms="16504" started-at="2021-01-24T18:14:29 EST" data-provider="getDates" finished-at="2021-01-24T18:14:45 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ATL]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[IAD]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[February]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[1 ]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[February]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[March]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[1 ]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[March]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- datesBookingPage -->
-        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.KaterinaSprint2@6a79c292]" name="teardownMethod" is-config="true" duration-ms="973" started-at="2021-01-24T18:14:45 EST" finished-at="2021-01-24T18:14:46 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=datesBookingPage status=SUCCESS method=KaterinaSprint2.datesBookingPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.KaterinaSprint2@6a79c292] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardownMethod -->
-        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.KaterinaSprint2@6a79c292]" name="setupMethod" is-config="true" duration-ms="14524" started-at="2021-01-24T18:14:46 EST" finished-at="2021-01-24T18:15:01 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="feedbackBookingPage(java.lang.String)[pri:0, instance:tests.KaterinaSprint2@6a79c292]" name="feedbackBookingPage" duration-ms="12645" started-at="2021-01-24T18:15:01 EST" finished-at="2021-01-24T18:15:13 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Awesome!]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- feedbackBookingPage -->
-        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.KaterinaSprint2@6a79c292]" name="teardownMethod" is-config="true" duration-ms="881" started-at="2021-01-24T18:15:13 EST" finished-at="2021-01-24T18:15:14 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=feedbackBookingPage status=SUCCESS method=KaterinaSprint2.feedbackBookingPage(java.lang.String)[pri:0, instance:tests.KaterinaSprint2@6a79c292] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardownMethod -->
-        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.KaterinaSprint2@6a79c292]" name="setupMethod" is-config="true" duration-ms="15076" started-at="2021-01-24T18:15:14 EST" finished-at="2021-01-24T18:15:29 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="modifyResultPage()[pri:0, instance:tests.KaterinaSprint2@6a79c292]" name="modifyResultPage" duration-ms="37183" started-at="2021-01-24T18:15:29 EST" finished-at="2021-01-24T18:16:06 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- modifyResultPage -->
-        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.KaterinaSprint2@6a79c292]" name="teardownMethod" is-config="true" duration-ms="940" started-at="2021-01-24T18:16:06 EST" finished-at="2021-01-24T18:16:07 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=modifyResultPage status=SUCCESS method=KaterinaSprint2.modifyResultPage()[pri:0, instance:tests.KaterinaSprint2@6a79c292] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardownMethod -->
-        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.KaterinaSprint2@6a79c292]" name="setupMethod" is-config="true" duration-ms="13944" started-at="2021-01-24T18:16:07 EST" finished-at="2021-01-24T18:16:21 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="priceSliderResultsPage()[pri:0, instance:tests.KaterinaSprint2@6a79c292]" name="priceSliderResultsPage" duration-ms="30805" started-at="2021-01-24T18:16:21 EST" finished-at="2021-01-24T18:16:52 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- priceSliderResultsPage -->
-        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.KaterinaSprint2@6a79c292]" name="teardownMethod" is-config="true" duration-ms="1029" started-at="2021-01-24T18:16:52 EST" finished-at="2021-01-24T18:16:53 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=priceSliderResultsPage status=SUCCESS method=KaterinaSprint2.priceSliderResultsPage()[pri:0, instance:tests.KaterinaSprint2@6a79c292] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardownMethod -->
-        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.KaterinaSprint2@6a79c292]" name="setupMethod" is-config="true" duration-ms="13178" started-at="2021-01-24T18:16:53 EST" finished-at="2021-01-24T18:17:06 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="productExpResultsPage()[pri:0, instance:tests.KaterinaSprint2@6a79c292]" name="productExpResultsPage" duration-ms="37754" started-at="2021-01-24T18:17:06 EST" finished-at="2021-01-24T18:17:44 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productExpResultsPage -->
-        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.KaterinaSprint2@6a79c292]" name="teardownMethod" is-config="true" duration-ms="1229" started-at="2021-01-24T18:17:44 EST" finished-at="2021-01-24T18:17:45 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=productExpResultsPage status=SUCCESS method=KaterinaSprint2.productExpResultsPage()[pri:0, instance:tests.KaterinaSprint2@6a79c292] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardownMethod -->
-      </class> <!-- tests.KaterinaSprint2 -->
-    </test> <!-- Chrome Test -->
-    <test name="Firefox Test" duration-ms="243688" started-at="2021-01-24T18:13:50 EST" finished-at="2021-01-24T18:17:54 EST">
-      <class name="tests.KaterinaSprint2">
-        <test-method status="PASS" signature="setUpReport()[pri:0, instance:tests.KaterinaSprint2@58fdd99]" name="setUpReport" is-config="true" duration-ms="508" started-at="2021-01-24T18:13:50 EST" finished-at="2021-01-24T18:13:50 EST">
+      </class> <!-- tests.DilmuRodSprint2 -->
+      <class name="tests.Anibal">
+        <test-method status="PASS" signature="setUpReport()[pri:0, instance:tests.Anibal@255b53dc]" name="setUpReport" is-config="true" duration-ms="516" started-at="2021-01-24T19:14:56 EST" finished-at="2021-01-24T19:14:57 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpReport -->
-        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.KaterinaSprint2@58fdd99]" name="setupMethod" is-config="true" duration-ms="24245" started-at="2021-01-24T18:13:50 EST" finished-at="2021-01-24T18:14:14 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="cityFullNameBookingPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.KaterinaSprint2@58fdd99]" name="cityFullNameBookingPage" duration-ms="4779" started-at="2021-01-24T18:14:14 EST" data-provider="getCity" finished-at="2021-01-24T18:14:19 EST">
-          <params>
-            <param index="0">
-=======
-        <test-method status="PASS" signature="verifyThreeDifferentSearchResul(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.DilmuRodSprint2@11e21d0e]" name="verifyThreeDifferentSearchResul" duration-ms="15529" started-at="2021-01-24T18:07:41 EST" data-provider="getMultipleData_1" finished-at="2021-01-24T18:07:57 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ATL]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[MIA]]>
-              </value>
-            </param>
-            <param index="2">
->>>>>>> 2a1f6ddff1aca041accc10a5f90a019c63be5700
-              <value>
-                <![CDATA[March]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[1 ]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[March]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[May]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[15 ]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[May]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-<<<<<<< HEAD
-        </test-method> <!-- cityFullNameBookingPage -->
-        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.KaterinaSprint2@58fdd99]" name="teardownMethod" is-config="true" duration-ms="3493" started-at="2021-01-24T18:14:19 EST" finished-at="2021-01-24T18:14:23 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=cityFullNameBookingPage status=SUCCESS method=KaterinaSprint2.cityFullNameBookingPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.KaterinaSprint2@58fdd99] output={null}]]]>
-=======
-        </test-method> <!-- verifyThreeDifferentSearchResul -->
-        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.DilmuRodSprint2@11e21d0e]" name="teardownMethod" is-config="true" duration-ms="813" started-at="2021-01-24T18:07:57 EST" finished-at="2021-01-24T18:07:57 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyThreeDifferentSearchResul status=SUCCESS method=DilmuRodSprint2.verifyThreeDifferentSearchResul(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.DilmuRodSprint2@11e21d0e] output={null}]]]>
->>>>>>> 2a1f6ddff1aca041accc10a5f90a019c63be5700
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardownMethod -->
-<<<<<<< HEAD
-        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.KaterinaSprint2@58fdd99]" name="setupMethod" is-config="true" duration-ms="17069" started-at="2021-01-24T18:14:23 EST" finished-at="2021-01-24T18:14:40 EST">
-=======
-        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.DilmuRodSprint2@11e21d0e]" name="setupMethod" is-config="true" duration-ms="6712" started-at="2021-01-24T18:07:57 EST" finished-at="2021-01-24T18:08:04 EST">
->>>>>>> 2a1f6ddff1aca041accc10a5f90a019c63be5700
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMethod -->
-<<<<<<< HEAD
-        <test-method status="PASS" signature="datesBookingPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.KaterinaSprint2@58fdd99]" name="datesBookingPage" duration-ms="16723" started-at="2021-01-24T18:14:40 EST" data-provider="getDates" finished-at="2021-01-24T18:14:57 EST">
-=======
-        <test-method status="PASS" signature="verifyThreeDifferentSearchResults(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.DilmuRodSprint2@11e21d0e]" name="verifyThreeDifferentSearchResults" duration-ms="12396" started-at="2021-01-24T18:08:04 EST" data-provider="getMultipleData" finished-at="2021-01-24T18:08:16 EST">
->>>>>>> 2a1f6ddff1aca041accc10a5f90a019c63be5700
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ATL]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[NYC]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[March]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[1 ]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-<<<<<<< HEAD
-                <![CDATA[February]]>
-=======
-                <![CDATA[March]]>
->>>>>>> 2a1f6ddff1aca041accc10a5f90a019c63be5700
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[May]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-<<<<<<< HEAD
-                <![CDATA[1 ]]>
-=======
-                <![CDATA[15 ]]>
->>>>>>> 2a1f6ddff1aca041accc10a5f90a019c63be5700
-              </value>
-            </param>
-            <param index="7">
-              <value>
-<<<<<<< HEAD
-                <![CDATA[March]]>
-=======
-                <![CDATA[May]]>
->>>>>>> 2a1f6ddff1aca041accc10a5f90a019c63be5700
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-<<<<<<< HEAD
-        </test-method> <!-- datesBookingPage -->
-        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.KaterinaSprint2@58fdd99]" name="teardownMethod" is-config="true" duration-ms="2960" started-at="2021-01-24T18:14:57 EST" finished-at="2021-01-24T18:14:59 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=datesBookingPage status=SUCCESS method=KaterinaSprint2.datesBookingPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.KaterinaSprint2@58fdd99] output={null}]]]>
-=======
-        </test-method> <!-- verifyThreeDifferentSearchResults -->
-        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.DilmuRodSprint2@11e21d0e]" name="teardownMethod" is-config="true" duration-ms="792" started-at="2021-01-24T18:08:16 EST" finished-at="2021-01-24T18:08:17 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyThreeDifferentSearchResults status=SUCCESS method=DilmuRodSprint2.verifyThreeDifferentSearchResults(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.DilmuRodSprint2@11e21d0e] output={null}]]]>
->>>>>>> 2a1f6ddff1aca041accc10a5f90a019c63be5700
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardownMethod -->
-<<<<<<< HEAD
-        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.KaterinaSprint2@58fdd99]" name="setupMethod" is-config="true" duration-ms="13298" started-at="2021-01-24T18:14:59 EST" finished-at="2021-01-24T18:15:13 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method status="FAIL" signature="feedbackBookingPage(java.lang.String)[pri:0, instance:tests.KaterinaSprint2@58fdd99]" name="feedbackBookingPage" duration-ms="3968" started-at="2021-01-24T18:15:13 EST" finished-at="2021-01-24T18:15:17 EST">
+      </class> <!-- tests.Anibal -->
+      <class name="tests.KaterinaSprint2">
+        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.KaterinaSprint2@6b53e23f]" name="setupMethod" is-config="true" duration-ms="13074" started-at="2021-01-24T19:15:17 EST" finished-at="2021-01-24T19:15:30 EST">
           <params>
             <param index="0">
               <value is-null="true"/>
             </param>
           </params>
-          <exception class="java.lang.IllegalArgumentException">
-            <message>
-              <![CDATA[Keys to send should be a not null CharSequence]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
-at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at com.sun.proxy.$Proxy16.sendKeys(Unknown Source)
-at tests.KaterinaSprint2.feedbackBookingPage(KaterinaSprint2.java:253)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
-at java.util.concurrent.FutureTask.run(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalArgumentException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- feedbackBookingPage -->
-        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.KaterinaSprint2@58fdd99]" name="teardownMethod" is-config="true" duration-ms="4956" started-at="2021-01-24T18:15:17 EST" finished-at="2021-01-24T18:15:22 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=feedbackBookingPage status=FAILURE method=KaterinaSprint2.feedbackBookingPage(java.lang.String)[pri:0, instance:tests.KaterinaSprint2@58fdd99] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardownMethod -->
-        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.KaterinaSprint2@58fdd99]" name="setupMethod" is-config="true" duration-ms="14535" started-at="2021-01-24T18:15:22 EST" finished-at="2021-01-24T18:15:36 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="modifyResultPage()[pri:0, instance:tests.KaterinaSprint2@58fdd99]" name="modifyResultPage" duration-ms="31436" started-at="2021-01-24T18:15:36 EST" finished-at="2021-01-24T18:16:08 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- modifyResultPage -->
-        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.KaterinaSprint2@58fdd99]" name="teardownMethod" is-config="true" duration-ms="6881" started-at="2021-01-24T18:16:08 EST" finished-at="2021-01-24T18:16:15 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=modifyResultPage status=SUCCESS method=KaterinaSprint2.modifyResultPage()[pri:0, instance:tests.KaterinaSprint2@58fdd99] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardownMethod -->
-        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.KaterinaSprint2@58fdd99]" name="setupMethod" is-config="true" duration-ms="15052" started-at="2021-01-24T18:16:15 EST" finished-at="2021-01-24T18:16:30 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="priceSliderResultsPage()[pri:0, instance:tests.KaterinaSprint2@58fdd99]" name="priceSliderResultsPage" duration-ms="29030" started-at="2021-01-24T18:16:30 EST" finished-at="2021-01-24T18:16:59 EST">
+        <test-method status="PASS" signature="priceSliderResultsPage()[pri:0, instance:tests.KaterinaSprint2@6b53e23f]" name="priceSliderResultsPage" duration-ms="30386" started-at="2021-01-24T19:15:30 EST" finished-at="2021-01-24T19:16:00 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- priceSliderResultsPage -->
-        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.KaterinaSprint2@58fdd99]" name="teardownMethod" is-config="true" duration-ms="4375" started-at="2021-01-24T18:16:59 EST" finished-at="2021-01-24T18:17:03 EST">
+        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.KaterinaSprint2@6b53e23f]" name="teardownMethod" is-config="true" duration-ms="1066" started-at="2021-01-24T19:16:00 EST" finished-at="2021-01-24T19:16:01 EST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=priceSliderResultsPage status=SUCCESS method=KaterinaSprint2.priceSliderResultsPage()[pri:0, instance:tests.KaterinaSprint2@58fdd99] output={null}]]]>
+                <![CDATA[[TestResult name=priceSliderResultsPage status=SUCCESS method=KaterinaSprint2.priceSliderResultsPage()[pri:0, instance:tests.KaterinaSprint2@6b53e23f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownMethod -->
-        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:tests.KaterinaSprint2@58fdd99]" name="setupMethod" is-config="true" duration-ms="15474" started-at="2021-01-24T18:17:03 EST" finished-at="2021-01-24T18:17:18 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="productExpResultsPage()[pri:0, instance:tests.KaterinaSprint2@58fdd99]" name="productExpResultsPage" duration-ms="31376" started-at="2021-01-24T18:17:18 EST" finished-at="2021-01-24T18:17:50 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productExpResultsPage -->
-        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:tests.KaterinaSprint2@58fdd99]" name="teardownMethod" is-config="true" duration-ms="3983" started-at="2021-01-24T18:17:50 EST" finished-at="2021-01-24T18:17:54 EST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=productExpResultsPage status=SUCCESS method=KaterinaSprint2.productExpResultsPage()[pri:0, instance:tests.KaterinaSprint2@58fdd99] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardownMethod -->
-        <test-method status="PASS" signature="tearDownReport()[pri:0, instance:tests.KaterinaSprint2@58fdd99]" name="tearDownReport" is-config="true" duration-ms="657" started-at="2021-01-24T18:17:54 EST" finished-at="2021-01-24T18:17:55 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownReport -->
       </class> <!-- tests.KaterinaSprint2 -->
-    </test> <!-- Firefox Test -->
-  </suite> <!-- Crossbrowser Tests -->
-=======
-        <test-method status="PASS" signature="tearDownReport()[pri:0, instance:tests.DilmuRodSprint2@11e21d0e]" name="tearDownReport" is-config="true" duration-ms="365" started-at="2021-01-24T18:08:17 EST" finished-at="2021-01-24T18:08:18 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownReport -->
-      </class> <!-- tests.DilmuRodSprint2 -->
-    </test> <!--  Running multiple classes -->
-  </suite> <!-- Running multiple classes -->
->>>>>>> 2a1f6ddff1aca041accc10a5f90a019c63be5700
+    </test> <!--  Running multiple methods -->
+  </suite> <!-- Running multiple methods -->
 </testng-results>

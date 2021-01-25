@@ -31,7 +31,7 @@ public class DilmuRodSprint2 extends TestBase {
 
 	// SPRINT2-TC-01 TO VERIFY MULTI-CITY OPTION AND CONFIRM IT IS LOADING NEW PAGE OPTIONS
 
-	@Test
+	@Test (groups = {"smoke"})
 
 	public void multipleCity() {
 

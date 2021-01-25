@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="172.426" tests="6" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="419.88" tests="30" errors="0" skipped="0" failures="8">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -19,7 +19,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\eesha\AppData\Local\Temp\surefire8025230017493121017\surefirebooter6483726959263270058.jar C:\Users\eesha\AppData\Local\Temp\surefire8025230017493121017 2021-01-24T15-06-59_411-jvmRun1 surefire5274578384185379784tmp surefire_09075608710811571079tmp"/>
+    <property name="sun.java.command" value="C:\Users\eesha\AppData\Local\Temp\surefire3751601316826330990\surefirebooter5110197318385075696.jar C:\Users\eesha\AppData\Local\Temp\surefire3751601316826330990 2021-01-24T19-21-40_346-jvmRun1 surefire7039738248976981781tmp surefire_01383023524488242418tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\eesha\git\AutomationProject-Framework-group-B\AutomationProject1\target\test-classes;C:\Users\eesha\git\AutomationProject-Framework-group-B\AutomationProject1\target\classes;C:\Users\eesha\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\eesha\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\eesha\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\eesha\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\eesha\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\eesha\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\eesha\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\eesha\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\eesha\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\eesha\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\eesha\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\eesha\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\eesha\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\eesha\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\eesha\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\eesha\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\eesha\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\eesha\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\eesha\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\eesha\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\eesha\.m2\repository\io\github\bonigarcia\webdrivermanager\4.2.2\webdrivermanager-4.2.2.jar;C:\Users\eesha\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\eesha\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\eesha\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\eesha\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.1\httpclient5-5.0.1.jar;C:\Users\eesha\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.1\httpcore5-5.0.1.jar;C:\Users\eesha\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.1\httpcore5-h2-5.0.1.jar;C:\Users\eesha\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\eesha\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\eesha\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\eesha\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\eesha\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\eesha\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\eesha\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\eesha\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\eesha\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\eesha\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\eesha\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\eesha\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\eesha\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\eesha\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\eesha\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\eesha\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\eesha\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\eesha\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\eesha\.m2\repository\ru\yandex\qatools\ashot\ashot\1.5.4\ashot-1.5.4.jar;C:\Users\eesha\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\eesha\.m2\repository\com\aventstack\extentreports\5.0.6\extentreports-5.0.6.jar;C:\Users\eesha\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\eesha\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\eesha\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\eesha\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\eesha\.m2\repository\com\codeborne\phantomjsdriver\1.4.4\phantomjsdriver-1.4.4.jar;C:\Users\eesha\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.38.0\htmlunit-driver-2.38.0.jar;C:\Users\eesha\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.38.0\htmlunit-2.38.0.jar;C:\Users\eesha\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\eesha\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\eesha\.m2\repository\org\apache\commons\commons-text\1.8\commons-text-1.8.jar;C:\Users\eesha\.m2\repository\org\apache\httpcomponents\httpmime\4.5.12\httpmime-4.5.12.jar;C:\Users\eesha\.m2\repository\org\apache\httpcomponents\httpclient\4.5.12\httpclient-4.5.12.jar;C:\Users\eesha\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\eesha\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.38.0\htmlunit-core-js-2.38.0.jar;C:\Users\eesha\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.38.0\neko-htmlunit-2.38.0.jar;C:\Users\eesha\.m2\repository\xerces\xercesImpl\2.12.0\xercesImpl-2.12.0.jar;C:\Users\eesha\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\eesha\.m2\repository\net\sourceforge\htmlunit\htmlunit-cssparser\1.5.0\htmlunit-cssparser-1.5.0.jar;C:\Users\eesha\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\eesha\.m2\repository\commons-net\commons-net\3.6\commons-net-3.6.jar;C:\Users\eesha\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\eesha\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.27.v20200227\websocket-client-9.4.27.v20200227.jar;C:\Users\eesha\.m2\repository\org\eclipse\jetty\jetty-client\9.4.27.v20200227\jetty-client-9.4.27.v20200227.jar;C:\Users\eesha\.m2\repository\org\eclipse\jetty\jetty-http\9.4.27.v20200227\jetty-http-9.4.27.v20200227.jar;C:\Users\eesha\.m2\repository\org\eclipse\jetty\jetty-xml\9.4.27.v20200227\jetty-xml-9.4.27.v20200227.jar;C:\Users\eesha\.m2\repository\org\eclipse\jetty\jetty-util\9.4.27.v20200227\jetty-util-9.4.27.v20200227.jar;C:\Users\eesha\.m2\repository\org\eclipse\jetty\jetty-io\9.4.27.v20200227\jetty-io-9.4.27.v20200227.jar;C:\Users\eesha\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.27.v20200227\websocket-common-9.4.27.v20200227.jar;C:\Users\eesha\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.27.v20200227\websocket-api-9.4.27.v20200227.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\eesha"/>
@@ -32,12 +32,11 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\eesha\AppData\Local\Temp\surefire8025230017493121017\surefirebooter6483726959263270058.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\eesha\AppData\Local\Temp\surefire3751601316826330990\surefirebooter5110197318385075696.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_261\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="1.8.0_261-b12"/>
-    <property name="webdriver.edge.driver" value="C:\Users\eesha\.cache\selenium\msedgedriver\win64\87.0.664.75\msedgedriver.exe"/>
     <property name="user.name" value="eesha"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
@@ -51,11 +50,12 @@
     <property name="java.version" value="1.8.0_261"/>
     <property name="user.dir" value="C:\Users\eesha\git\AutomationProject-Framework-group-B\AutomationProject1"/>
     <property name="os.arch" value="amd64"/>
+    <property name="webdriver.gecko.driver" value="C:\Users\eesha\.cache\selenium\geckodriver\win64\0.28.0\geckodriver.exe"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="runner2" value="test-output/testng-failed.xml"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="runner1" value="smoke_test.xml"/>
+    <property name="runner1" value="regression_test.xml"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_261\bin;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\eesha\AppData\Local\Microsoft\WindowsApps;;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Oracle Corporation"/>
@@ -64,70 +64,1281 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="priceSliderResultsPage" classname="tests.KaterinaSprint2" time="22.218">
+  <testcase name="test1WebsiteFooter" classname="tests.KatyaSprint2" time="1.407">
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 19065
+Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 26969
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 24, 2021 3:07:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 24, 2021 7:21:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="priceSliderResultsPage" classname="tests.KaterinaSprint2" time="22.598">
-    <system-err><![CDATA[Starting MSEdgeDriver 87.0.664.75 (4da88d617daabd8aec59b88632014fe98444caeb-refs/heads/master@{#838960}) on port 19909
+Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 14425
 Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping MSEdgeDriver safe.
-MSEdgeDriver was started successfully.
-Jan 24, 2021 3:09:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 24, 2021 7:21:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 34747
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 24, 2021 7:21:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 13313
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 24, 2021 7:22:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="modifyResultPage" classname="tests.KaterinaSprint2" time="36.141">
-    <failure message="element not interactable&#10;  (Session info: chrome=87.0.4280.141)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-MC2FHNDC&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\eesha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60348}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 4bbd193e88c5a92cdb5dddfde0ca5f46" type="org.openqa.selenium.ElementNotInteractableException"><![CDATA[org.openqa.selenium.ElementNotInteractableException: 
-element not interactable
+  <testcase name="test2WebsiteFooter" classname="tests.KatyaSprint2" time="6.378">
+    <system-err><![CDATA[Jan 24, 2021 7:22:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 21869
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 24, 2021 7:22:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="test3WebsiteFooter" classname="tests.KatyaSprint2" time="4.479">
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 13640
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 24, 2021 7:23:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="test4WebsiteFooter" classname="tests.KatyaSprint2" time="1.675">
+    <failure message="element click intercepted: Element &lt;a class=&quot;footernav-about-us&quot; href=&quot;/us/en/about-delta/overview&quot; target=&quot;&quot;&gt;...&lt;/a&gt; is not clickable at point (316, 647). Other element would receive the click: &lt;div class=&quot;cookie-footer cookie-footer-container text-left ng-star-inserted&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=87.0.4280.141)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-MC2FHNDC&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\eesha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58291}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 077bca0a83f76699cd25b07f756f4364" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a class="footernav-about-us" href="/us/en/about-delta/overview" target="">...</a> is not clickable at point (316, 647). Other element would receive the click: <div class="cookie-footer cookie-footer-container text-left ng-star-inserted">...</div>
   (Session info: chrome=87.0.4280.141)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-MC2FHNDC', ip: '192.168.1.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\eesha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60348}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 4bbd193e88c5a92cdb5dddfde0ca5f46
-	at tests.KaterinaSprint2.modifyResultPage(KaterinaSprint2.java:229)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\eesha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58291}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 077bca0a83f76699cd25b07f756f4364
+	at tests.KatyaSprint2.test4WebsiteFooter(KatyaSprint2.java:93)
 ]]></failure>
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 4591
+    <system-err><![CDATA[Jan 24, 2021 7:23:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 9990
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 24, 2021 3:08:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 24, 2021 7:23:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 36669
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 24, 2021 7:23:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="datesBookingPage[ATL, IAD, February, 1 , February, March, 1 , March](1)" classname="tests.KaterinaSprint2" time="10.323">
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 10906
+  <testcase name="test5WebsiteFooter" classname="tests.KatyaSprint2" time="4.56">
+    <failure message="element click intercepted: Element &lt;a class=&quot;footernav-careers&quot; href=&quot;/us/en/careers/overview&quot; target=&quot;&quot;&gt;...&lt;/a&gt; is not clickable at point (311, 680). Other element would receive the click: &lt;p class=&quot;mb-0 cookie-banner-content&quot;&gt;...&lt;/p&gt;&#10;  (Session info: chrome=87.0.4280.141)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-MC2FHNDC&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\eesha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58547}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 5b68bd4f77e6366aa903a622ffb248bf" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a class="footernav-careers" href="/us/en/careers/overview" target="">...</a> is not clickable at point (311, 680). Other element would receive the click: <p class="mb-0 cookie-banner-content">...</p>
+  (Session info: chrome=87.0.4280.141)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-MC2FHNDC', ip: '192.168.1.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\eesha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58547}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5b68bd4f77e6366aa903a622ffb248bf
+	at tests.KatyaSprint2.test5WebsiteFooter(KatyaSprint2.java:113)
+]]></failure>
+    <system-out><![CDATA[[SKIP TO BOOK]
+[SKIP TO BOOK, new U.S. testing requirements]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, ]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , ]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, ]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, , Shop with Miles help]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, , Shop with Miles help, Refundable Fares help]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, , Shop with Miles help, Refundable Fares help, Advanced Search]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, , Shop with Miles help, Refundable Fares help, Advanced Search, STAY CONNECTED
+WITH SKYMILES]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, , Shop with Miles help, Refundable Fares help, Advanced Search, STAY CONNECTED
+WITH SKYMILES, Join SkyMiles today to stay in-the-know on new deals and destinations, the Delta CareStandard℠ and travel requirements.]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, , Shop with Miles help, Refundable Fares help, Advanced Search, STAY CONNECTED
+WITH SKYMILES, Join SkyMiles today to stay in-the-know on new deals and destinations, the Delta CareStandard℠ and travel requirements., VACATION DEALS]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, , Shop with Miles help, Refundable Fares help, Advanced Search, STAY CONNECTED
+WITH SKYMILES, Join SkyMiles today to stay in-the-know on new deals and destinations, the Delta CareStandard℠ and travel requirements., VACATION DEALS, DELTA AMEX CARDS]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, , Shop with Miles help, Refundable Fares help, Advanced Search, STAY CONNECTED
+WITH SKYMILES, Join SkyMiles today to stay in-the-know on new deals and destinations, the Delta CareStandard℠ and travel requirements., VACATION DEALS, DELTA AMEX CARDS, SHOP HOTELS]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, , Shop with Miles help, Refundable Fares help, Advanced Search, STAY CONNECTED
+WITH SKYMILES, Join SkyMiles today to stay in-the-know on new deals and destinations, the Delta CareStandard℠ and travel requirements., VACATION DEALS, DELTA AMEX CARDS, SHOP HOTELS, RENT A CAR]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, , Shop with Miles help, Refundable Fares help, Advanced Search, STAY CONNECTED
+WITH SKYMILES, Join SkyMiles today to stay in-the-know on new deals and destinations, the Delta CareStandard℠ and travel requirements., VACATION DEALS, DELTA AMEX CARDS, SHOP HOTELS, RENT A CAR, GIFT CARDS]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, , Shop with Miles help, Refundable Fares help, Advanced Search, STAY CONNECTED
+WITH SKYMILES, Join SkyMiles today to stay in-the-know on new deals and destinations, the Delta CareStandard℠ and travel requirements., VACATION DEALS, DELTA AMEX CARDS, SHOP HOTELS, RENT A CAR, GIFT CARDS, Updated Bag & Travel Fees]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, , Shop with Miles help, Refundable Fares help, Advanced Search, STAY CONNECTED
+WITH SKYMILES, Join SkyMiles today to stay in-the-know on new deals and destinations, the Delta CareStandard℠ and travel requirements., VACATION DEALS, DELTA AMEX CARDS, SHOP HOTELS, RENT A CAR, GIFT CARDS, Updated Bag & Travel Fees, EXPLORE OUR DESTINATIONS
+Plan your next trip using our interactive map by investigating which states and countries are open for travel and when you can get there with Delta in the coming months.]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, , Shop with Miles help, Refundable Fares help, Advanced Search, STAY CONNECTED
+WITH SKYMILES, Join SkyMiles today to stay in-the-know on new deals and destinations, the Delta CareStandard℠ and travel requirements., VACATION DEALS, DELTA AMEX CARDS, SHOP HOTELS, RENT A CAR, GIFT CARDS, Updated Bag & Travel Fees, EXPLORE OUR DESTINATIONS
+Plan your next trip using our interactive map by investigating which states and countries are open for travel and when you can get there with Delta in the coming months., CAN I CANCEL/CHANGE MY FLIGHT?
+
+We understand you have questions. Learn more about our simplified waivers and find out if your upcoming flight qualifies.]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, , Shop with Miles help, Refundable Fares help, Advanced Search, STAY CONNECTED
+WITH SKYMILES, Join SkyMiles today to stay in-the-know on new deals and destinations, the Delta CareStandard℠ and travel requirements., VACATION DEALS, DELTA AMEX CARDS, SHOP HOTELS, RENT A CAR, GIFT CARDS, Updated Bag & Travel Fees, EXPLORE OUR DESTINATIONS
+Plan your next trip using our interactive map by investigating which states and countries are open for travel and when you can get there with Delta in the coming months., CAN I CANCEL/CHANGE MY FLIGHT?
+
+We understand you have questions. Learn more about our simplified waivers and find out if your upcoming flight qualifies., HOW DO I CHANGE MY FLIGHT AND FIND MY ECREDITS?
+If your trip has been impacted by coronavirus, it's easy to cancel or change your flights. Learn how to modify your trip and rebook using eCredits with our step-by-step guides.]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, , Shop with Miles help, Refundable Fares help, Advanced Search, STAY CONNECTED
+WITH SKYMILES, Join SkyMiles today to stay in-the-know on new deals and destinations, the Delta CareStandard℠ and travel requirements., VACATION DEALS, DELTA AMEX CARDS, SHOP HOTELS, RENT A CAR, GIFT CARDS, Updated Bag & Travel Fees, EXPLORE OUR DESTINATIONS
+Plan your next trip using our interactive map by investigating which states and countries are open for travel and when you can get there with Delta in the coming months., CAN I CANCEL/CHANGE MY FLIGHT?
+
+We understand you have questions. Learn more about our simplified waivers and find out if your upcoming flight qualifies., HOW DO I CHANGE MY FLIGHT AND FIND MY ECREDITS?
+If your trip has been impacted by coronavirus, it's easy to cancel or change your flights. Learn how to modify your trip and rebook using eCredits with our step-by-step guides., WHAT ARE THE LATEST TRAVEL UPDATES?
+Information is more important than ever. We pledge to share updates with you as quickly as possible, with full transparency and, as always, with your safety foremost in mind.]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, , Shop with Miles help, Refundable Fares help, Advanced Search, STAY CONNECTED
+WITH SKYMILES, Join SkyMiles today to stay in-the-know on new deals and destinations, the Delta CareStandard℠ and travel requirements., VACATION DEALS, DELTA AMEX CARDS, SHOP HOTELS, RENT A CAR, GIFT CARDS, Updated Bag & Travel Fees, EXPLORE OUR DESTINATIONS
+Plan your next trip using our interactive map by investigating which states and countries are open for travel and when you can get there with Delta in the coming months., CAN I CANCEL/CHANGE MY FLIGHT?
+
+We understand you have questions. Learn more about our simplified waivers and find out if your upcoming flight qualifies., HOW DO I CHANGE MY FLIGHT AND FIND MY ECREDITS?
+If your trip has been impacted by coronavirus, it's easy to cancel or change your flights. Learn how to modify your trip and rebook using eCredits with our step-by-step guides., WHAT ARE THE LATEST TRAVEL UPDATES?
+Information is more important than ever. We pledge to share updates with you as quickly as possible, with full transparency and, as always, with your safety foremost in mind., COMMITTED TO YOUR SAFETY
+To make space for safer travel, Delta is blocking middle or select aisle seats on all flights and limiting the total number of passengers on board through March 30, 2021.]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, , Shop with Miles help, Refundable Fares help, Advanced Search, STAY CONNECTED
+WITH SKYMILES, Join SkyMiles today to stay in-the-know on new deals and destinations, the Delta CareStandard℠ and travel requirements., VACATION DEALS, DELTA AMEX CARDS, SHOP HOTELS, RENT A CAR, GIFT CARDS, Updated Bag & Travel Fees, EXPLORE OUR DESTINATIONS
+Plan your next trip using our interactive map by investigating which states and countries are open for travel and when you can get there with Delta in the coming months., CAN I CANCEL/CHANGE MY FLIGHT?
+
+We understand you have questions. Learn more about our simplified waivers and find out if your upcoming flight qualifies., HOW DO I CHANGE MY FLIGHT AND FIND MY ECREDITS?
+If your trip has been impacted by coronavirus, it's easy to cancel or change your flights. Learn how to modify your trip and rebook using eCredits with our step-by-step guides., WHAT ARE THE LATEST TRAVEL UPDATES?
+Information is more important than ever. We pledge to share updates with you as quickly as possible, with full transparency and, as always, with your safety foremost in mind., COMMITTED TO YOUR SAFETY
+To make space for safer travel, Delta is blocking middle or select aisle seats on all flights and limiting the total number of passengers on board through March 30, 2021., CLEAN TRAVEL EXPERIENCE
+We're doing everything we can to deliver a safe, healthy and clean travel experience. Caring for our customers and employees is our top priority. ]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, , Shop with Miles help, Refundable Fares help, Advanced Search, STAY CONNECTED
+WITH SKYMILES, Join SkyMiles today to stay in-the-know on new deals and destinations, the Delta CareStandard℠ and travel requirements., VACATION DEALS, DELTA AMEX CARDS, SHOP HOTELS, RENT A CAR, GIFT CARDS, Updated Bag & Travel Fees, EXPLORE OUR DESTINATIONS
+Plan your next trip using our interactive map by investigating which states and countries are open for travel and when you can get there with Delta in the coming months., CAN I CANCEL/CHANGE MY FLIGHT?
+
+We understand you have questions. Learn more about our simplified waivers and find out if your upcoming flight qualifies., HOW DO I CHANGE MY FLIGHT AND FIND MY ECREDITS?
+If your trip has been impacted by coronavirus, it's easy to cancel or change your flights. Learn how to modify your trip and rebook using eCredits with our step-by-step guides., WHAT ARE THE LATEST TRAVEL UPDATES?
+Information is more important than ever. We pledge to share updates with you as quickly as possible, with full transparency and, as always, with your safety foremost in mind., COMMITTED TO YOUR SAFETY
+To make space for safer travel, Delta is blocking middle or select aisle seats on all flights and limiting the total number of passengers on board through March 30, 2021., CLEAN TRAVEL EXPERIENCE
+We're doing everything we can to deliver a safe, healthy and clean travel experience. Caring for our customers and employees is our top priority. , DOWNLOAD THE FLY DELTA APP
+Download the app to be notified of flight updates and access your mobile boarding pass to limit the use of touch-screen kiosks. ]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, , Shop with Miles help, Refundable Fares help, Advanced Search, STAY CONNECTED
+WITH SKYMILES, Join SkyMiles today to stay in-the-know on new deals and destinations, the Delta CareStandard℠ and travel requirements., VACATION DEALS, DELTA AMEX CARDS, SHOP HOTELS, RENT A CAR, GIFT CARDS, Updated Bag & Travel Fees, EXPLORE OUR DESTINATIONS
+Plan your next trip using our interactive map by investigating which states and countries are open for travel and when you can get there with Delta in the coming months., CAN I CANCEL/CHANGE MY FLIGHT?
+
+We understand you have questions. Learn more about our simplified waivers and find out if your upcoming flight qualifies., HOW DO I CHANGE MY FLIGHT AND FIND MY ECREDITS?
+If your trip has been impacted by coronavirus, it's easy to cancel or change your flights. Learn how to modify your trip and rebook using eCredits with our step-by-step guides., WHAT ARE THE LATEST TRAVEL UPDATES?
+Information is more important than ever. We pledge to share updates with you as quickly as possible, with full transparency and, as always, with your safety foremost in mind., COMMITTED TO YOUR SAFETY
+To make space for safer travel, Delta is blocking middle or select aisle seats on all flights and limiting the total number of passengers on board through March 30, 2021., CLEAN TRAVEL EXPERIENCE
+We're doing everything we can to deliver a safe, healthy and clean travel experience. Caring for our customers and employees is our top priority. , DOWNLOAD THE FLY DELTA APP
+Download the app to be notified of flight updates and access your mobile boarding pass to limit the use of touch-screen kiosks. , BOOK WITH CONFIDENCE
+We're ready when you are. We are waiving change fees broadly and, above all, rest assured the value of your ticket won't be lost if you need to make a change. ]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, , Shop with Miles help, Refundable Fares help, Advanced Search, STAY CONNECTED
+WITH SKYMILES, Join SkyMiles today to stay in-the-know on new deals and destinations, the Delta CareStandard℠ and travel requirements., VACATION DEALS, DELTA AMEX CARDS, SHOP HOTELS, RENT A CAR, GIFT CARDS, Updated Bag & Travel Fees, EXPLORE OUR DESTINATIONS
+Plan your next trip using our interactive map by investigating which states and countries are open for travel and when you can get there with Delta in the coming months., CAN I CANCEL/CHANGE MY FLIGHT?
+
+We understand you have questions. Learn more about our simplified waivers and find out if your upcoming flight qualifies., HOW DO I CHANGE MY FLIGHT AND FIND MY ECREDITS?
+If your trip has been impacted by coronavirus, it's easy to cancel or change your flights. Learn how to modify your trip and rebook using eCredits with our step-by-step guides., WHAT ARE THE LATEST TRAVEL UPDATES?
+Information is more important than ever. We pledge to share updates with you as quickly as possible, with full transparency and, as always, with your safety foremost in mind., COMMITTED TO YOUR SAFETY
+To make space for safer travel, Delta is blocking middle or select aisle seats on all flights and limiting the total number of passengers on board through March 30, 2021., CLEAN TRAVEL EXPERIENCE
+We're doing everything we can to deliver a safe, healthy and clean travel experience. Caring for our customers and employees is our top priority. , DOWNLOAD THE FLY DELTA APP
+Download the app to be notified of flight updates and access your mobile boarding pass to limit the use of touch-screen kiosks. , BOOK WITH CONFIDENCE
+We're ready when you are. We are waiving change fees broadly and, above all, rest assured the value of your ticket won't be lost if you need to make a change. , JOIN NOW
+, OPENS IN NEW WINDOW]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, , Shop with Miles help, Refundable Fares help, Advanced Search, STAY CONNECTED
+WITH SKYMILES, Join SkyMiles today to stay in-the-know on new deals and destinations, the Delta CareStandard℠ and travel requirements., VACATION DEALS, DELTA AMEX CARDS, SHOP HOTELS, RENT A CAR, GIFT CARDS, Updated Bag & Travel Fees, EXPLORE OUR DESTINATIONS
+Plan your next trip using our interactive map by investigating which states and countries are open for travel and when you can get there with Delta in the coming months., CAN I CANCEL/CHANGE MY FLIGHT?
+
+We understand you have questions. Learn more about our simplified waivers and find out if your upcoming flight qualifies., HOW DO I CHANGE MY FLIGHT AND FIND MY ECREDITS?
+If your trip has been impacted by coronavirus, it's easy to cancel or change your flights. Learn how to modify your trip and rebook using eCredits with our step-by-step guides., WHAT ARE THE LATEST TRAVEL UPDATES?
+Information is more important than ever. We pledge to share updates with you as quickly as possible, with full transparency and, as always, with your safety foremost in mind., COMMITTED TO YOUR SAFETY
+To make space for safer travel, Delta is blocking middle or select aisle seats on all flights and limiting the total number of passengers on board through March 30, 2021., CLEAN TRAVEL EXPERIENCE
+We're doing everything we can to deliver a safe, healthy and clean travel experience. Caring for our customers and employees is our top priority. , DOWNLOAD THE FLY DELTA APP
+Download the app to be notified of flight updates and access your mobile boarding pass to limit the use of touch-screen kiosks. , BOOK WITH CONFIDENCE
+We're ready when you are. We are waiving change fees broadly and, above all, rest assured the value of your ticket won't be lost if you need to make a change. , JOIN NOW
+, OPENS IN NEW WINDOW, Search for a topic...
+Search]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, , Shop with Miles help, Refundable Fares help, Advanced Search, STAY CONNECTED
+WITH SKYMILES, Join SkyMiles today to stay in-the-know on new deals and destinations, the Delta CareStandard℠ and travel requirements., VACATION DEALS, DELTA AMEX CARDS, SHOP HOTELS, RENT A CAR, GIFT CARDS, Updated Bag & Travel Fees, EXPLORE OUR DESTINATIONS
+Plan your next trip using our interactive map by investigating which states and countries are open for travel and when you can get there with Delta in the coming months., CAN I CANCEL/CHANGE MY FLIGHT?
+
+We understand you have questions. Learn more about our simplified waivers and find out if your upcoming flight qualifies., HOW DO I CHANGE MY FLIGHT AND FIND MY ECREDITS?
+If your trip has been impacted by coronavirus, it's easy to cancel or change your flights. Learn how to modify your trip and rebook using eCredits with our step-by-step guides., WHAT ARE THE LATEST TRAVEL UPDATES?
+Information is more important than ever. We pledge to share updates with you as quickly as possible, with full transparency and, as always, with your safety foremost in mind., COMMITTED TO YOUR SAFETY
+To make space for safer travel, Delta is blocking middle or select aisle seats on all flights and limiting the total number of passengers on board through March 30, 2021., CLEAN TRAVEL EXPERIENCE
+We're doing everything we can to deliver a safe, healthy and clean travel experience. Caring for our customers and employees is our top priority. , DOWNLOAD THE FLY DELTA APP
+Download the app to be notified of flight updates and access your mobile boarding pass to limit the use of touch-screen kiosks. , BOOK WITH CONFIDENCE
+We're ready when you are. We are waiving change fees broadly and, above all, rest assured the value of your ticket won't be lost if you need to make a change. , JOIN NOW
+, OPENS IN NEW WINDOW, Search for a topic...
+Search, Search]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, , Shop with Miles help, Refundable Fares help, Advanced Search, STAY CONNECTED
+WITH SKYMILES, Join SkyMiles today to stay in-the-know on new deals and destinations, the Delta CareStandard℠ and travel requirements., VACATION DEALS, DELTA AMEX CARDS, SHOP HOTELS, RENT A CAR, GIFT CARDS, Updated Bag & Travel Fees, EXPLORE OUR DESTINATIONS
+Plan your next trip using our interactive map by investigating which states and countries are open for travel and when you can get there with Delta in the coming months., CAN I CANCEL/CHANGE MY FLIGHT?
+
+We understand you have questions. Learn more about our simplified waivers and find out if your upcoming flight qualifies., HOW DO I CHANGE MY FLIGHT AND FIND MY ECREDITS?
+If your trip has been impacted by coronavirus, it's easy to cancel or change your flights. Learn how to modify your trip and rebook using eCredits with our step-by-step guides., WHAT ARE THE LATEST TRAVEL UPDATES?
+Information is more important than ever. We pledge to share updates with you as quickly as possible, with full transparency and, as always, with your safety foremost in mind., COMMITTED TO YOUR SAFETY
+To make space for safer travel, Delta is blocking middle or select aisle seats on all flights and limiting the total number of passengers on board through March 30, 2021., CLEAN TRAVEL EXPERIENCE
+We're doing everything we can to deliver a safe, healthy and clean travel experience. Caring for our customers and employees is our top priority. , DOWNLOAD THE FLY DELTA APP
+Download the app to be notified of flight updates and access your mobile boarding pass to limit the use of touch-screen kiosks. , BOOK WITH CONFIDENCE
+We're ready when you are. We are waiving change fees broadly and, above all, rest assured the value of your ticket won't be lost if you need to make a change. , JOIN NOW
+, OPENS IN NEW WINDOW, Search for a topic...
+Search, Search, Need Help?]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, , Shop with Miles help, Refundable Fares help, Advanced Search, STAY CONNECTED
+WITH SKYMILES, Join SkyMiles today to stay in-the-know on new deals and destinations, the Delta CareStandard℠ and travel requirements., VACATION DEALS, DELTA AMEX CARDS, SHOP HOTELS, RENT A CAR, GIFT CARDS, Updated Bag & Travel Fees, EXPLORE OUR DESTINATIONS
+Plan your next trip using our interactive map by investigating which states and countries are open for travel and when you can get there with Delta in the coming months., CAN I CANCEL/CHANGE MY FLIGHT?
+
+We understand you have questions. Learn more about our simplified waivers and find out if your upcoming flight qualifies., HOW DO I CHANGE MY FLIGHT AND FIND MY ECREDITS?
+If your trip has been impacted by coronavirus, it's easy to cancel or change your flights. Learn how to modify your trip and rebook using eCredits with our step-by-step guides., WHAT ARE THE LATEST TRAVEL UPDATES?
+Information is more important than ever. We pledge to share updates with you as quickly as possible, with full transparency and, as always, with your safety foremost in mind., COMMITTED TO YOUR SAFETY
+To make space for safer travel, Delta is blocking middle or select aisle seats on all flights and limiting the total number of passengers on board through March 30, 2021., CLEAN TRAVEL EXPERIENCE
+We're doing everything we can to deliver a safe, healthy and clean travel experience. Caring for our customers and employees is our top priority. , DOWNLOAD THE FLY DELTA APP
+Download the app to be notified of flight updates and access your mobile boarding pass to limit the use of touch-screen kiosks. , BOOK WITH CONFIDENCE
+We're ready when you are. We are waiving change fees broadly and, above all, rest assured the value of your ticket won't be lost if you need to make a change. , JOIN NOW
+, OPENS IN NEW WINDOW, Search for a topic...
+Search, Search, Need Help?, Coronavirus]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, , Shop with Miles help, Refundable Fares help, Advanced Search, STAY CONNECTED
+WITH SKYMILES, Join SkyMiles today to stay in-the-know on new deals and destinations, the Delta CareStandard℠ and travel requirements., VACATION DEALS, DELTA AMEX CARDS, SHOP HOTELS, RENT A CAR, GIFT CARDS, Updated Bag & Travel Fees, EXPLORE OUR DESTINATIONS
+Plan your next trip using our interactive map by investigating which states and countries are open for travel and when you can get there with Delta in the coming months., CAN I CANCEL/CHANGE MY FLIGHT?
+
+We understand you have questions. Learn more about our simplified waivers and find out if your upcoming flight qualifies., HOW DO I CHANGE MY FLIGHT AND FIND MY ECREDITS?
+If your trip has been impacted by coronavirus, it's easy to cancel or change your flights. Learn how to modify your trip and rebook using eCredits with our step-by-step guides., WHAT ARE THE LATEST TRAVEL UPDATES?
+Information is more important than ever. We pledge to share updates with you as quickly as possible, with full transparency and, as always, with your safety foremost in mind., COMMITTED TO YOUR SAFETY
+To make space for safer travel, Delta is blocking middle or select aisle seats on all flights and limiting the total number of passengers on board through March 30, 2021., CLEAN TRAVEL EXPERIENCE
+We're doing everything we can to deliver a safe, healthy and clean travel experience. Caring for our customers and employees is our top priority. , DOWNLOAD THE FLY DELTA APP
+Download the app to be notified of flight updates and access your mobile boarding pass to limit the use of touch-screen kiosks. , BOOK WITH CONFIDENCE
+We're ready when you are. We are waiving change fees broadly and, above all, rest assured the value of your ticket won't be lost if you need to make a change. , JOIN NOW
+, OPENS IN NEW WINDOW, Search for a topic...
+Search, Search, Need Help?, Coronavirus, eCredits]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, , Shop with Miles help, Refundable Fares help, Advanced Search, STAY CONNECTED
+WITH SKYMILES, Join SkyMiles today to stay in-the-know on new deals and destinations, the Delta CareStandard℠ and travel requirements., VACATION DEALS, DELTA AMEX CARDS, SHOP HOTELS, RENT A CAR, GIFT CARDS, Updated Bag & Travel Fees, EXPLORE OUR DESTINATIONS
+Plan your next trip using our interactive map by investigating which states and countries are open for travel and when you can get there with Delta in the coming months., CAN I CANCEL/CHANGE MY FLIGHT?
+
+We understand you have questions. Learn more about our simplified waivers and find out if your upcoming flight qualifies., HOW DO I CHANGE MY FLIGHT AND FIND MY ECREDITS?
+If your trip has been impacted by coronavirus, it's easy to cancel or change your flights. Learn how to modify your trip and rebook using eCredits with our step-by-step guides., WHAT ARE THE LATEST TRAVEL UPDATES?
+Information is more important than ever. We pledge to share updates with you as quickly as possible, with full transparency and, as always, with your safety foremost in mind., COMMITTED TO YOUR SAFETY
+To make space for safer travel, Delta is blocking middle or select aisle seats on all flights and limiting the total number of passengers on board through March 30, 2021., CLEAN TRAVEL EXPERIENCE
+We're doing everything we can to deliver a safe, healthy and clean travel experience. Caring for our customers and employees is our top priority. , DOWNLOAD THE FLY DELTA APP
+Download the app to be notified of flight updates and access your mobile boarding pass to limit the use of touch-screen kiosks. , BOOK WITH CONFIDENCE
+We're ready when you are. We are waiving change fees broadly and, above all, rest assured the value of your ticket won't be lost if you need to make a change. , JOIN NOW
+, OPENS IN NEW WINDOW, Search for a topic...
+Search, Search, Need Help?, Coronavirus, eCredits, About Us]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, , Shop with Miles help, Refundable Fares help, Advanced Search, STAY CONNECTED
+WITH SKYMILES, Join SkyMiles today to stay in-the-know on new deals and destinations, the Delta CareStandard℠ and travel requirements., VACATION DEALS, DELTA AMEX CARDS, SHOP HOTELS, RENT A CAR, GIFT CARDS, Updated Bag & Travel Fees, EXPLORE OUR DESTINATIONS
+Plan your next trip using our interactive map by investigating which states and countries are open for travel and when you can get there with Delta in the coming months., CAN I CANCEL/CHANGE MY FLIGHT?
+
+We understand you have questions. Learn more about our simplified waivers and find out if your upcoming flight qualifies., HOW DO I CHANGE MY FLIGHT AND FIND MY ECREDITS?
+If your trip has been impacted by coronavirus, it's easy to cancel or change your flights. Learn how to modify your trip and rebook using eCredits with our step-by-step guides., WHAT ARE THE LATEST TRAVEL UPDATES?
+Information is more important than ever. We pledge to share updates with you as quickly as possible, with full transparency and, as always, with your safety foremost in mind., COMMITTED TO YOUR SAFETY
+To make space for safer travel, Delta is blocking middle or select aisle seats on all flights and limiting the total number of passengers on board through March 30, 2021., CLEAN TRAVEL EXPERIENCE
+We're doing everything we can to deliver a safe, healthy and clean travel experience. Caring for our customers and employees is our top priority. , DOWNLOAD THE FLY DELTA APP
+Download the app to be notified of flight updates and access your mobile boarding pass to limit the use of touch-screen kiosks. , BOOK WITH CONFIDENCE
+We're ready when you are. We are waiving change fees broadly and, above all, rest assured the value of your ticket won't be lost if you need to make a change. , JOIN NOW
+, OPENS IN NEW WINDOW, Search for a topic...
+Search, Search, Need Help?, Coronavirus, eCredits, About Us, Careers]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, , Shop with Miles help, Refundable Fares help, Advanced Search, STAY CONNECTED
+WITH SKYMILES, Join SkyMiles today to stay in-the-know on new deals and destinations, the Delta CareStandard℠ and travel requirements., VACATION DEALS, DELTA AMEX CARDS, SHOP HOTELS, RENT A CAR, GIFT CARDS, Updated Bag & Travel Fees, EXPLORE OUR DESTINATIONS
+Plan your next trip using our interactive map by investigating which states and countries are open for travel and when you can get there with Delta in the coming months., CAN I CANCEL/CHANGE MY FLIGHT?
+
+We understand you have questions. Learn more about our simplified waivers and find out if your upcoming flight qualifies., HOW DO I CHANGE MY FLIGHT AND FIND MY ECREDITS?
+If your trip has been impacted by coronavirus, it's easy to cancel or change your flights. Learn how to modify your trip and rebook using eCredits with our step-by-step guides., WHAT ARE THE LATEST TRAVEL UPDATES?
+Information is more important than ever. We pledge to share updates with you as quickly as possible, with full transparency and, as always, with your safety foremost in mind., COMMITTED TO YOUR SAFETY
+To make space for safer travel, Delta is blocking middle or select aisle seats on all flights and limiting the total number of passengers on board through March 30, 2021., CLEAN TRAVEL EXPERIENCE
+We're doing everything we can to deliver a safe, healthy and clean travel experience. Caring for our customers and employees is our top priority. , DOWNLOAD THE FLY DELTA APP
+Download the app to be notified of flight updates and access your mobile boarding pass to limit the use of touch-screen kiosks. , BOOK WITH CONFIDENCE
+We're ready when you are. We are waiving change fees broadly and, above all, rest assured the value of your ticket won't be lost if you need to make a change. , JOIN NOW
+, OPENS IN NEW WINDOW, Search for a topic...
+Search, Search, Need Help?, Coronavirus, eCredits, About Us, Careers, News Hub]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, , Shop with Miles help, Refundable Fares help, Advanced Search, STAY CONNECTED
+WITH SKYMILES, Join SkyMiles today to stay in-the-know on new deals and destinations, the Delta CareStandard℠ and travel requirements., VACATION DEALS, DELTA AMEX CARDS, SHOP HOTELS, RENT A CAR, GIFT CARDS, Updated Bag & Travel Fees, EXPLORE OUR DESTINATIONS
+Plan your next trip using our interactive map by investigating which states and countries are open for travel and when you can get there with Delta in the coming months., CAN I CANCEL/CHANGE MY FLIGHT?
+
+We understand you have questions. Learn more about our simplified waivers and find out if your upcoming flight qualifies., HOW DO I CHANGE MY FLIGHT AND FIND MY ECREDITS?
+If your trip has been impacted by coronavirus, it's easy to cancel or change your flights. Learn how to modify your trip and rebook using eCredits with our step-by-step guides., WHAT ARE THE LATEST TRAVEL UPDATES?
+Information is more important than ever. We pledge to share updates with you as quickly as possible, with full transparency and, as always, with your safety foremost in mind., COMMITTED TO YOUR SAFETY
+To make space for safer travel, Delta is blocking middle or select aisle seats on all flights and limiting the total number of passengers on board through March 30, 2021., CLEAN TRAVEL EXPERIENCE
+We're doing everything we can to deliver a safe, healthy and clean travel experience. Caring for our customers and employees is our top priority. , DOWNLOAD THE FLY DELTA APP
+Download the app to be notified of flight updates and access your mobile boarding pass to limit the use of touch-screen kiosks. , BOOK WITH CONFIDENCE
+We're ready when you are. We are waiving change fees broadly and, above all, rest assured the value of your ticket won't be lost if you need to make a change. , JOIN NOW
+, OPENS IN NEW WINDOW, Search for a topic...
+Search, Search, Need Help?, Coronavirus, eCredits, About Us, Careers, News Hub, Investor Relations]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, , Shop with Miles help, Refundable Fares help, Advanced Search, STAY CONNECTED
+WITH SKYMILES, Join SkyMiles today to stay in-the-know on new deals and destinations, the Delta CareStandard℠ and travel requirements., VACATION DEALS, DELTA AMEX CARDS, SHOP HOTELS, RENT A CAR, GIFT CARDS, Updated Bag & Travel Fees, EXPLORE OUR DESTINATIONS
+Plan your next trip using our interactive map by investigating which states and countries are open for travel and when you can get there with Delta in the coming months., CAN I CANCEL/CHANGE MY FLIGHT?
+
+We understand you have questions. Learn more about our simplified waivers and find out if your upcoming flight qualifies., HOW DO I CHANGE MY FLIGHT AND FIND MY ECREDITS?
+If your trip has been impacted by coronavirus, it's easy to cancel or change your flights. Learn how to modify your trip and rebook using eCredits with our step-by-step guides., WHAT ARE THE LATEST TRAVEL UPDATES?
+Information is more important than ever. We pledge to share updates with you as quickly as possible, with full transparency and, as always, with your safety foremost in mind., COMMITTED TO YOUR SAFETY
+To make space for safer travel, Delta is blocking middle or select aisle seats on all flights and limiting the total number of passengers on board through March 30, 2021., CLEAN TRAVEL EXPERIENCE
+We're doing everything we can to deliver a safe, healthy and clean travel experience. Caring for our customers and employees is our top priority. , DOWNLOAD THE FLY DELTA APP
+Download the app to be notified of flight updates and access your mobile boarding pass to limit the use of touch-screen kiosks. , BOOK WITH CONFIDENCE
+We're ready when you are. We are waiving change fees broadly and, above all, rest assured the value of your ticket won't be lost if you need to make a change. , JOIN NOW
+, OPENS IN NEW WINDOW, Search for a topic...
+Search, Search, Need Help?, Coronavirus, eCredits, About Us, Careers, News Hub, Investor Relations, Business Travel]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, , Shop with Miles help, Refundable Fares help, Advanced Search, STAY CONNECTED
+WITH SKYMILES, Join SkyMiles today to stay in-the-know on new deals and destinations, the Delta CareStandard℠ and travel requirements., VACATION DEALS, DELTA AMEX CARDS, SHOP HOTELS, RENT A CAR, GIFT CARDS, Updated Bag & Travel Fees, EXPLORE OUR DESTINATIONS
+Plan your next trip using our interactive map by investigating which states and countries are open for travel and when you can get there with Delta in the coming months., CAN I CANCEL/CHANGE MY FLIGHT?
+
+We understand you have questions. Learn more about our simplified waivers and find out if your upcoming flight qualifies., HOW DO I CHANGE MY FLIGHT AND FIND MY ECREDITS?
+If your trip has been impacted by coronavirus, it's easy to cancel or change your flights. Learn how to modify your trip and rebook using eCredits with our step-by-step guides., WHAT ARE THE LATEST TRAVEL UPDATES?
+Information is more important than ever. We pledge to share updates with you as quickly as possible, with full transparency and, as always, with your safety foremost in mind., COMMITTED TO YOUR SAFETY
+To make space for safer travel, Delta is blocking middle or select aisle seats on all flights and limiting the total number of passengers on board through March 30, 2021., CLEAN TRAVEL EXPERIENCE
+We're doing everything we can to deliver a safe, healthy and clean travel experience. Caring for our customers and employees is our top priority. , DOWNLOAD THE FLY DELTA APP
+Download the app to be notified of flight updates and access your mobile boarding pass to limit the use of touch-screen kiosks. , BOOK WITH CONFIDENCE
+We're ready when you are. We are waiving change fees broadly and, above all, rest assured the value of your ticket won't be lost if you need to make a change. , JOIN NOW
+, OPENS IN NEW WINDOW, Search for a topic...
+Search, Search, Need Help?, Coronavirus, eCredits, About Us, Careers, News Hub, Investor Relations, Business Travel, Travel Agents]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, , Shop with Miles help, Refundable Fares help, Advanced Search, STAY CONNECTED
+WITH SKYMILES, Join SkyMiles today to stay in-the-know on new deals and destinations, the Delta CareStandard℠ and travel requirements., VACATION DEALS, DELTA AMEX CARDS, SHOP HOTELS, RENT A CAR, GIFT CARDS, Updated Bag & Travel Fees, EXPLORE OUR DESTINATIONS
+Plan your next trip using our interactive map by investigating which states and countries are open for travel and when you can get there with Delta in the coming months., CAN I CANCEL/CHANGE MY FLIGHT?
+
+We understand you have questions. Learn more about our simplified waivers and find out if your upcoming flight qualifies., HOW DO I CHANGE MY FLIGHT AND FIND MY ECREDITS?
+If your trip has been impacted by coronavirus, it's easy to cancel or change your flights. Learn how to modify your trip and rebook using eCredits with our step-by-step guides., WHAT ARE THE LATEST TRAVEL UPDATES?
+Information is more important than ever. We pledge to share updates with you as quickly as possible, with full transparency and, as always, with your safety foremost in mind., COMMITTED TO YOUR SAFETY
+To make space for safer travel, Delta is blocking middle or select aisle seats on all flights and limiting the total number of passengers on board through March 30, 2021., CLEAN TRAVEL EXPERIENCE
+We're doing everything we can to deliver a safe, healthy and clean travel experience. Caring for our customers and employees is our top priority. , DOWNLOAD THE FLY DELTA APP
+Download the app to be notified of flight updates and access your mobile boarding pass to limit the use of touch-screen kiosks. , BOOK WITH CONFIDENCE
+We're ready when you are. We are waiving change fees broadly and, above all, rest assured the value of your ticket won't be lost if you need to make a change. , JOIN NOW
+, OPENS IN NEW WINDOW, Search for a topic...
+Search, Search, Need Help?, Coronavirus, eCredits, About Us, Careers, News Hub, Investor Relations, Business Travel, Travel Agents, Mobile App]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, , Shop with Miles help, Refundable Fares help, Advanced Search, STAY CONNECTED
+WITH SKYMILES, Join SkyMiles today to stay in-the-know on new deals and destinations, the Delta CareStandard℠ and travel requirements., VACATION DEALS, DELTA AMEX CARDS, SHOP HOTELS, RENT A CAR, GIFT CARDS, Updated Bag & Travel Fees, EXPLORE OUR DESTINATIONS
+Plan your next trip using our interactive map by investigating which states and countries are open for travel and when you can get there with Delta in the coming months., CAN I CANCEL/CHANGE MY FLIGHT?
+
+We understand you have questions. Learn more about our simplified waivers and find out if your upcoming flight qualifies., HOW DO I CHANGE MY FLIGHT AND FIND MY ECREDITS?
+If your trip has been impacted by coronavirus, it's easy to cancel or change your flights. Learn how to modify your trip and rebook using eCredits with our step-by-step guides., WHAT ARE THE LATEST TRAVEL UPDATES?
+Information is more important than ever. We pledge to share updates with you as quickly as possible, with full transparency and, as always, with your safety foremost in mind., COMMITTED TO YOUR SAFETY
+To make space for safer travel, Delta is blocking middle or select aisle seats on all flights and limiting the total number of passengers on board through March 30, 2021., CLEAN TRAVEL EXPERIENCE
+We're doing everything we can to deliver a safe, healthy and clean travel experience. Caring for our customers and employees is our top priority. , DOWNLOAD THE FLY DELTA APP
+Download the app to be notified of flight updates and access your mobile boarding pass to limit the use of touch-screen kiosks. , BOOK WITH CONFIDENCE
+We're ready when you are. We are waiving change fees broadly and, above all, rest assured the value of your ticket won't be lost if you need to make a change. , JOIN NOW
+, OPENS IN NEW WINDOW, Search for a topic...
+Search, Search, Need Help?, Coronavirus, eCredits, About Us, Careers, News Hub, Investor Relations, Business Travel, Travel Agents, Mobile App, Need Help?]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, , Shop with Miles help, Refundable Fares help, Advanced Search, STAY CONNECTED
+WITH SKYMILES, Join SkyMiles today to stay in-the-know on new deals and destinations, the Delta CareStandard℠ and travel requirements., VACATION DEALS, DELTA AMEX CARDS, SHOP HOTELS, RENT A CAR, GIFT CARDS, Updated Bag & Travel Fees, EXPLORE OUR DESTINATIONS
+Plan your next trip using our interactive map by investigating which states and countries are open for travel and when you can get there with Delta in the coming months., CAN I CANCEL/CHANGE MY FLIGHT?
+
+We understand you have questions. Learn more about our simplified waivers and find out if your upcoming flight qualifies., HOW DO I CHANGE MY FLIGHT AND FIND MY ECREDITS?
+If your trip has been impacted by coronavirus, it's easy to cancel or change your flights. Learn how to modify your trip and rebook using eCredits with our step-by-step guides., WHAT ARE THE LATEST TRAVEL UPDATES?
+Information is more important than ever. We pledge to share updates with you as quickly as possible, with full transparency and, as always, with your safety foremost in mind., COMMITTED TO YOUR SAFETY
+To make space for safer travel, Delta is blocking middle or select aisle seats on all flights and limiting the total number of passengers on board through March 30, 2021., CLEAN TRAVEL EXPERIENCE
+We're doing everything we can to deliver a safe, healthy and clean travel experience. Caring for our customers and employees is our top priority. , DOWNLOAD THE FLY DELTA APP
+Download the app to be notified of flight updates and access your mobile boarding pass to limit the use of touch-screen kiosks. , BOOK WITH CONFIDENCE
+We're ready when you are. We are waiving change fees broadly and, above all, rest assured the value of your ticket won't be lost if you need to make a change. , JOIN NOW
+, OPENS IN NEW WINDOW, Search for a topic...
+Search, Search, Need Help?, Coronavirus, eCredits, About Us, Careers, News Hub, Investor Relations, Business Travel, Travel Agents, Mobile App, Need Help?, Tweet Us]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, , Shop with Miles help, Refundable Fares help, Advanced Search, STAY CONNECTED
+WITH SKYMILES, Join SkyMiles today to stay in-the-know on new deals and destinations, the Delta CareStandard℠ and travel requirements., VACATION DEALS, DELTA AMEX CARDS, SHOP HOTELS, RENT A CAR, GIFT CARDS, Updated Bag & Travel Fees, EXPLORE OUR DESTINATIONS
+Plan your next trip using our interactive map by investigating which states and countries are open for travel and when you can get there with Delta in the coming months., CAN I CANCEL/CHANGE MY FLIGHT?
+
+We understand you have questions. Learn more about our simplified waivers and find out if your upcoming flight qualifies., HOW DO I CHANGE MY FLIGHT AND FIND MY ECREDITS?
+If your trip has been impacted by coronavirus, it's easy to cancel or change your flights. Learn how to modify your trip and rebook using eCredits with our step-by-step guides., WHAT ARE THE LATEST TRAVEL UPDATES?
+Information is more important than ever. We pledge to share updates with you as quickly as possible, with full transparency and, as always, with your safety foremost in mind., COMMITTED TO YOUR SAFETY
+To make space for safer travel, Delta is blocking middle or select aisle seats on all flights and limiting the total number of passengers on board through March 30, 2021., CLEAN TRAVEL EXPERIENCE
+We're doing everything we can to deliver a safe, healthy and clean travel experience. Caring for our customers and employees is our top priority. , DOWNLOAD THE FLY DELTA APP
+Download the app to be notified of flight updates and access your mobile boarding pass to limit the use of touch-screen kiosks. , BOOK WITH CONFIDENCE
+We're ready when you are. We are waiving change fees broadly and, above all, rest assured the value of your ticket won't be lost if you need to make a change. , JOIN NOW
+, OPENS IN NEW WINDOW, Search for a topic...
+Search, Search, Need Help?, Coronavirus, eCredits, About Us, Careers, News Hub, Investor Relations, Business Travel, Travel Agents, Mobile App, Need Help?, Tweet Us, Comment/Complaint]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, , Shop with Miles help, Refundable Fares help, Advanced Search, STAY CONNECTED
+WITH SKYMILES, Join SkyMiles today to stay in-the-know on new deals and destinations, the Delta CareStandard℠ and travel requirements., VACATION DEALS, DELTA AMEX CARDS, SHOP HOTELS, RENT A CAR, GIFT CARDS, Updated Bag & Travel Fees, EXPLORE OUR DESTINATIONS
+Plan your next trip using our interactive map by investigating which states and countries are open for travel and when you can get there with Delta in the coming months., CAN I CANCEL/CHANGE MY FLIGHT?
+
+We understand you have questions. Learn more about our simplified waivers and find out if your upcoming flight qualifies., HOW DO I CHANGE MY FLIGHT AND FIND MY ECREDITS?
+If your trip has been impacted by coronavirus, it's easy to cancel or change your flights. Learn how to modify your trip and rebook using eCredits with our step-by-step guides., WHAT ARE THE LATEST TRAVEL UPDATES?
+Information is more important than ever. We pledge to share updates with you as quickly as possible, with full transparency and, as always, with your safety foremost in mind., COMMITTED TO YOUR SAFETY
+To make space for safer travel, Delta is blocking middle or select aisle seats on all flights and limiting the total number of passengers on board through March 30, 2021., CLEAN TRAVEL EXPERIENCE
+We're doing everything we can to deliver a safe, healthy and clean travel experience. Caring for our customers and employees is our top priority. , DOWNLOAD THE FLY DELTA APP
+Download the app to be notified of flight updates and access your mobile boarding pass to limit the use of touch-screen kiosks. , BOOK WITH CONFIDENCE
+We're ready when you are. We are waiving change fees broadly and, above all, rest assured the value of your ticket won't be lost if you need to make a change. , JOIN NOW
+, OPENS IN NEW WINDOW, Search for a topic...
+Search, Search, Need Help?, Coronavirus, eCredits, About Us, Careers, News Hub, Investor Relations, Business Travel, Travel Agents, Mobile App, Need Help?, Tweet Us, Comment/Complaint, Login Help]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, , Shop with Miles help, Refundable Fares help, Advanced Search, STAY CONNECTED
+WITH SKYMILES, Join SkyMiles today to stay in-the-know on new deals and destinations, the Delta CareStandard℠ and travel requirements., VACATION DEALS, DELTA AMEX CARDS, SHOP HOTELS, RENT A CAR, GIFT CARDS, Updated Bag & Travel Fees, EXPLORE OUR DESTINATIONS
+Plan your next trip using our interactive map by investigating which states and countries are open for travel and when you can get there with Delta in the coming months., CAN I CANCEL/CHANGE MY FLIGHT?
+
+We understand you have questions. Learn more about our simplified waivers and find out if your upcoming flight qualifies., HOW DO I CHANGE MY FLIGHT AND FIND MY ECREDITS?
+If your trip has been impacted by coronavirus, it's easy to cancel or change your flights. Learn how to modify your trip and rebook using eCredits with our step-by-step guides., WHAT ARE THE LATEST TRAVEL UPDATES?
+Information is more important than ever. We pledge to share updates with you as quickly as possible, with full transparency and, as always, with your safety foremost in mind., COMMITTED TO YOUR SAFETY
+To make space for safer travel, Delta is blocking middle or select aisle seats on all flights and limiting the total number of passengers on board through March 30, 2021., CLEAN TRAVEL EXPERIENCE
+We're doing everything we can to deliver a safe, healthy and clean travel experience. Caring for our customers and employees is our top priority. , DOWNLOAD THE FLY DELTA APP
+Download the app to be notified of flight updates and access your mobile boarding pass to limit the use of touch-screen kiosks. , BOOK WITH CONFIDENCE
+We're ready when you are. We are waiving change fees broadly and, above all, rest assured the value of your ticket won't be lost if you need to make a change. , JOIN NOW
+, OPENS IN NEW WINDOW, Search for a topic...
+Search, Search, Need Help?, Coronavirus, eCredits, About Us, Careers, News Hub, Investor Relations, Business Travel, Travel Agents, Mobile App, Need Help?, Tweet Us, Comment/Complaint, Login Help, Site Map]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, , Shop with Miles help, Refundable Fares help, Advanced Search, STAY CONNECTED
+WITH SKYMILES, Join SkyMiles today to stay in-the-know on new deals and destinations, the Delta CareStandard℠ and travel requirements., VACATION DEALS, DELTA AMEX CARDS, SHOP HOTELS, RENT A CAR, GIFT CARDS, Updated Bag & Travel Fees, EXPLORE OUR DESTINATIONS
+Plan your next trip using our interactive map by investigating which states and countries are open for travel and when you can get there with Delta in the coming months., CAN I CANCEL/CHANGE MY FLIGHT?
+
+We understand you have questions. Learn more about our simplified waivers and find out if your upcoming flight qualifies., HOW DO I CHANGE MY FLIGHT AND FIND MY ECREDITS?
+If your trip has been impacted by coronavirus, it's easy to cancel or change your flights. Learn how to modify your trip and rebook using eCredits with our step-by-step guides., WHAT ARE THE LATEST TRAVEL UPDATES?
+Information is more important than ever. We pledge to share updates with you as quickly as possible, with full transparency and, as always, with your safety foremost in mind., COMMITTED TO YOUR SAFETY
+To make space for safer travel, Delta is blocking middle or select aisle seats on all flights and limiting the total number of passengers on board through March 30, 2021., CLEAN TRAVEL EXPERIENCE
+We're doing everything we can to deliver a safe, healthy and clean travel experience. Caring for our customers and employees is our top priority. , DOWNLOAD THE FLY DELTA APP
+Download the app to be notified of flight updates and access your mobile boarding pass to limit the use of touch-screen kiosks. , BOOK WITH CONFIDENCE
+We're ready when you are. We are waiving change fees broadly and, above all, rest assured the value of your ticket won't be lost if you need to make a change. , JOIN NOW
+, OPENS IN NEW WINDOW, Search for a topic...
+Search, Search, Need Help?, Coronavirus, eCredits, About Us, Careers, News Hub, Investor Relations, Business Travel, Travel Agents, Mobile App, Need Help?, Tweet Us, Comment/Complaint, Login Help, Site Map, Browser Compatibility]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, , Shop with Miles help, Refundable Fares help, Advanced Search, STAY CONNECTED
+WITH SKYMILES, Join SkyMiles today to stay in-the-know on new deals and destinations, the Delta CareStandard℠ and travel requirements., VACATION DEALS, DELTA AMEX CARDS, SHOP HOTELS, RENT A CAR, GIFT CARDS, Updated Bag & Travel Fees, EXPLORE OUR DESTINATIONS
+Plan your next trip using our interactive map by investigating which states and countries are open for travel and when you can get there with Delta in the coming months., CAN I CANCEL/CHANGE MY FLIGHT?
+
+We understand you have questions. Learn more about our simplified waivers and find out if your upcoming flight qualifies., HOW DO I CHANGE MY FLIGHT AND FIND MY ECREDITS?
+If your trip has been impacted by coronavirus, it's easy to cancel or change your flights. Learn how to modify your trip and rebook using eCredits with our step-by-step guides., WHAT ARE THE LATEST TRAVEL UPDATES?
+Information is more important than ever. We pledge to share updates with you as quickly as possible, with full transparency and, as always, with your safety foremost in mind., COMMITTED TO YOUR SAFETY
+To make space for safer travel, Delta is blocking middle or select aisle seats on all flights and limiting the total number of passengers on board through March 30, 2021., CLEAN TRAVEL EXPERIENCE
+We're doing everything we can to deliver a safe, healthy and clean travel experience. Caring for our customers and employees is our top priority. , DOWNLOAD THE FLY DELTA APP
+Download the app to be notified of flight updates and access your mobile boarding pass to limit the use of touch-screen kiosks. , BOOK WITH CONFIDENCE
+We're ready when you are. We are waiving change fees broadly and, above all, rest assured the value of your ticket won't be lost if you need to make a change. , JOIN NOW
+, OPENS IN NEW WINDOW, Search for a topic...
+Search, Search, Need Help?, Coronavirus, eCredits, About Us, Careers, News Hub, Investor Relations, Business Travel, Travel Agents, Mobile App, Need Help?, Tweet Us, Comment/Complaint, Login Help, Site Map, Browser Compatibility, Accessibility]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, , Shop with Miles help, Refundable Fares help, Advanced Search, STAY CONNECTED
+WITH SKYMILES, Join SkyMiles today to stay in-the-know on new deals and destinations, the Delta CareStandard℠ and travel requirements., VACATION DEALS, DELTA AMEX CARDS, SHOP HOTELS, RENT A CAR, GIFT CARDS, Updated Bag & Travel Fees, EXPLORE OUR DESTINATIONS
+Plan your next trip using our interactive map by investigating which states and countries are open for travel and when you can get there with Delta in the coming months., CAN I CANCEL/CHANGE MY FLIGHT?
+
+We understand you have questions. Learn more about our simplified waivers and find out if your upcoming flight qualifies., HOW DO I CHANGE MY FLIGHT AND FIND MY ECREDITS?
+If your trip has been impacted by coronavirus, it's easy to cancel or change your flights. Learn how to modify your trip and rebook using eCredits with our step-by-step guides., WHAT ARE THE LATEST TRAVEL UPDATES?
+Information is more important than ever. We pledge to share updates with you as quickly as possible, with full transparency and, as always, with your safety foremost in mind., COMMITTED TO YOUR SAFETY
+To make space for safer travel, Delta is blocking middle or select aisle seats on all flights and limiting the total number of passengers on board through March 30, 2021., CLEAN TRAVEL EXPERIENCE
+We're doing everything we can to deliver a safe, healthy and clean travel experience. Caring for our customers and employees is our top priority. , DOWNLOAD THE FLY DELTA APP
+Download the app to be notified of flight updates and access your mobile boarding pass to limit the use of touch-screen kiosks. , BOOK WITH CONFIDENCE
+We're ready when you are. We are waiving change fees broadly and, above all, rest assured the value of your ticket won't be lost if you need to make a change. , JOIN NOW
+, OPENS IN NEW WINDOW, Search for a topic...
+Search, Search, Need Help?, Coronavirus, eCredits, About Us, Careers, News Hub, Investor Relations, Business Travel, Travel Agents, Mobile App, Need Help?, Tweet Us, Comment/Complaint, Login Help, Site Map, Browser Compatibility, Accessibility, Booking Information]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 10868
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 24, 2021 3:08:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 24, 2021 7:23:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="test3WebsiteFooter" classname="tests.KatyaSprint2" time="2.778">
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 32406
+  <testcase name="test6WebsiteFooter" classname="tests.KatyaSprint2" time="2.393">
+    <system-err><![CDATA[Jan 24, 2021 7:24:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 17647
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 24, 2021 3:07:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 24, 2021 7:24:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 2540
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 24, 2021 7:24:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 26120
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 24, 2021 7:24:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="verifyGiftCardLink" classname="tests.SanaSprint2" time="3.539">
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 38155
+  <testcase name="test7WebsiteFooter" classname="tests.KatyaSprint2" time="18.949">
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 15023
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 24, 2021 3:07:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 24, 2021 7:25:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="test8WebsiteFooter" classname="tests.KatyaSprint2" time="3.388">
+    <failure message="element click intercepted: Element &lt;a aria-haspopup=&quot;true&quot; class=&quot;facebook circle-outline picturefill-background ng-star-inserted&quot; href=&quot;javascript:void(0);&quot; id=&quot;footer-facebook&quot; tabindex=&quot;0&quot; style=&quot;background-image: url(&amp;quot;//content.delta.com/content/www/us/en.damAssetRender.20180411T2106219950400.html/content/dam/delta_homepage_redesign/hpr_optimized_images/social_icons/Facebook-icon-LG.svg&amp;quot;); background-size: cover; background-repeat: no-repeat; background-position: 50% 50%;&quot;&gt;...&lt;/a&gt; is not clickable at point (553, 687). Other element would receive the click: &lt;div class=&quot;cookie-footer cookie-footer-container text-left ng-star-inserted&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=87.0.4280.141)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-MC2FHNDC&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\eesha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59365}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 6b09e8195214b4e6a2aa789e994163a2" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a aria-haspopup="true" class="facebook circle-outline picturefill-background ng-star-inserted" href="javascript:void(0);" id="footer-facebook" tabindex="0" style="background-image: url(&quot;//content.delta.com/content/www/us/en.damAssetRender.20180411T2106219950400.html/content/dam/delta_homepage_redesign/hpr_optimized_images/social_icons/Facebook-icon-LG.svg&quot;); background-size: cover; background-repeat: no-repeat; background-position: 50% 50%;">...</a> is not clickable at point (553, 687). Other element would receive the click: <div class="cookie-footer cookie-footer-container text-left ng-star-inserted">...</div>
+  (Session info: chrome=87.0.4280.141)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-MC2FHNDC', ip: '192.168.1.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\eesha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59365}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 6b09e8195214b4e6a2aa789e994163a2
+	at tests.KatyaSprint2.test8WebsiteFooter(KatyaSprint2.java:183)
+]]></failure>
+    <system-err><![CDATA[Jan 24, 2021 7:25:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 10988
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 24, 2021 7:25:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 32807
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 24, 2021 7:25:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="cityFullNameBookingPage[Atlanta, Atlanta, Washington, Washington, Atlanta, Washington](1)" classname="tests.KaterinaSprint2" time="5.278">
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 8128
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="datesBookingPage[ATL, IAD, February, 1 , February, March, 1 , March](1)" classname="tests.KaterinaSprint2" time="7.484"/>
+  <testcase name="datesBookingPage[ATL, IAD, February, 1 , February, March, 1 , March](1)" classname="tests.KaterinaSprint2" time="11.708">
+    <system-err><![CDATA[1611534493788	geckodriver	INFO	Listening on 127.0.0.1:40808
+1611534494361	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\eesha\\AppData\\Local\\Temp\\rust_mozprofilewkbeXw"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611534500812	Marionette	INFO	Listening on port 60178
+1611534501239	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jan 24, 2021 7:28:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript warning: https://tms.delta.com/delta/dl_bastian/Bootstrap.js, line 224: unreachable code after return statement
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+1611534508273	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:228:19
+TimedPromise@chrome://marionette/content/sync.js:213:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript warning: https://tms.delta.com/delta/dl_bastian/Bootstrap.js, line 224: unreachable code after return statement
+]]></system-err>
+  </testcase>
+  <testcase name="feedbackBookingPage[Awesome!](1)" classname="tests.KaterinaSprint2" time="9.156">
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 9846
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="modifyResultPage" classname="tests.KaterinaSprint2" time="6.898">
+    <failure message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=87.0.4280.141)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-MC2FHNDC&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\eesha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58344}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 0b022f18c2a5ffaa73fb05f9956feaa7" type="org.openqa.selenium.StaleElementReferenceException"><![CDATA[org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=87.0.4280.141)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-MC2FHNDC', ip: '192.168.1.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\eesha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58344}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0b022f18c2a5ffaa73fb05f9956feaa7
+	at tests.KaterinaSprint2.modifyResultPage(KaterinaSprint2.java:225)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 21017
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="priceSliderResultsPage" classname="tests.KaterinaSprint2" time="21.166">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;maincontent&quot;]/div[1]/div/div[1]/div[3]/button&quot;}&#10;  (Session info: chrome=87.0.4280.141)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-MC2FHNDC&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\eesha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58896}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: cd4f19ea69d9e4f1cf35a05b91013d9b&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;maincontent&quot;]/div[1]/div/div[1]/div[3]/button}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="maincontent"]/div[1]/div/div[1]/div[3]/button"}
+  (Session info: chrome=87.0.4280.141)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-MC2FHNDC', ip: '192.168.1.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\eesha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58896}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: cd4f19ea69d9e4f1cf35a05b91013d9b
+*** Element info: {Using=xpath, value=//*[@id="maincontent"]/div[1]/div/div[1]/div[3]/button}
+	at tests.KaterinaSprint2.priceSliderResultsPage(KaterinaSprint2.java:47)
+]]></failure>
+  </testcase>
+  <testcase name="productExpResultsPage" classname="tests.KaterinaSprint2" time="10.491">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#button0&quot;}&#10;  (Session info: chrome=87.0.4280.141)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-MC2FHNDC&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\eesha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59478}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 536aef13c0bf0e779bf16cdbb8d69f38&#10;*** Element info: {Using=id, value=button0}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#button0"}
+  (Session info: chrome=87.0.4280.141)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-MC2FHNDC', ip: '192.168.1.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\eesha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59478}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 536aef13c0bf0e779bf16cdbb8d69f38
+*** Element info: {Using=id, value=button0}
+	at tests.KaterinaSprint2.productExpResultsPage(KaterinaSprint2.java:179)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 48127
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 24, 2021 7:25:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="multipleCity" classname="tests.DilmuRodSprint2" time="9.068">
+    <system-err><![CDATA[Jan 24, 2021 7:22:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 41312
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="randomNumberOfPassengers" classname="tests.DilmuRodSprint2" time="5.965">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;booking&quot;]/form/div[1]/div/div[1]/div[1]/div[4]/span/span[1]&quot;}&#10;  (Session info: chrome=87.0.4280.141)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-MC2FHNDC&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\eesha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57683}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 191b7e6de370ad552d8c9393d951e18a&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;booking&quot;]/form/div[1]/div/div[1]/div[1]/div[4]/span/span[1]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="booking"]/form/div[1]/div/div[1]/div[1]/div[4]/span/span[1]"}
+  (Session info: chrome=87.0.4280.141)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-MC2FHNDC', ip: '192.168.1.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\eesha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57683}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 191b7e6de370ad552d8c9393d951e18a
+*** Element info: {Using=xpath, value=//*[@id="booking"]/form/div[1]/div/div[1]/div[1]/div[4]/span/span[1]}
+	at tests.DilmuRodSprint2.randomNumberOfPassengers(DilmuRodSprint2.java:91)
+]]></failure>
+  </testcase>
+  <testcase name="verifyAllLinksOnBookingPage" classname="tests.DilmuRodSprint2" time="6.859">
+    <system-out><![CDATA[[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, , Shop with Miles help, Refundable Fares help, Advanced Search, STAY CONNECTED
+WITH SKYMILES, Join SkyMiles today to stay in-the-know on new deals and destinations, the Delta CareStandard℠ and travel requirements., VACATION DEALS, DELTA AMEX CARDS, SHOP HOTELS, RENT A CAR, GIFT CARDS, Updated Bag & Travel Fees, EXPLORE OUR DESTINATIONS
+Plan your next trip using our interactive map by investigating which states and countries are open for travel and when you can get there with Delta in the coming months., CAN I CANCEL/CHANGE MY FLIGHT?
+
+We understand you have questions. Learn more about our simplified waivers and find out if your upcoming flight qualifies., HOW DO I CHANGE MY FLIGHT AND FIND MY ECREDITS?
+If your trip has been impacted by coronavirus, it's easy to cancel or change your flights. Learn how to modify your trip and rebook using eCredits with our step-by-step guides., WHAT ARE THE LATEST TRAVEL UPDATES?
+Information is more important than ever. We pledge to share updates with you as quickly as possible, with full transparency and, as always, with your safety foremost in mind., COMMITTED TO YOUR SAFETY
+To make space for safer travel, Delta is blocking middle or select aisle seats on all flights and limiting the total number of passengers on board through March 30, 2021., CLEAN TRAVEL EXPERIENCE
+We're doing everything we can to deliver a safe, healthy and clean travel experience. Caring for our customers and employees is our top priority. , DOWNLOAD THE FLY DELTA APP
+Download the app to be notified of flight updates and access your mobile boarding pass to limit the use of touch-screen kiosks. , BOOK WITH CONFIDENCE
+We're ready when you are. We are waiving change fees broadly and, above all, rest assured the value of your ticket won't be lost if you need to make a change. , JOIN NOW
+, OPENS IN NEW WINDOW, Search for a topic...
+Search, Search, Need Help?, Coronavirus, eCredits, About Us, Careers, News Hub, Investor Relations, Business Travel, Travel Agents, Mobile App, Need Help?, Tweet Us, Comment/Complaint, Login Help, Site Map, Browser Compatibility, Accessibility, Booking Information, Customer Commitment]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, , Shop with Miles help, Refundable Fares help, Advanced Search, STAY CONNECTED
+WITH SKYMILES, Join SkyMiles today to stay in-the-know on new deals and destinations, the Delta CareStandard℠ and travel requirements., VACATION DEALS, DELTA AMEX CARDS, SHOP HOTELS, RENT A CAR, GIFT CARDS, Updated Bag & Travel Fees, EXPLORE OUR DESTINATIONS
+Plan your next trip using our interactive map by investigating which states and countries are open for travel and when you can get there with Delta in the coming months., CAN I CANCEL/CHANGE MY FLIGHT?
+
+We understand you have questions. Learn more about our simplified waivers and find out if your upcoming flight qualifies., HOW DO I CHANGE MY FLIGHT AND FIND MY ECREDITS?
+If your trip has been impacted by coronavirus, it's easy to cancel or change your flights. Learn how to modify your trip and rebook using eCredits with our step-by-step guides., WHAT ARE THE LATEST TRAVEL UPDATES?
+Information is more important than ever. We pledge to share updates with you as quickly as possible, with full transparency and, as always, with your safety foremost in mind., COMMITTED TO YOUR SAFETY
+To make space for safer travel, Delta is blocking middle or select aisle seats on all flights and limiting the total number of passengers on board through March 30, 2021., CLEAN TRAVEL EXPERIENCE
+We're doing everything we can to deliver a safe, healthy and clean travel experience. Caring for our customers and employees is our top priority. , DOWNLOAD THE FLY DELTA APP
+Download the app to be notified of flight updates and access your mobile boarding pass to limit the use of touch-screen kiosks. , BOOK WITH CONFIDENCE
+We're ready when you are. We are waiving change fees broadly and, above all, rest assured the value of your ticket won't be lost if you need to make a change. , JOIN NOW
+, OPENS IN NEW WINDOW, Search for a topic...
+Search, Search, Need Help?, Coronavirus, eCredits, About Us, Careers, News Hub, Investor Relations, Business Travel, Travel Agents, Mobile App, Need Help?, Tweet Us, Comment/Complaint, Login Help, Site Map, Browser Compatibility, Accessibility, Booking Information, Customer Commitment, Tarmac Delay Plan]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, , Shop with Miles help, Refundable Fares help, Advanced Search, STAY CONNECTED
+WITH SKYMILES, Join SkyMiles today to stay in-the-know on new deals and destinations, the Delta CareStandard℠ and travel requirements., VACATION DEALS, DELTA AMEX CARDS, SHOP HOTELS, RENT A CAR, GIFT CARDS, Updated Bag & Travel Fees, EXPLORE OUR DESTINATIONS
+Plan your next trip using our interactive map by investigating which states and countries are open for travel and when you can get there with Delta in the coming months., CAN I CANCEL/CHANGE MY FLIGHT?
+
+We understand you have questions. Learn more about our simplified waivers and find out if your upcoming flight qualifies., HOW DO I CHANGE MY FLIGHT AND FIND MY ECREDITS?
+If your trip has been impacted by coronavirus, it's easy to cancel or change your flights. Learn how to modify your trip and rebook using eCredits with our step-by-step guides., WHAT ARE THE LATEST TRAVEL UPDATES?
+Information is more important than ever. We pledge to share updates with you as quickly as possible, with full transparency and, as always, with your safety foremost in mind., COMMITTED TO YOUR SAFETY
+To make space for safer travel, Delta is blocking middle or select aisle seats on all flights and limiting the total number of passengers on board through March 30, 2021., CLEAN TRAVEL EXPERIENCE
+We're doing everything we can to deliver a safe, healthy and clean travel experience. Caring for our customers and employees is our top priority. , DOWNLOAD THE FLY DELTA APP
+Download the app to be notified of flight updates and access your mobile boarding pass to limit the use of touch-screen kiosks. , BOOK WITH CONFIDENCE
+We're ready when you are. We are waiving change fees broadly and, above all, rest assured the value of your ticket won't be lost if you need to make a change. , JOIN NOW
+, OPENS IN NEW WINDOW, Search for a topic...
+Search, Search, Need Help?, Coronavirus, eCredits, About Us, Careers, News Hub, Investor Relations, Business Travel, Travel Agents, Mobile App, Need Help?, Tweet Us, Comment/Complaint, Login Help, Site Map, Browser Compatibility, Accessibility, Booking Information, Customer Commitment, Tarmac Delay Plan, Legal]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, , Shop with Miles help, Refundable Fares help, Advanced Search, STAY CONNECTED
+WITH SKYMILES, Join SkyMiles today to stay in-the-know on new deals and destinations, the Delta CareStandard℠ and travel requirements., VACATION DEALS, DELTA AMEX CARDS, SHOP HOTELS, RENT A CAR, GIFT CARDS, Updated Bag & Travel Fees, EXPLORE OUR DESTINATIONS
+Plan your next trip using our interactive map by investigating which states and countries are open for travel and when you can get there with Delta in the coming months., CAN I CANCEL/CHANGE MY FLIGHT?
+
+We understand you have questions. Learn more about our simplified waivers and find out if your upcoming flight qualifies., HOW DO I CHANGE MY FLIGHT AND FIND MY ECREDITS?
+If your trip has been impacted by coronavirus, it's easy to cancel or change your flights. Learn how to modify your trip and rebook using eCredits with our step-by-step guides., WHAT ARE THE LATEST TRAVEL UPDATES?
+Information is more important than ever. We pledge to share updates with you as quickly as possible, with full transparency and, as always, with your safety foremost in mind., COMMITTED TO YOUR SAFETY
+To make space for safer travel, Delta is blocking middle or select aisle seats on all flights and limiting the total number of passengers on board through March 30, 2021., CLEAN TRAVEL EXPERIENCE
+We're doing everything we can to deliver a safe, healthy and clean travel experience. Caring for our customers and employees is our top priority. , DOWNLOAD THE FLY DELTA APP
+Download the app to be notified of flight updates and access your mobile boarding pass to limit the use of touch-screen kiosks. , BOOK WITH CONFIDENCE
+We're ready when you are. We are waiving change fees broadly and, above all, rest assured the value of your ticket won't be lost if you need to make a change. , JOIN NOW
+, OPENS IN NEW WINDOW, Search for a topic...
+Search, Search, Need Help?, Coronavirus, eCredits, About Us, Careers, News Hub, Investor Relations, Business Travel, Travel Agents, Mobile App, Need Help?, Tweet Us, Comment/Complaint, Login Help, Site Map, Browser Compatibility, Accessibility, Booking Information, Customer Commitment, Tarmac Delay Plan, Legal, Sustainability]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, , Shop with Miles help, Refundable Fares help, Advanced Search, STAY CONNECTED
+WITH SKYMILES, Join SkyMiles today to stay in-the-know on new deals and destinations, the Delta CareStandard℠ and travel requirements., VACATION DEALS, DELTA AMEX CARDS, SHOP HOTELS, RENT A CAR, GIFT CARDS, Updated Bag & Travel Fees, EXPLORE OUR DESTINATIONS
+Plan your next trip using our interactive map by investigating which states and countries are open for travel and when you can get there with Delta in the coming months., CAN I CANCEL/CHANGE MY FLIGHT?
+
+We understand you have questions. Learn more about our simplified waivers and find out if your upcoming flight qualifies., HOW DO I CHANGE MY FLIGHT AND FIND MY ECREDITS?
+If your trip has been impacted by coronavirus, it's easy to cancel or change your flights. Learn how to modify your trip and rebook using eCredits with our step-by-step guides., WHAT ARE THE LATEST TRAVEL UPDATES?
+Information is more important than ever. We pledge to share updates with you as quickly as possible, with full transparency and, as always, with your safety foremost in mind., COMMITTED TO YOUR SAFETY
+To make space for safer travel, Delta is blocking middle or select aisle seats on all flights and limiting the total number of passengers on board through March 30, 2021., CLEAN TRAVEL EXPERIENCE
+We're doing everything we can to deliver a safe, healthy and clean travel experience. Caring for our customers and employees is our top priority. , DOWNLOAD THE FLY DELTA APP
+Download the app to be notified of flight updates and access your mobile boarding pass to limit the use of touch-screen kiosks. , BOOK WITH CONFIDENCE
+We're ready when you are. We are waiving change fees broadly and, above all, rest assured the value of your ticket won't be lost if you need to make a change. , JOIN NOW
+, OPENS IN NEW WINDOW, Search for a topic...
+Search, Search, Need Help?, Coronavirus, eCredits, About Us, Careers, News Hub, Investor Relations, Business Travel, Travel Agents, Mobile App, Need Help?, Tweet Us, Comment/Complaint, Login Help, Site Map, Browser Compatibility, Accessibility, Booking Information, Customer Commitment, Tarmac Delay Plan, Legal, Sustainability, Contract of Carriage]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, , Shop with Miles help, Refundable Fares help, Advanced Search, STAY CONNECTED
+WITH SKYMILES, Join SkyMiles today to stay in-the-know on new deals and destinations, the Delta CareStandard℠ and travel requirements., VACATION DEALS, DELTA AMEX CARDS, SHOP HOTELS, RENT A CAR, GIFT CARDS, Updated Bag & Travel Fees, EXPLORE OUR DESTINATIONS
+Plan your next trip using our interactive map by investigating which states and countries are open for travel and when you can get there with Delta in the coming months., CAN I CANCEL/CHANGE MY FLIGHT?
+
+We understand you have questions. Learn more about our simplified waivers and find out if your upcoming flight qualifies., HOW DO I CHANGE MY FLIGHT AND FIND MY ECREDITS?
+If your trip has been impacted by coronavirus, it's easy to cancel or change your flights. Learn how to modify your trip and rebook using eCredits with our step-by-step guides., WHAT ARE THE LATEST TRAVEL UPDATES?
+Information is more important than ever. We pledge to share updates with you as quickly as possible, with full transparency and, as always, with your safety foremost in mind., COMMITTED TO YOUR SAFETY
+To make space for safer travel, Delta is blocking middle or select aisle seats on all flights and limiting the total number of passengers on board through March 30, 2021., CLEAN TRAVEL EXPERIENCE
+We're doing everything we can to deliver a safe, healthy and clean travel experience. Caring for our customers and employees is our top priority. , DOWNLOAD THE FLY DELTA APP
+Download the app to be notified of flight updates and access your mobile boarding pass to limit the use of touch-screen kiosks. , BOOK WITH CONFIDENCE
+We're ready when you are. We are waiving change fees broadly and, above all, rest assured the value of your ticket won't be lost if you need to make a change. , JOIN NOW
+, OPENS IN NEW WINDOW, Search for a topic...
+Search, Search, Need Help?, Coronavirus, eCredits, About Us, Careers, News Hub, Investor Relations, Business Travel, Travel Agents, Mobile App, Need Help?, Tweet Us, Comment/Complaint, Login Help, Site Map, Browser Compatibility, Accessibility, Booking Information, Customer Commitment, Tarmac Delay Plan, Legal, Sustainability, Contract of Carriage, Cookies, Privacy & Security]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, , Shop with Miles help, Refundable Fares help, Advanced Search, STAY CONNECTED
+WITH SKYMILES, Join SkyMiles today to stay in-the-know on new deals and destinations, the Delta CareStandard℠ and travel requirements., VACATION DEALS, DELTA AMEX CARDS, SHOP HOTELS, RENT A CAR, GIFT CARDS, Updated Bag & Travel Fees, EXPLORE OUR DESTINATIONS
+Plan your next trip using our interactive map by investigating which states and countries are open for travel and when you can get there with Delta in the coming months., CAN I CANCEL/CHANGE MY FLIGHT?
+
+We understand you have questions. Learn more about our simplified waivers and find out if your upcoming flight qualifies., HOW DO I CHANGE MY FLIGHT AND FIND MY ECREDITS?
+If your trip has been impacted by coronavirus, it's easy to cancel or change your flights. Learn how to modify your trip and rebook using eCredits with our step-by-step guides., WHAT ARE THE LATEST TRAVEL UPDATES?
+Information is more important than ever. We pledge to share updates with you as quickly as possible, with full transparency and, as always, with your safety foremost in mind., COMMITTED TO YOUR SAFETY
+To make space for safer travel, Delta is blocking middle or select aisle seats on all flights and limiting the total number of passengers on board through March 30, 2021., CLEAN TRAVEL EXPERIENCE
+We're doing everything we can to deliver a safe, healthy and clean travel experience. Caring for our customers and employees is our top priority. , DOWNLOAD THE FLY DELTA APP
+Download the app to be notified of flight updates and access your mobile boarding pass to limit the use of touch-screen kiosks. , BOOK WITH CONFIDENCE
+We're ready when you are. We are waiving change fees broadly and, above all, rest assured the value of your ticket won't be lost if you need to make a change. , JOIN NOW
+, OPENS IN NEW WINDOW, Search for a topic...
+Search, Search, Need Help?, Coronavirus, eCredits, About Us, Careers, News Hub, Investor Relations, Business Travel, Travel Agents, Mobile App, Need Help?, Tweet Us, Comment/Complaint, Login Help, Site Map, Browser Compatibility, Accessibility, Booking Information, Customer Commitment, Tarmac Delay Plan, Legal, Sustainability, Contract of Carriage, Cookies, Privacy & Security, Human Trafficking Statement]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, , Shop with Miles help, Refundable Fares help, Advanced Search, STAY CONNECTED
+WITH SKYMILES, Join SkyMiles today to stay in-the-know on new deals and destinations, the Delta CareStandard℠ and travel requirements., VACATION DEALS, DELTA AMEX CARDS, SHOP HOTELS, RENT A CAR, GIFT CARDS, Updated Bag & Travel Fees, EXPLORE OUR DESTINATIONS
+Plan your next trip using our interactive map by investigating which states and countries are open for travel and when you can get there with Delta in the coming months., CAN I CANCEL/CHANGE MY FLIGHT?
+
+We understand you have questions. Learn more about our simplified waivers and find out if your upcoming flight qualifies., HOW DO I CHANGE MY FLIGHT AND FIND MY ECREDITS?
+If your trip has been impacted by coronavirus, it's easy to cancel or change your flights. Learn how to modify your trip and rebook using eCredits with our step-by-step guides., WHAT ARE THE LATEST TRAVEL UPDATES?
+Information is more important than ever. We pledge to share updates with you as quickly as possible, with full transparency and, as always, with your safety foremost in mind., COMMITTED TO YOUR SAFETY
+To make space for safer travel, Delta is blocking middle or select aisle seats on all flights and limiting the total number of passengers on board through March 30, 2021., CLEAN TRAVEL EXPERIENCE
+We're doing everything we can to deliver a safe, healthy and clean travel experience. Caring for our customers and employees is our top priority. , DOWNLOAD THE FLY DELTA APP
+Download the app to be notified of flight updates and access your mobile boarding pass to limit the use of touch-screen kiosks. , BOOK WITH CONFIDENCE
+We're ready when you are. We are waiving change fees broadly and, above all, rest assured the value of your ticket won't be lost if you need to make a change. , JOIN NOW
+, OPENS IN NEW WINDOW, Search for a topic...
+Search, Search, Need Help?, Coronavirus, eCredits, About Us, Careers, News Hub, Investor Relations, Business Travel, Travel Agents, Mobile App, Need Help?, Tweet Us, Comment/Complaint, Login Help, Site Map, Browser Compatibility, Accessibility, Booking Information, Customer Commitment, Tarmac Delay Plan, Legal, Sustainability, Contract of Carriage, Cookies, Privacy & Security, Human Trafficking Statement, SkyMiles Membership Guide & Program Rules]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, , Shop with Miles help, Refundable Fares help, Advanced Search, STAY CONNECTED
+WITH SKYMILES, Join SkyMiles today to stay in-the-know on new deals and destinations, the Delta CareStandard℠ and travel requirements., VACATION DEALS, DELTA AMEX CARDS, SHOP HOTELS, RENT A CAR, GIFT CARDS, Updated Bag & Travel Fees, EXPLORE OUR DESTINATIONS
+Plan your next trip using our interactive map by investigating which states and countries are open for travel and when you can get there with Delta in the coming months., CAN I CANCEL/CHANGE MY FLIGHT?
+
+We understand you have questions. Learn more about our simplified waivers and find out if your upcoming flight qualifies., HOW DO I CHANGE MY FLIGHT AND FIND MY ECREDITS?
+If your trip has been impacted by coronavirus, it's easy to cancel or change your flights. Learn how to modify your trip and rebook using eCredits with our step-by-step guides., WHAT ARE THE LATEST TRAVEL UPDATES?
+Information is more important than ever. We pledge to share updates with you as quickly as possible, with full transparency and, as always, with your safety foremost in mind., COMMITTED TO YOUR SAFETY
+To make space for safer travel, Delta is blocking middle or select aisle seats on all flights and limiting the total number of passengers on board through March 30, 2021., CLEAN TRAVEL EXPERIENCE
+We're doing everything we can to deliver a safe, healthy and clean travel experience. Caring for our customers and employees is our top priority. , DOWNLOAD THE FLY DELTA APP
+Download the app to be notified of flight updates and access your mobile boarding pass to limit the use of touch-screen kiosks. , BOOK WITH CONFIDENCE
+We're ready when you are. We are waiving change fees broadly and, above all, rest assured the value of your ticket won't be lost if you need to make a change. , JOIN NOW
+, OPENS IN NEW WINDOW, Search for a topic...
+Search, Search, Need Help?, Coronavirus, eCredits, About Us, Careers, News Hub, Investor Relations, Business Travel, Travel Agents, Mobile App, Need Help?, Tweet Us, Comment/Complaint, Login Help, Site Map, Browser Compatibility, Accessibility, Booking Information, Customer Commitment, Tarmac Delay Plan, Legal, Sustainability, Contract of Carriage, Cookies, Privacy & Security, Human Trafficking Statement, SkyMiles Membership Guide & Program Rules, Website Feedback]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, , Shop with Miles help, Refundable Fares help, Advanced Search, STAY CONNECTED
+WITH SKYMILES, Join SkyMiles today to stay in-the-know on new deals and destinations, the Delta CareStandard℠ and travel requirements., VACATION DEALS, DELTA AMEX CARDS, SHOP HOTELS, RENT A CAR, GIFT CARDS, Updated Bag & Travel Fees, EXPLORE OUR DESTINATIONS
+Plan your next trip using our interactive map by investigating which states and countries are open for travel and when you can get there with Delta in the coming months., CAN I CANCEL/CHANGE MY FLIGHT?
+
+We understand you have questions. Learn more about our simplified waivers and find out if your upcoming flight qualifies., HOW DO I CHANGE MY FLIGHT AND FIND MY ECREDITS?
+If your trip has been impacted by coronavirus, it's easy to cancel or change your flights. Learn how to modify your trip and rebook using eCredits with our step-by-step guides., WHAT ARE THE LATEST TRAVEL UPDATES?
+Information is more important than ever. We pledge to share updates with you as quickly as possible, with full transparency and, as always, with your safety foremost in mind., COMMITTED TO YOUR SAFETY
+To make space for safer travel, Delta is blocking middle or select aisle seats on all flights and limiting the total number of passengers on board through March 30, 2021., CLEAN TRAVEL EXPERIENCE
+We're doing everything we can to deliver a safe, healthy and clean travel experience. Caring for our customers and employees is our top priority. , DOWNLOAD THE FLY DELTA APP
+Download the app to be notified of flight updates and access your mobile boarding pass to limit the use of touch-screen kiosks. , BOOK WITH CONFIDENCE
+We're ready when you are. We are waiving change fees broadly and, above all, rest assured the value of your ticket won't be lost if you need to make a change. , JOIN NOW
+, OPENS IN NEW WINDOW, Search for a topic...
+Search, Search, Need Help?, Coronavirus, eCredits, About Us, Careers, News Hub, Investor Relations, Business Travel, Travel Agents, Mobile App, Need Help?, Tweet Us, Comment/Complaint, Login Help, Site Map, Browser Compatibility, Accessibility, Booking Information, Customer Commitment, Tarmac Delay Plan, Legal, Sustainability, Contract of Carriage, Cookies, Privacy & Security, Human Trafficking Statement, SkyMiles Membership Guide & Program Rules, Website Feedback, ]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, , Shop with Miles help, Refundable Fares help, Advanced Search, STAY CONNECTED
+WITH SKYMILES, Join SkyMiles today to stay in-the-know on new deals and destinations, the Delta CareStandard℠ and travel requirements., VACATION DEALS, DELTA AMEX CARDS, SHOP HOTELS, RENT A CAR, GIFT CARDS, Updated Bag & Travel Fees, EXPLORE OUR DESTINATIONS
+Plan your next trip using our interactive map by investigating which states and countries are open for travel and when you can get there with Delta in the coming months., CAN I CANCEL/CHANGE MY FLIGHT?
+
+We understand you have questions. Learn more about our simplified waivers and find out if your upcoming flight qualifies., HOW DO I CHANGE MY FLIGHT AND FIND MY ECREDITS?
+If your trip has been impacted by coronavirus, it's easy to cancel or change your flights. Learn how to modify your trip and rebook using eCredits with our step-by-step guides., WHAT ARE THE LATEST TRAVEL UPDATES?
+Information is more important than ever. We pledge to share updates with you as quickly as possible, with full transparency and, as always, with your safety foremost in mind., COMMITTED TO YOUR SAFETY
+To make space for safer travel, Delta is blocking middle or select aisle seats on all flights and limiting the total number of passengers on board through March 30, 2021., CLEAN TRAVEL EXPERIENCE
+We're doing everything we can to deliver a safe, healthy and clean travel experience. Caring for our customers and employees is our top priority. , DOWNLOAD THE FLY DELTA APP
+Download the app to be notified of flight updates and access your mobile boarding pass to limit the use of touch-screen kiosks. , BOOK WITH CONFIDENCE
+We're ready when you are. We are waiving change fees broadly and, above all, rest assured the value of your ticket won't be lost if you need to make a change. , JOIN NOW
+, OPENS IN NEW WINDOW, Search for a topic...
+Search, Search, Need Help?, Coronavirus, eCredits, About Us, Careers, News Hub, Investor Relations, Business Travel, Travel Agents, Mobile App, Need Help?, Tweet Us, Comment/Complaint, Login Help, Site Map, Browser Compatibility, Accessibility, Booking Information, Customer Commitment, Tarmac Delay Plan, Legal, Sustainability, Contract of Carriage, Cookies, Privacy & Security, Human Trafficking Statement, SkyMiles Membership Guide & Program Rules, Website Feedback, , ]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, , Shop with Miles help, Refundable Fares help, Advanced Search, STAY CONNECTED
+WITH SKYMILES, Join SkyMiles today to stay in-the-know on new deals and destinations, the Delta CareStandard℠ and travel requirements., VACATION DEALS, DELTA AMEX CARDS, SHOP HOTELS, RENT A CAR, GIFT CARDS, Updated Bag & Travel Fees, EXPLORE OUR DESTINATIONS
+Plan your next trip using our interactive map by investigating which states and countries are open for travel and when you can get there with Delta in the coming months., CAN I CANCEL/CHANGE MY FLIGHT?
+
+We understand you have questions. Learn more about our simplified waivers and find out if your upcoming flight qualifies., HOW DO I CHANGE MY FLIGHT AND FIND MY ECREDITS?
+If your trip has been impacted by coronavirus, it's easy to cancel or change your flights. Learn how to modify your trip and rebook using eCredits with our step-by-step guides., WHAT ARE THE LATEST TRAVEL UPDATES?
+Information is more important than ever. We pledge to share updates with you as quickly as possible, with full transparency and, as always, with your safety foremost in mind., COMMITTED TO YOUR SAFETY
+To make space for safer travel, Delta is blocking middle or select aisle seats on all flights and limiting the total number of passengers on board through March 30, 2021., CLEAN TRAVEL EXPERIENCE
+We're doing everything we can to deliver a safe, healthy and clean travel experience. Caring for our customers and employees is our top priority. , DOWNLOAD THE FLY DELTA APP
+Download the app to be notified of flight updates and access your mobile boarding pass to limit the use of touch-screen kiosks. , BOOK WITH CONFIDENCE
+We're ready when you are. We are waiving change fees broadly and, above all, rest assured the value of your ticket won't be lost if you need to make a change. , JOIN NOW
+, OPENS IN NEW WINDOW, Search for a topic...
+Search, Search, Need Help?, Coronavirus, eCredits, About Us, Careers, News Hub, Investor Relations, Business Travel, Travel Agents, Mobile App, Need Help?, Tweet Us, Comment/Complaint, Login Help, Site Map, Browser Compatibility, Accessibility, Booking Information, Customer Commitment, Tarmac Delay Plan, Legal, Sustainability, Contract of Carriage, Cookies, Privacy & Security, Human Trafficking Statement, SkyMiles Membership Guide & Program Rules, Website Feedback, , , United States - English
+Link to change the language]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, , Shop with Miles help, Refundable Fares help, Advanced Search, STAY CONNECTED
+WITH SKYMILES, Join SkyMiles today to stay in-the-know on new deals and destinations, the Delta CareStandard℠ and travel requirements., VACATION DEALS, DELTA AMEX CARDS, SHOP HOTELS, RENT A CAR, GIFT CARDS, Updated Bag & Travel Fees, EXPLORE OUR DESTINATIONS
+Plan your next trip using our interactive map by investigating which states and countries are open for travel and when you can get there with Delta in the coming months., CAN I CANCEL/CHANGE MY FLIGHT?
+
+We understand you have questions. Learn more about our simplified waivers and find out if your upcoming flight qualifies., HOW DO I CHANGE MY FLIGHT AND FIND MY ECREDITS?
+If your trip has been impacted by coronavirus, it's easy to cancel or change your flights. Learn how to modify your trip and rebook using eCredits with our step-by-step guides., WHAT ARE THE LATEST TRAVEL UPDATES?
+Information is more important than ever. We pledge to share updates with you as quickly as possible, with full transparency and, as always, with your safety foremost in mind., COMMITTED TO YOUR SAFETY
+To make space for safer travel, Delta is blocking middle or select aisle seats on all flights and limiting the total number of passengers on board through March 30, 2021., CLEAN TRAVEL EXPERIENCE
+We're doing everything we can to deliver a safe, healthy and clean travel experience. Caring for our customers and employees is our top priority. , DOWNLOAD THE FLY DELTA APP
+Download the app to be notified of flight updates and access your mobile boarding pass to limit the use of touch-screen kiosks. , BOOK WITH CONFIDENCE
+We're ready when you are. We are waiving change fees broadly and, above all, rest assured the value of your ticket won't be lost if you need to make a change. , JOIN NOW
+, OPENS IN NEW WINDOW, Search for a topic...
+Search, Search, Need Help?, Coronavirus, eCredits, About Us, Careers, News Hub, Investor Relations, Business Travel, Travel Agents, Mobile App, Need Help?, Tweet Us, Comment/Complaint, Login Help, Site Map, Browser Compatibility, Accessibility, Booking Information, Customer Commitment, Tarmac Delay Plan, Legal, Sustainability, Contract of Carriage, Cookies, Privacy & Security, Human Trafficking Statement, SkyMiles Membership Guide & Program Rules, Website Feedback, , , United States - English
+Link to change the language, Español
+Link to change the language]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, , Shop with Miles help, Refundable Fares help, Advanced Search, STAY CONNECTED
+WITH SKYMILES, Join SkyMiles today to stay in-the-know on new deals and destinations, the Delta CareStandard℠ and travel requirements., VACATION DEALS, DELTA AMEX CARDS, SHOP HOTELS, RENT A CAR, GIFT CARDS, Updated Bag & Travel Fees, EXPLORE OUR DESTINATIONS
+Plan your next trip using our interactive map by investigating which states and countries are open for travel and when you can get there with Delta in the coming months., CAN I CANCEL/CHANGE MY FLIGHT?
+
+We understand you have questions. Learn more about our simplified waivers and find out if your upcoming flight qualifies., HOW DO I CHANGE MY FLIGHT AND FIND MY ECREDITS?
+If your trip has been impacted by coronavirus, it's easy to cancel or change your flights. Learn how to modify your trip and rebook using eCredits with our step-by-step guides., WHAT ARE THE LATEST TRAVEL UPDATES?
+Information is more important than ever. We pledge to share updates with you as quickly as possible, with full transparency and, as always, with your safety foremost in mind., COMMITTED TO YOUR SAFETY
+To make space for safer travel, Delta is blocking middle or select aisle seats on all flights and limiting the total number of passengers on board through March 30, 2021., CLEAN TRAVEL EXPERIENCE
+We're doing everything we can to deliver a safe, healthy and clean travel experience. Caring for our customers and employees is our top priority. , DOWNLOAD THE FLY DELTA APP
+Download the app to be notified of flight updates and access your mobile boarding pass to limit the use of touch-screen kiosks. , BOOK WITH CONFIDENCE
+We're ready when you are. We are waiving change fees broadly and, above all, rest assured the value of your ticket won't be lost if you need to make a change. , JOIN NOW
+, OPENS IN NEW WINDOW, Search for a topic...
+Search, Search, Need Help?, Coronavirus, eCredits, About Us, Careers, News Hub, Investor Relations, Business Travel, Travel Agents, Mobile App, Need Help?, Tweet Us, Comment/Complaint, Login Help, Site Map, Browser Compatibility, Accessibility, Booking Information, Customer Commitment, Tarmac Delay Plan, Legal, Sustainability, Contract of Carriage, Cookies, Privacy & Security, Human Trafficking Statement, SkyMiles Membership Guide & Program Rules, Website Feedback, , , United States - English
+Link to change the language, Español
+Link to change the language, Cookie and Privacy Policies.]
+[SKIP TO BOOK, new U.S. testing requirements, travel restrictions, Coronavirus Update Center, , , BOOK, CHECK-IN, MY TRIPS, FLIGHT STATUS, Travel Info, SkyMiles, Need Help?, SIGN UP, 3
+notifications are available
+Notification, Search, SJC
+Departure Airport or City
+San Jose, CA, To
+Destination Airport or City
+Your Destination, , Shop with Miles help, Refundable Fares help, Advanced Search, STAY CONNECTED
+WITH SKYMILES, Join SkyMiles today to stay in-the-know on new deals and destinations, the Delta CareStandard℠ and travel requirements., VACATION DEALS, DELTA AMEX CARDS, SHOP HOTELS, RENT A CAR, GIFT CARDS, Updated Bag & Travel Fees, EXPLORE OUR DESTINATIONS
+Plan your next trip using our interactive map by investigating which states and countries are open for travel and when you can get there with Delta in the coming months., CAN I CANCEL/CHANGE MY FLIGHT?
+
+We understand you have questions. Learn more about our simplified waivers and find out if your upcoming flight qualifies., HOW DO I CHANGE MY FLIGHT AND FIND MY ECREDITS?
+If your trip has been impacted by coronavirus, it's easy to cancel or change your flights. Learn how to modify your trip and rebook using eCredits with our step-by-step guides., WHAT ARE THE LATEST TRAVEL UPDATES?
+Information is more important than ever. We pledge to share updates with you as quickly as possible, with full transparency and, as always, with your safety foremost in mind., COMMITTED TO YOUR SAFETY
+To make space for safer travel, Delta is blocking middle or select aisle seats on all flights and limiting the total number of passengers on board through March 30, 2021., CLEAN TRAVEL EXPERIENCE
+We're doing everything we can to deliver a safe, healthy and clean travel experience. Caring for our customers and employees is our top priority. , DOWNLOAD THE FLY DELTA APP
+Download the app to be notified of flight updates and access your mobile boarding pass to limit the use of touch-screen kiosks. , BOOK WITH CONFIDENCE
+We're ready when you are. We are waiving change fees broadly and, above all, rest assured the value of your ticket won't be lost if you need to make a change. , JOIN NOW
+, OPENS IN NEW WINDOW, Search for a topic...
+Search, Search, Need Help?, Coronavirus, eCredits, About Us, Careers, News Hub, Investor Relations, Business Travel, Travel Agents, Mobile App, Need Help?, Tweet Us, Comment/Complaint, Login Help, Site Map, Browser Compatibility, Accessibility, Booking Information, Customer Commitment, Tarmac Delay Plan, Legal, Sustainability, Contract of Carriage, Cookies, Privacy & Security, Human Trafficking Statement, SkyMiles Membership Guide & Program Rules, Website Feedback, , , United States - English
+Link to change the language, Español
+Link to change the language, Cookie and Privacy Policies., Feedback]
+]]></system-out>
+  </testcase>
+  <testcase name="verifyThreeDifferentSearchResul[ATL, MIA, March, 1 , March, May, 15 , May](1)" classname="tests.DilmuRodSprint2" time="12.586">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at tests.DilmuRodSprint2.verifyThreeDifferentSearchResul(DilmuRodSprint2.java:203)
+]]></failure>
+    <system-out><![CDATA[No Feedback Alert was displayed
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 24526
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 24, 2021 7:24:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyThreeDifferentSearchResults[ATL, NYC, March, 1 , March, May, 15 , May](1)" classname="tests.DilmuRodSprint2" time="2.505"/>
+  <testcase name="maxGiftCardAmount" classname="tests.SanaSprint2" time="14.408">
+    <system-err><![CDATA[Jan 24, 2021 7:22:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 16461
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="minGiftCardAmount" classname="tests.SanaSprint2" time="0">
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 34509
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 24, 2021 7:22:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 16001
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 24, 2021 7:23:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="mismatchEmails" classname="tests.SanaSprint2" time="6.859"/>
+  <testcase name="negativeCreditCard" classname="tests.SanaSprint2" time="20.439">
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 14913
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="nonEngSenderName[Testee, test cihazÄ±](1)" classname="tests.SanaSprint2" time="17.036"/>
+  <testcase name="nonEngSenderName[Testee, tester007](2)" classname="tests.SanaSprint2" time="19.421"/>
+  <testcase name="nonEngSenderName[Testee, æµ‹è¯•äººå‘˜](3)" classname="tests.SanaSprint2" time="16.032">
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 25804
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 24, 2021 7:26:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="nonEngSenderName[Testee, Ø§Ø®ØªØ¨Ø§Ø±](4)" classname="tests.SanaSprint2" time="18.051">
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 44536
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 24, 2021 7:26:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="nonEngSenderName[Testee, 000000](5)" classname="tests.SanaSprint2" time="18.121">
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 11734
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 24, 2021 7:27:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyGiftCardLink" classname="tests.SanaSprint2" time="1.759">
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 45915
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 24, 2021 7:28:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
